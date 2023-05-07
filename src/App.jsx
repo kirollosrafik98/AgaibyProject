@@ -89,6 +89,7 @@ import Branch2Fr from './Gallery/Branch2Fr';
 import HomeFr from './Home/HomeFr';
 import NavbarSp from './Navbar/NavbarSp';
 import FooterSp from './Footer/FooterSp';
+import AboutSp from './About/AboutSp';
 function App() {
   const [ar, setAr] =  useState(localStorage.getItem('lang') ? localStorage.getItem('lang') : "eng");
 
@@ -188,7 +189,7 @@ function App() {
   <>
    <Route path='/' element={<HomeFr/> }/> 
 
- <Route path='/about' element={<AboutFr/> }/> 
+ <Route path='/about' element={<AboutSp/> }/> 
  <Route path='/history' element={<HistoryFr/> }/> 
  <Route path='/contact' element={<ContactFr/> }/> 
  <Route path='/galleryHome' element={<GalleryHomeFr/> }/> 

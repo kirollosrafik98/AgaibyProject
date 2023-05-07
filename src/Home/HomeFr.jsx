@@ -51,7 +51,7 @@ export default function HomeFr() {
             <div class="container ">
                 <div class="row section-title-s6 ">
                     <div class="col col-lg-12 col-lg-offset-2 col-md-10 col-md-offset-1">
-                        <h2><span className="text-center" style={{fontFamily:'Millania', fontSize:'50px'}}>Qui sommes-nous</span> </h2>
+                        <h2><span className="text-center" style={{fontFamily:'Millania', fontSize:'50px'}}>À propos</span> </h2>
                         {/* <p>Mauris ornare tellus et cursus volutpat. Praesent neque justo, dapibus id vestibulum nec, accumsan vitae sapien. Curabitur tempus tortor sit amet sapien.</p> */}
                     </div>
                 </div> 
@@ -88,7 +88,7 @@ export default function HomeFr() {
 </h1>
 
 <div class="all-projects" style={{borderRadius:'10px', display:'flex', justifyContent:'center'}}>
-                    <Link to='/about' style={{textDecoration:'none',borderRadius:'10px'}} class="theme-btn-s2">En savoir plus sur nous</Link>
+                    <Link to='/about' style={{textDecoration:'none',borderRadius:'10px'}} class="theme-btn-s2">En savoir plus</Link>
                 </div></div>
                    </div>
                 </div> 
@@ -220,7 +220,7 @@ export default function HomeFr() {
                               />
                             )}</span>
                                 </h4>
-                            <h3>Des clients satisfaits</h3>
+                            <h3>De clients satisfaits</h3>
                             {/* <p>inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam</p> */}
                         </div>
                     </div> 

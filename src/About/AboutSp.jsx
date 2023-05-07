@@ -1,9 +1,9 @@
 import React ,{useEffect} from "react";
 import about from "../images/blackFabric (8).jpg";
 import Fade from "react-reveal/Fade";
-import ProgressBarFr from "./ProgressBarFr";
+import ProgressBarSp from "./ProgressBarSp";
 import aboutbg from "../images/blackFabric (5).jpg";
-export default function About() {
+export default function AboutSp() {
   useEffect(() => {
     window.scrollTo(0, 0);
   }, []);
@@ -20,13 +20,35 @@ export default function About() {
                 fontSize: "80px",
               }}
             >
-             À propos de nous
+             Sobre nosotros
+
+
+
+
+
             </h1>
           </Fade>
         </div>
       </div>
 
+      {/* <div class="pg-title-btm-menu">
+            <div class="container">
+                <div class="row">
+                    <div class="col col-xs-12">
+                        <ul>
+                            <li class="current"><a href="about.html">Overview</a></li>
+                            <li><a href="time-line.html">Company Timeline</a></li>
+                            <li><a href="clients.html">Clients</a></li>
+                            <li><a href="team.html">Team</a></li>
+                            <li><a href="careers.html">Career</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+    
+        </div> */}
       <section class=" section-padding" style={{ paddingTop: "3%" }}>
+        {/* <h2 class="hidden">Overview</h2> */}
         <div class="container">
           <div class="row">
             <div class="col col-lg-12  content">
@@ -44,8 +66,7 @@ export default function About() {
                     fontFamily: "Maya",
                   }}
                 >
-                  <span>20+ ans </span> d'expérience  <span> dans l'industrie textile</span> et 
-                  vestimentaire
+                  <span>Más de 20 años</span> de experiencia <span>en la industria textil</span> y de confección.
                 </p>
               </Fade>
               <div className="container">
@@ -58,15 +79,16 @@ export default function About() {
                         fontSize: "50px",
                       }}
                     >
-                      Mission
+                      Misión
                     </h3>
                     <Fade left duration={1000} delay={500}>
                       {" "}
                       <p style={{ textAlign: "justify" }}>
-                      &nbsp;&nbsp; Notre objectif est de fournir à nos clients la qualité qu’ils attendent en fonction des opportunités technologiques les plus récentes, tout en augmentant notre contribution à l’économie du pays, notre part de marché, notre puissance concurrentielle et notre dévouement avec notre personnel expérimenté, dynamique, joyeux et fiable. Notre mission est de rétablir la transparence, le respect et la confiance dans l’industrie textile en collaborant avec nos clients et en étant un chef de file dans l’industrie de la fabrication textile.
+                      &nbsp;&nbsp; Nuestro objetivo es brindar a nuestros clientes la calidad que esperan en base a las últimas oportunidades tecnológicas, al tiempo que incrementamos nuestro aporte a la economía del país, participación de mercado, solidez competitiva y dedicación con nuestro personal experimentado, dinámico, alegre y confiable. Nuestra misión es restaurar la transparencia, el respeto y la confianza en la industria textil colaborando con nuestros clientes y siendo líderes en la industria de fabricación textil.
                       </p>
                     </Fade>
                   </div>
+{/* <div className="col-md-2"></div> */}
                   <div className="col-md-6">
                     {" "}
                     <h3
@@ -76,12 +98,12 @@ export default function About() {
                         fontSize: "50px",
                       }}
                     >
-                      Vision
+                      Visión 
                     </h3>{" "}
                     <Fade right duration={1000} delay={500}>
                       {" "}
                       <p style={{ textAlign: "justify" }}>
-                      &nbsp;&nbsp; En tant qu’exigence de notre concept de service basé sur la satisfaction du client, nous offrons toutes les opportunités actuelles dans votre service pour atteindre l’objectif souhaité. Avec notre personnel expérimenté, notre équipement technologique développé, notre approche professionnelle et notre service chaleureux et sincère, nous nous efforçons d’accomplir quelque chose de spécial pour vous et d’atteindre la perfection. Notre vision est de devenir et de rester le fabricant de textiles le plus progressiste et le plus moderne d’Égypte, la qualité de nos produits et de nos services étant exigée dans le monde entier.
+                      &nbsp;&nbsp;Como requisito de nuestro concepto de servicio basado en la satisfacción del cliente, ofrecemos todas las oportunidades actuales a su servicio para lograr el objetivo deseado. Con nuestro personal experimentado, equipo tecnológico desarrollado, enfoque profesional y un servicio cálido y sincero, nos esforzamos por lograr algo especial para usted y alcanzar la perfección. Nuestra visión es convertirnos y seguir siendo el fabricante textil más progresista y moderno de Egipto, con la calidad de nuestros productos y servicios exigidos en todo el mundo.
                       </p>
                     </Fade>
                   </div>
@@ -93,10 +115,8 @@ export default function About() {
                 </div>
                 <div className="row " style={{paddingTop:'3%'}}>
                 <div class="col col-xs-12">
-                    <Fade top duration={1000} delay={500}>    <h2 class="w3-center w3-animate-top" style={{fontFamily:'Millania', fontSize:'70px', textAlign:'center'}}>À propos de  <span style={{color:'#C0AB89'}}>nous</span></h2></Fade>
-                    <Fade bottom duration={1000} delay={500}> <p style={{textAlign:"justify"}}>&nbsp;&nbsp; Nous nous sommes consacrés au développement d’un modèle de marque dans l’industrie textile. Le processus de fabrication suit une voie moyenne à haut de gamme, développe constamment de nouvelles variétés et définit la tendance de la mode et de la fonctionnalisation. Nous créons des tissus performants basés sur l’éthique, la responsabilité sociale et le développement continu. Avec sa qualité, sa technologie professionnelle, son service méticuleux et sa gestion civilisée et honnête, l’Egyptian Swiss Factory a gagné la confiance et les éloges de nouveaux et anciens clients en Égypte et à l’étranger. L’Egyptian Swiss Factory accorde une grande importance à la gestion de la qualité des tissus et dispose d’une force technique forte: elle dispose d’équipements textiles de premier ordre ainsi que de nouvelles installations de développement et de recherche de produits qui créent des tendances de produits pour les marchés internationaux et nationaux, tout en adhérant aux valeurs fondamentales de « l’honnêteté, la fiabilité, la qualité et le client d’abord », propulsant l’entreprise à un niveau supérieur.
-Avec la philosophie d’entreprise « client d’abord », nous sommes impatients de collaborer avec chaque client pour un bénéfice mutuel et de construire un avenir meilleur.
-</p></Fade>
+                    <Fade top duration={1000} delay={500}>    <h2 class="w3-center w3-animate-top" style={{fontFamily:'Millania', fontSize:'70px', textAlign:'center'}}>Quiénes  <span style={{color:'#C0AB89'}}>somos </span></h2></Fade>
+                    <Fade bottom duration={1000} delay={500}> <p style={{textAlign:"justify"}}>&nbsp;&nbsp; Nos hemos dedicado a desarrollar un modelo de marca en la industria textil. El proceso de fabricación sigue una ruta de gama media-alta, está en constante desarrollo de nuevas variedades y estableciendo la tendencia de moda y funcionalización. Creamos tejidos de alto rendimiento basados en la ética, la responsabilidad social y el desarrollo continuo. Con su calidad de primera clase, tecnología profesional, servicio meticuloso y gestión civilizada y honesta, la Fábrica Egipcio Suiza ha ganado la confianza y elogio de nuevos y antiguos clientes tanto en el país como en el extranjero. La Fábrica Egipcio Suiza valora la gestión de calidad de los tejidos y cuenta con una fuerza técnica sólida: tiene equipos textiles de primera clase, así como instalaciones de desarrollo e investigación de nuevos productos que crean tendencias de producto tanto para el mercado internacional como para el doméstico, todo ello adherido a los valores fundamentales de "honestidad, confianza, calidad primero y cliente primero", impulsando a la empresa a un nivel superior. Con la filosofía empresarial de "cliente primero", estamos ansiosos por colaborar con cada cliente en beneficio mutuo y construir un futuro mejor.</p></Fade>
                     </div>
                 </div>
               </div>
@@ -108,8 +128,27 @@ Avec la philosophie d’entreprise « client d’abord », nous sommes impatient
           style={{ paddingTop: "2%" }}
         >
           <div className="row">
-         
-            <ProgressBarFr />
+            {/* <div className="col-md-6">
+                    <p>Textile Services</p>
+
+                    <div class="progress">
+  <div class="progress-bar " role="progressbar" style={{width:'96%'}} aria-valuenow="96" aria-valuemin="0" aria-valuemax="100"></div>
+</div>
+<p>Textile Materials</p>
+
+<div class="progress">
+<div class="progress-bar " role="progressbar" style={{width:'75%'}} aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+</div>       <p>Specialist Fabrics</p>
+
+<div class="progress">
+<div class="progress-bar " role="progressbar" style={{width:'80%'}} aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
+</div>       <p>Leather Textile</p>
+
+<div class="progress">
+<div class="progress-bar " role="progressbar" style={{width:'85%'}} aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
+</div>
+                    </div> */}
+            <ProgressBarSp />
           </div>
         </div>
       </section>
@@ -124,7 +163,12 @@ Avec la philosophie d’entreprise « client d’abord », nous sommes impatient
             }}
             className="p-3"
           >
-            Nos caractéristiques
+        Nuestras características
+
+
+
+
+
           </h6>
           <Fade cascade duration={1000} delay={500}>
             <h2
@@ -136,10 +180,13 @@ Avec la philosophie d’entreprise « client d’abord », nous sommes impatient
                 paddingBottom:'2%'
               }}
             >
-              Quelles sont nos caractéristiques
+              Nuestras características
             </h2>
           </Fade>
-       
+          {/* <p style={{ color: "#fff", padding: "1% 0 4%" }}>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit
+            tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.
+          </p> */}
           <div className="container">
             <Fade bottom duration={1000} delay={500}>
               {" "}
@@ -172,9 +219,16 @@ Avec la philosophie d’entreprise « client d’abord », nous sommes impatient
                       fontFamily: "Maya",
                     }}
                   >
-                    Produit de qualité
+                    Producto de calidad
+
+
+
+
+
                   </h5>
-               
+                  {/* <p style={{ color: "#fff" }}>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                  </p> */}
                 </div>
                 <div className="col-md-4">
                   <div
@@ -204,9 +258,16 @@ Avec la philosophie d’entreprise « client d’abord », nous sommes impatient
                       fontFamily: "Maya",
                     }}
                   >
-                    "Prix compétitif
+                   Precio competitivo
+
+
+
+
+
                   </h5>
-                 
+                  {/* <p style={{ color: "#fff" }}>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                  </p> */}
                 </div>
                 <div className="col-md-4">
                   <div
@@ -236,9 +297,16 @@ Avec la philosophie d’entreprise « client d’abord », nous sommes impatient
                       fontFamily: "Maya",
                     }}
                   >
-                    Assistance 24 heures / 7 Jours
+                    Soporte 24/7
+
+
+
+
+
                   </h5>
-                 
+                  {/* <p style={{ color: "#fff" }}>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                  </p> */}
                 </div>
               </div>
             </Fade>
@@ -247,7 +315,39 @@ Avec la philosophie d’entreprise « client d’abord », nous sommes impatient
         <img src={aboutbg} alt="Your image" />
       </section>
 
-    
+      {/* <section class="fun-fact section-padding">
+            <div class="container">
+                <div class="row section-title-s4">
+                    <div class="col col-xs-12">
+                        <h2>Some facts in <span>Numbers</span></h2>
+                    </div>
+                </div> 
+        
+                <div class="row start-count">
+                    <div class="col col-sm-4">
+                        <div class="grid">
+                            <h4><span  class="counter" data-count="1200">00</span><span>+</span></h4>
+                            <h3>Projects</h3>
+                            <p>inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam</p>
+                        </div>
+                    </div>
+                    <div class="col col-sm-4">
+                        <div class="grid">
+                            <h4><span  class="counter" data-count="800">00</span><span>+</span></h4>
+                            <h3>Clients</h3>
+                            <p>inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam</p>
+                        </div>
+                    </div>
+                    <div class="col col-sm-4">
+                        <div class="grid">
+                            <h4><span  class="counter" data-count="99">00</span><span>%</span></h4>
+                            <h3>Satisfaction</h3>
+                            <p>inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam</p>
+                        </div>
+                    </div>
+                </div>
+            </div> 
+        </section> */}
     </>
   );
 }

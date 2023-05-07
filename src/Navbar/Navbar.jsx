@@ -185,7 +185,9 @@ export default function Navbar({ ar, setAr }) {
               >
                 {/* <img src={uk} style={{width:'10%', paddingRight:'4px'}} alt="" /> */}
                 {/* <div    onClick={() => {setAr('ar');localStorage.setItem('lang','ar')}}> */}
-                <div
+             
+             <ul style={{display:'flex', paddingLeft:'0',flexDirection:'row'}}>
+                <li> <div
                   onClick={() => {
                     setAr("egp");
                     localStorage.setItem("lang", "egp");
@@ -196,9 +198,8 @@ export default function Navbar({ ar, setAr }) {
                     style={{ width: "90%", paddingRight: "4px" }}
                     alt=""
                   />
-                </div>
-                {/* </div> */}
-                <div
+                </div></li>
+                <li><div
                   onClick={() => {
                     setAr("fr");
                     localStorage.setItem("lang", "fr");
@@ -206,11 +207,11 @@ export default function Navbar({ ar, setAr }) {
                 >
                   <img
                     src={french}
-                    style={{ width: "35%", paddingRight: "4px" }}
+                    style={{ width: "30%", paddingRight: "4px" }}
                     alt=""
                   />{" "}
-                </div>
-                <div
+                </div></li>
+                <li> <div
                   onClick={() => {
                     setAr("spain");
                     localStorage.setItem("lang", "spain");
@@ -219,10 +220,15 @@ export default function Navbar({ ar, setAr }) {
                   {" "}
                   <img
                     src={spain}
-                    style={{ width: "35%", paddingRight: "4px" }}
+                    style={{ width: "30%", paddingRight: "4px" }}
                     alt=""
                   />
-                </div>
+                </div></li>
+             </ul>
+               
+                {/* </div> */}
+                
+               
               </div>
             </div>
           </div>

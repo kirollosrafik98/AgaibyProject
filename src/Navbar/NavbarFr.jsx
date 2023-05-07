@@ -30,7 +30,7 @@ export default function NavbarFr({ar, setAr}) {
                                 <Link className='nav-item' to='/' style={{textDecoration:'none', color:'#C0AB89', fontSize:'20px'}} onClick={verena}>Accueil</Link>
                                
                             </li>
-                            <li><Link className='nav-item' to='/about'  style={{textDecoration:'none', color:'#C0AB89', fontSize:'20px'}} onClick={verena}>Qui sommes-nous </Link></li>
+                            <li><Link className='nav-item' to='/about'  style={{textDecoration:'none', color:'#C0AB89', fontSize:'20px'}} onClick={verena}>À propos </Link></li>
                             <li><Link className='nav-item' to='/history'  style={{textDecoration:'none', color:'#C0AB89', fontSize:'20px'}} onClick={verena}>Histoire</Link></li>
 
                             
