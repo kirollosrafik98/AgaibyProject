@@ -1,4 +1,4 @@
-import React from 'react'
+import React,{useEffect} from 'react'
 import Fade from 'react-reveal/Fade';
 import firstBlog from '../images/blog3.jpg';
 import cotton from '../images/CottonShirts.jpg';
@@ -8,6 +8,9 @@ import silkfabrics from '../images/silk fabrics.jpg';
 import Chambrayfabrics from '../images/Chambray.JPG';
 
 export default function Blog3() {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
   return (
 <>
 <div class="page-title">

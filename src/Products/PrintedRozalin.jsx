@@ -1,4 +1,4 @@
-import React from 'react';
+import React,{useEffect} from 'react';
 import Fade from 'react-reveal/Fade';
 import { Element } from 'react-scroll';
 import {Link} from 'react-router-dom';
@@ -22,6 +22,9 @@ import dyedStretch14 from '../images/Products/Printed Rozalin Fabric -  قماش
 
 
 export default function PrintedRozaline() {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
   return (
     <>
     <div class="page-title">

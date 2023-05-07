@@ -1,4 +1,4 @@
-import React from 'react'
+import React,{useEffect} from 'react'
 import Fade from 'react-reveal/Fade';
 import Slider from 'react-slick';
 import 'slick-carousel/slick/slick.css';
@@ -42,6 +42,9 @@ const photos = [
   ];
   
 export default function Branch1() {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
     const settings = {
         dots: true,
         infinite: true,

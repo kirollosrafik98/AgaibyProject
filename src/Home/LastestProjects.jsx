@@ -53,7 +53,7 @@ export default function LastestProjects() {
                             <div class="img-holder">
                                 <img src={img1} style={{width:'100%', height:'350px',objectFit:'cover'}} alt/>
                             </div>
-                            <div class="details">
+                            <div class="details" style={{ height: '100px', overflow: 'hidden' }}>
                                 <h3><a style={{textDecoration:'none', color:'#000', fontFamily:'Maya', fontSize:'18px'}}>Dyed Bengaline Stretch for Pants</a></h3>
                                 <p> <Link style={{textDecoration:'none', color:'#C0AB89'}} to='/stretch'>Show More</Link> </p>
                             </div>
@@ -62,7 +62,7 @@ export default function LastestProjects() {
                             <div class="img-holder">
                                 <img src={img2} style={{width:'100%', height:'350px',objectFit:'cover'}} alt/>
                             </div>
-                            <div class="details">
+                            <div class="details" style={{ height: '100px', overflow: 'hidden' }}>
                                 <h3><a style={{textDecoration:'none', color:'#000', fontFamily:'Maya', fontSize:'18px'}}>Dyed Rozalin Fabric</a></h3>
                                 <p> <Link style={{textDecoration:'none', color:'#C0AB89'}} to='/rozalin'> Show More</Link></p>
                             </div>
@@ -71,7 +71,7 @@ export default function LastestProjects() {
                             <div class="img-holder">
                                 <img src={img3} style={{width:'100%', height:'350px',objectFit:'cover'}} alt/>
                             </div>
-                            <div class="details">
+                            <div class="details" style={{ height: '100px', overflow: 'hidden' }}>
                                 <h3><a style={{textDecoration:'none', color:'#000', fontFamily:'Maya', fontSize:'18px'}}>Dyed Scuba Fabric</a></h3>
                                 <p> <Link style={{textDecoration:'none', color:'#C0AB89'}} to='/scuba'> Show More</Link></p>
                             </div>
@@ -80,7 +80,7 @@ export default function LastestProjects() {
                             <div class="img-holder">
                                 <img src={img4} style={{width:'100%', height:'350px',objectFit:'cover'}} alt/>
                             </div>
-                            <div class="details">
+                            <div class="details" style={{ height: '100px', overflow: 'hidden' }}>
                                 <h3><a style={{textDecoration:'none', color:'#000', fontFamily:'Maya', fontSize:'18px'}}>Dyed Soft Fabric for Pants</a></h3>
                                 <p> <Link style={{textDecoration:'none', color:'#C0AB89'}} to='/soft'> Show More</Link></p>
                             </div>
@@ -89,7 +89,7 @@ export default function LastestProjects() {
                             <div class="img-holder">
                                 <img src={img5} style={{width:'100%', height:'350px',objectFit:'cover'}} alt/>
                             </div>
-                            <div class="details">
+                            <div class="details" style={{ height: '100px', overflow: 'hidden' }}>
                                 <h3><a style={{textDecoration:'none', color:'#000', fontFamily:'Maya', fontSize:'18px'}}>Dyed Bengaline Light for T-Shirt with Lycra</a></h3>
                                 <p><Link style={{textDecoration:'none', color:'#C0AB89'}} to='/lycra'> Show More</Link> </p>
                             </div>
@@ -98,7 +98,7 @@ export default function LastestProjects() {
                             <div class="img-holder">
                                 <img src={img6} style={{width:'100%', height:'350px',objectFit:'cover'}} alt/>
                             </div>
-                            <div class="details">
+                            <div class="details" style={{ height: '100px', overflow: 'hidden' }}>
                                 <h3><a style={{textDecoration:'none', color:'#000', fontFamily:'Maya', fontSize:'18px'}}>Dyed Gabardine twill Fabric for Pants and Uniform</a></h3>
                                 <p><Link style={{textDecoration:'none', color:'#C0AB89'}} to='/twill'> Show More</Link> </p>
                             </div>
@@ -107,7 +107,7 @@ export default function LastestProjects() {
                             <div class="img-holder">
                                 <img src={img7} style={{width:'100%', height:'350px',objectFit:'cover'}} alt/>
                             </div>
-                            <div class="details">
+                            <div class="details" style={{ height: '100px', overflow: 'hidden' }}>
                                 <h3><a style={{textDecoration:'none', color:'#000', fontFamily:'Maya', fontSize:'18px'}}>Printed Bengaline Stretch for Pants</a></h3>
                                 <p> <Link style={{textDecoration:'none', color:'#C0AB89'}} to='/dyedStretch'> Show More</Link></p>
                             </div>
@@ -116,7 +116,7 @@ export default function LastestProjects() {
                             <div class="img-holder">
                                 <img src={img8} style={{width:'100%', height:'350px',objectFit:'cover'}} alt/>
                             </div>
-                            <div class="details">
+                            <div class="details" style={{ height: '100px', overflow: 'hidden' }}>
                                 <h3><a style={{textDecoration:'none', color:'#000', fontFamily:'Maya', fontSize:'18px'}}>Printed Rozalin Fabric</a></h3>
                                 <p> <Link style={{textDecoration:'none', color:'#C0AB89'}} to='/printedRozalin'> Show More</Link></p>
                             </div>
@@ -125,7 +125,7 @@ export default function LastestProjects() {
                             <div class="img-holder">
                                 <img src={img9} style={{width:'100%', height:'350px',objectFit:'cover'}} alt/>
                             </div>
-                            <div class="details">
+                            <div class="details" style={{ height: '100px', overflow: 'hidden' }}>
                                 <h3><a style={{textDecoration:'none', color:'#000', fontFamily:'Maya', fontSize:'18px'}}>Printed Scuba Fabric</a></h3>
                                 <p> <Link style={{textDecoration:'none', color:'#C0AB89'}} to='/printedScuba'> Show More</Link></p>
                             </div>
@@ -134,7 +134,7 @@ export default function LastestProjects() {
                             <div class="img-holder">
                                 <img src={img10} style={{width:'100%', height:'350px',objectFit:'cover'}} alt/>
                             </div>
-                            <div class="details">
+                            <div class="details" style={{ height: '100px', overflow: 'hidden' }}>
                                 <h3><a style={{textDecoration:'none', color:'#000', fontFamily:'Maya', fontSize:'18px'}}>Printed Soft Lycra Fabric Microfiber</a></h3>
                                 <p> <Link style={{textDecoration:'none', color:'#C0AB89'}} to='/microfiber'> Show More</Link></p>
                             </div>
@@ -143,7 +143,7 @@ export default function LastestProjects() {
                             <div class="img-holder">
                                 <img src={img11} style={{width:'100%', height:'350px',objectFit:'cover'}} alt/>
                             </div>
-                            <div class="details">
+                            <div class="details" style={{ height: '100px', overflow: 'hidden' }}>
                                 <h3><a style={{textDecoration:'none', color:'#000', fontFamily:'Maya', fontSize:'18px'}}>Printed Bengaline Light for T-Shirt with Lycra</a></h3>
                                 <p> <Link style={{textDecoration:'none', color:'#C0AB89'}} to='/bengaline'> Show More</Link></p>
                             </div>

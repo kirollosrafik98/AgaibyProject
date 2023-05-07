@@ -1,10 +1,13 @@
-import React from 'react';
+import React,{useEffect} from 'react';
 import Fade from "react-reveal/Fade";
 import { VerticalTimeline, VerticalTimelineElement }  from 'react-vertical-timeline-component';
 import 'react-vertical-timeline-component/style.min.css';
 import '../App.css'
 
 export default function History() {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
   return (
 <>
 <div class="page-title">
@@ -29,7 +32,7 @@ export default function History() {
                 <div class="col col-xs-12">
                     {/* <Fade top duration={1000} delay={500}>    <h2 class="w3-center w3-animate-top" style={{fontFamily:'Millania', fontSize:'70px', textAlign:'center'}}>Our <span style={{color:'#C0AB89'}}>History</span></h2></Fade> */}
                     <Fade bottom duration={1000} delay={500}> <p style={{textAlign:"justify"}}>
-                    &nbsp;&nbsp; Our story began in 1960, when Youssef Agaiby founded an Egyptian garment manufacturer. After becoming one of the main factories in the garment manufacturing industry, the sons, Waguih Youssef Agaiby and Hany Youssef Agaiby, decided to expand in the textile industry. The Egyptian Swiss Factory opened in 2008 with high technology and innovative high-quality products. Whereupon, in order to keep up with market trends and ensure customer satisfaction, we opened our own branches. A family business grew into a dominant force in textile manufacturing and services. The Egyptian Swiss Factory encompasses various product lines and production facilities, providing clients with Egypt's most impressive collection of original designs and fabrics.</p></Fade>
+                    &nbsp;&nbsp; Our story began in 1960, when Youssef Agaiby founded an Egyptian garment manufacturer. After becoming one of the main factories in the garment manufacturing industry, the sons, Wagih Youssef Agaiby and Hany Youssef Agaiby, decided to expand in the textile industry. The Egyptian Swiss Factory opened in 2008 with high technology and innovative high-quality products. Whereupon, in order to keep up with market trends and ensure customer satisfaction, we opened our own branches. A family business grew into a dominant force in textile manufacturing and services. The Egyptian Swiss Factory encompasses various product lines and production facilities, providing clients with Egypt's most impressive collection of original designs and fabrics.</p></Fade>
                     </div>
                 </div>
         </div>
@@ -110,7 +113,7 @@ export default function History() {
           <Fade top duration={1000} delay={500}>    <h2 class="w3-center w3-animate-top" style={{fontFamily:'Millania', fontSize:'70px', textAlign:'center'}}>Meet Our <span style={{color:'#C0AB89'}}>Founders</span></h2></Fade>
 
           </div>
-        <div className="col-md-5 elCard " style={{height:'35vh'}}>
+        <div className="col-md-5 elCard p-3" style={{height:'45vh'}}>
             <div className="mainContainer">
               <div className="theCard">
                 {/* <div className="theFrontAbdel"></div> */}
@@ -173,7 +176,7 @@ export default function History() {
             </div>
           </div>
           <div className="col-md-2"></div>
-          <div className="col-md-5 elCard " style={{height:'35vh'}}>
+          <div className="col-md-5 elCard  p-3" style={{height:'45vh'}}>
             <div className="mainContainer">
               <div className="theCard">
                 {/* <div className="theFrontHany"></div> */}

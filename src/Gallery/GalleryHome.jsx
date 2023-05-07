@@ -1,4 +1,4 @@
-import React from 'react'
+import React,{useEffect} from 'react'
 import Fade from 'react-reveal/Fade';
 import { Element } from 'react-scroll';
 import Factory from '../images/blackFabric (8).jpg';
@@ -7,6 +7,9 @@ import Branch2 from '../images/Gesr El Suez Branch/Agaypy29.jpg';
 import { Link } from 'react-router-dom';
 
 export default function GalleryHome() {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
   return (
 <>
 <div class="page-title">
@@ -21,7 +24,7 @@ export default function GalleryHome() {
  <Element name='blog'>
   <div class="row blog-s2-grids" style={{display:'flex', justifyContent:'center'}}>
  
-    <div class="col-md-4">
+    <div class="col-md-4 p-3">
       <Fade right>
         <div class="grid">
           <div class="entry-media">
@@ -38,7 +41,7 @@ export default function GalleryHome() {
         </div>
       </Fade>
     </div>
-    <div class="col-md-4">
+    <div class="col-md-4 p-3">
       <Fade right>
         <div class="grid">
           <div class="entry-media">

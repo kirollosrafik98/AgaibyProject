@@ -1,5 +1,5 @@
 
-import React from 'react';
+import React,{useEffect} from 'react';
 import Fade from 'react-reveal/Fade';
 import { Element } from 'react-scroll';
 import {Link} from 'react-router-dom';
@@ -15,6 +15,9 @@ import dyedStretch10 from '../images/Products/Dyed Bengaline Stretch for Pants -
 
 
 export default function PrintedStretchSub3() {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
   return (
     <>
     <div class="page-title">

@@ -1,4 +1,4 @@
-import React from 'react'
+import React,{useEffect} from 'react'
 import Fade from 'react-reveal/Fade';
 import firstBlog from '../images/blog3.jpg';
 import fig from '../images/fig.png';
@@ -15,6 +15,9 @@ import fig11 from '../images/fig11.jpg';
 
 
 export default function Blog10() {
+    useEffect(() => {
+        window.scrollTo(0, 0);
+      }, []);
   return (
 <>
 <div class="page-title">

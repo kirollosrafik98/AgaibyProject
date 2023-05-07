@@ -1,4 +1,4 @@
-import React from 'react';
+import React,{useEffect} from 'react';
 import Fade from 'react-reveal/Fade';
 import { Element } from 'react-scroll';
 import {Link} from 'react-router-dom';
@@ -24,6 +24,9 @@ import dyedStretch16 from '../images/Products/Printed Bengaline Stretch for Pant
 // import dyedStretch20 from '../images/Products/Printed Bengaline Stretch for Pants - ‎بنجالين ليكرا مطبوع شروال/New Folder With Items/DSC_9146.jpg';
 
 export default function DyedStretchSub1() {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
   return (
     <>
     <div class="page-title">

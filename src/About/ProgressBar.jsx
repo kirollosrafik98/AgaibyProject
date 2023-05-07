@@ -56,7 +56,7 @@ const ProgressSection = () => {
           </p>
         </Fade>
 
-        <ul className="row">
+        <ul className="row" style={{paddingLeft:'0'}}>
           <div className="col">
             {" "}
             <li
@@ -71,7 +71,7 @@ const ProgressSection = () => {
                   class="fa-solid fa-circle-check fs-4"
                 ></i>
               </span>
-              <span style={{ paddingLeft: "2%" }}>High Quality</span>
+              <span style={{ paddingLeft: "2%" , fontSize:'15px'}}>High Quality</span>
             </li>
             <li
               style={{
@@ -85,7 +85,7 @@ const ProgressSection = () => {
                   class="fa-solid fa-circle-check fs-4"
                 ></i>
               </span>
-              <span style={{ paddingLeft: "2%" }}>Cost Effective</span>
+              <span style={{ paddingLeft: "2%" , fontSize:'15px'}}>Cost Effective</span>
             </li>
             <li
               style={{
@@ -99,7 +99,7 @@ const ProgressSection = () => {
                   class="fa-solid fa-circle-check fs-4"
                 ></i>
               </span>
-              <span style={{ paddingLeft: "2%" }}>Creativity</span>
+              <span style={{ paddingLeft: "2%", fontSize:'15px' }}>Creativity</span>
             </li>
           </div>
           <div className="col">
@@ -116,7 +116,7 @@ const ProgressSection = () => {
                   class="fa-solid fa-circle-check fs-4"
                 ></i>
               </span>
-              <span style={{ paddingLeft: "2%" }}>Customer Satisfaction</span>
+              <span style={{ paddingLeft: "2%" , fontSize:'15px'}}>Customer Satisfaction</span>
             </li>
             <li
               style={{
@@ -130,7 +130,7 @@ const ProgressSection = () => {
                   class="fa-solid fa-circle-check fs-4"
                 ></i>
               </span>
-              <span style={{ paddingLeft: "2%" }}>Employee Satisfaction</span>
+              <span style={{ paddingLeft: "2%", fontSize:'15px' }}>Employee Satisfaction</span>
             </li>
             <li
               style={{
@@ -144,7 +144,7 @@ const ProgressSection = () => {
                   class="fa-solid fa-circle-check fs-4"
                 ></i>
               </span>
-              <span style={{ paddingLeft: "2%" }}>Result Oriented</span>
+              <span style={{ paddingLeft: "2%", fontSize:'15px' }}>Result Oriented</span>
             </li>
           </div>
         </ul>

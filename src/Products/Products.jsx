@@ -1,4 +1,4 @@
-import React from 'react'
+import React,{useEffect} from 'react'
 import Fade from 'react-reveal/Fade';
 import { Element } from 'react-scroll';
 import Factory from '../images/blackFabric (8).jpg';
@@ -18,6 +18,9 @@ import twill from '../images/Products/Dyed Gabardine twill Fabric for Pants and 
 import { Link } from 'react-router-dom';
 
 export default function Products() {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
   return (
 <>
 <div class="page-title">
@@ -39,7 +42,7 @@ export default function Products() {
           <div class="entry-media">
             <img src={dyedStretch} style={{width:'100%', height:'300px', objectFit:'cover'}} alt class="img img-responsive"/>
           </div>
-          <div class="entry-details">
+          <div class="entry-details" style={{ height: '150px', overflow: 'hidden' }}>
             <h3><a style={{textDecoration:'none', fontFamily:'Maya'}}>Dyed Bengaline Stretch for Pants </a></h3>
             {/* <span class="entry-date">30 November, 2018</span> */}
             <div class="entry-footer">
@@ -57,7 +60,7 @@ export default function Products() {
           <div class="entry-media">
             <img src={rozalin} style={{width:'100%', height:'300px', objectFit:'cover'}} alt class="img img-responsive"/>
           </div>
-          <div class="entry-details">
+          <div class="entry-details" style={{ height: '150px', overflow: 'hidden' }}>
             <h3><a style={{textDecoration:'none', fontFamily:'Maya'}}>Dyed Rozalin Fabric </a></h3>
             {/* <span class="entry-date">30 November, 2018</span> */}
             <div class="entry-footer">
@@ -71,10 +74,10 @@ export default function Products() {
     <div class="col-md-4 p-3">
       <Fade right>
         <div class="grid">
-          <div class="entry-media">
+          <div class="entry-media" >
             <img src={scuba} style={{width:'100%', height:'300px', objectFit:'cover'}} alt class="img img-responsive"/>
           </div>
-          <div class="entry-details">
+          <div class="entry-details" style={{ height: '150px', overflow: 'hidden' }}>
             <h3><a style={{textDecoration:'none', fontFamily:'Maya'}}>Dyed Scuba Fabric </a></h3>
             {/* <span class="entry-date">30 November, 2018</span> */}
             <div class="entry-footer">
@@ -91,7 +94,7 @@ export default function Products() {
           <div class="entry-media">
             <img src={soft} style={{width:'100%', height:'300px', objectFit:'cover'}} alt class="img img-responsive"/>
           </div>
-          <div class="entry-details">
+          <div class="entry-details" style={{ height: '150px', overflow: 'hidden' }}>
             <h3><a style={{textDecoration:'none', fontFamily:'Maya'}}>Dyed Soft Fabric for Pants</a></h3>
             {/* <span class="entry-date">30 November, 2018</span> */}
             <div class="entry-footer">
@@ -108,8 +111,8 @@ export default function Products() {
           <div class="entry-media">
             <img src={lycra} style={{width:'100%', height:'300px', objectFit:'cover'}} alt class="img img-responsive"/>
           </div>
-          <div class="entry-details">
-            <h3><a style={{textDecoration:'none', fontFamily:'Maya'}}>Dyed Bengaline Light for T-Shirt... </a></h3>
+          <div class="entry-details" style={{ height: '150px', overflow: 'hidden' }}>
+            <h3><a style={{textDecoration:'none', fontFamily:'Maya'}}>Dyed Bengaline Light for T-Shirt with Lycra </a></h3>
             {/* <span class="entry-date">30 November, 2018</span> */}
             <div class="entry-footer">
               <Link to='/lycra' style={{textDecoration:'none'}} class="read-more">Show More</Link>
@@ -125,8 +128,8 @@ export default function Products() {
           <div class="entry-media">
             <img src={twill} style={{width:'100%', height:'300px', objectFit:'cover'}} alt class="img img-responsive"/>
           </div>
-          <div class="entry-details">
-            <h3><a style={{textDecoration:'none', fontFamily:'Maya'}}>Dyed Gabardine twill Fabric for... </a></h3>
+          <div class="entry-details" style={{ height: '150px', overflow: 'hidden' }}>
+            <h3><a style={{textDecoration:'none', fontFamily:'Maya'}}>Dyed Gabardine twill Fabric for Pants and Uniform </a></h3>
             {/* <span class="entry-date">30 November, 2018</span> */}
             <div class="entry-footer">
               <Link to='/twill' style={{textDecoration:'none'}} class="read-more">Show More</Link>
@@ -142,7 +145,7 @@ export default function Products() {
           <div class="entry-media">
             <img src={stretch} style={{width:'100%', height:'300px', objectFit:'cover'}} alt class="img img-responsive"/>
           </div>
-          <div class="entry-details">
+          <div class="entry-details" style={{ height: '150px', overflow: 'hidden' }}>
             <h3><a style={{textDecoration:'none', fontFamily:'Maya'}}>Printed Bengaline Stretch for Pants </a></h3>
             {/* <span class="entry-date">30 November, 2018</span> */}
             <div class="entry-footer">
@@ -159,7 +162,7 @@ export default function Products() {
           <div class="entry-media">
             <img src={printedRozalin} style={{width:'100%', height:'300px', objectFit:'cover'}} alt class="img img-responsive"/>
           </div>
-          <div class="entry-details">
+          <div class="entry-details" style={{ height: '150px', overflow: 'hidden' }}>
             <h3><a style={{textDecoration:'none', fontFamily:'Maya'}}>Printed Rozalin Fabric </a></h3>
             {/* <span class="entry-date">30 November, 2018</span> */}
             <div class="entry-footer">
@@ -176,7 +179,7 @@ export default function Products() {
           <div class="entry-media">
             <img src={printedScuba} style={{width:'100%', height:'300px', objectFit:'cover'}} alt class="img img-responsive"/>
           </div>
-          <div class="entry-details">
+          <div class="entry-details" style={{ height: '150px', overflow: 'hidden' }}>
             <h3><a style={{textDecoration:'none', fontFamily:'Maya'}}>Printed Scuba Fabric </a></h3>
             {/* <span class="entry-date">30 November, 2018</span> */}
             <div class="entry-footer">
@@ -193,7 +196,7 @@ export default function Products() {
           <div class="entry-media">
             <img src={microfiber} style={{width:'100%', height:'300px', objectFit:'cover'}} alt class="img img-responsive"/>
           </div>
-          <div class="entry-details">
+          <div class="entry-details" style={{ height: '150px', overflow: 'hidden' }}>
             <h3><a style={{textDecoration:'none', fontFamily:'Maya'}}>Printed Soft Lycra Fabric Microfiber</a></h3>
             {/* <span class="entry-date">30 November, 2018</span> */}
             <div class="entry-footer">
@@ -210,8 +213,8 @@ export default function Products() {
           <div class="entry-media">
             <img src={bengaline} style={{width:'100%', height:'300px', objectFit:'cover'}} alt class="img img-responsive"/>
           </div>
-          <div class="entry-details">
-            <h3><a style={{textDecoration:'none', fontFamily:'Maya'}}>Printed Bengaline Light for T-Shirt... </a></h3>
+          <div class="entry-details" style={{ height: '150px', overflow: 'hidden' }}>
+            <h3><a style={{textDecoration:'none', fontFamily:'Maya'}}>Printed Bengaline Light for T-Shirt with Lycra </a></h3>
             {/* <span class="entry-date">30 November, 2018</span> */}
             <div class="entry-footer">
               <Link to='/bengaline' style={{textDecoration:'none'}} class="read-more">Show More</Link>

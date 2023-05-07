@@ -29,6 +29,9 @@ import Fade from 'react-reveal/Fade';
 // import { Fade } from 'react-reveal';
 import finishing from '../images/Buckram.png';
 export default function Home() {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
     const [counterOn, setCounterOn] = useState(false);
 
   return (
@@ -89,10 +92,10 @@ Quality Control System</span>
                  </ul>
               
               
-                 <h1 style={{paddingTop:'20px', paddingBottom:'30px', fontFamily:'Foundation'}}> <span style={{color:'#766345', fontSize:'69px', fontWeight:'600', lineHeight:'1'}}>20+</span>  Years Experience
+                 <h1 style={{paddingTop:'20px', paddingBottom:'30px', fontFamily:'Foundation', textAlign:'center'}}> <span style={{color:'#766345', fontSize:'69px', fontWeight:'600', lineHeight:'1'}}>20+</span>  Years Experience
 </h1>
 
-<div class="all-projects" style={{borderRadius:'10px'}}>
+<div class="all-projects" style={{borderRadius:'10px', display:'flex', justifyContent:'center'}}>
                     <Link to='/about' style={{textDecoration:'none',borderRadius:'10px'}} class="theme-btn-s2">More About Us</Link>
                 </div></div>
                    </div>
@@ -111,7 +114,7 @@ Quality Control System</span>
                 </div> 
                 <Element name="services">
                 <div class="row">
-                <div className="col dyeing">
+                <div className="col-md-3 dyeing p-1">
             <Fade right delay={1000}>
               <div className="SatinWrap ">
                 <div className="dyeingContainer" style={{display:'flex', justifyContent:'center'}}>
@@ -132,7 +135,7 @@ Quality Control System</span>
               </div>
             </Fade>
           </div> */}
-                <div className="col dyeing">
+                <div className="col-md-3 dyeing p-1">
             <Fade right delay={500}>
               <div className="SatinWrap">
                 <div className="dyeingContainer" style={{display:'flex', justifyContent:'center'}}>
@@ -145,7 +148,7 @@ Quality Control System</span>
           </div>
         
          
-          <div className="col dyeing">
+          <div className="col-md-3 dyeing p-1">
             <Fade right delay={1500}>
               <div className="SatinWrap">
                 <div className="dyeingContainer" style={{display:'flex', justifyContent:'center'}}>
@@ -156,7 +159,7 @@ Quality Control System</span>
               </div>
             </Fade>
           </div>
-          <div className="col dyeing">
+          <div className="col-md-3 dyeing p-1">
             <Fade right delay={1500}>
               <div className="SatinWrap">
                 <div className="dyeingContainer" style={{display:'flex', justifyContent:'center'}}>
@@ -183,7 +186,7 @@ Quality Control System</span>
                     >
                 <div class="row start-count">
               
-                    <div class="col ">
+                    <div class="col-md-4 ">
                         <div class="grid">
                             <h4> <span  class="counter" >
                             {counterOn && (
@@ -202,7 +205,7 @@ Quality Control System</span>
                         </div>
                         {/* <ScrollCounter/> */}
                     </div>
-                    <div class="col ">
+                    <div class="col-md-4 ">
                         <div class="grid">
                         <h4> <span  class="counter" >
                             {counterOn && (
@@ -216,11 +219,11 @@ Quality Control System</span>
                               />
                             )}</span>
                                 </h4>
-                            <h3>Clients</h3>
+                            <h3>Dedicated Employees</h3>
                             {/* <p>inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam</p> */}
                         </div>
                     </div>
-                    <div class="col ">
+                    <div class="col-md-4 ">
                         <div class="grid">
                         <h4> <span  class="counter" >
                             {counterOn && (

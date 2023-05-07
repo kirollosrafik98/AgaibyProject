@@ -1,7 +1,10 @@
-import React from 'react'
+import React,{useEffect} from 'react'
 import Fade from 'react-reveal/Fade';
 
 export default function Contact() {
+    useEffect(() => {
+        window.scrollTo(0, 0);
+      }, []);
   return (
 <>
 <div class="page-title">
@@ -16,9 +19,9 @@ export default function Contact() {
             <div class="container">
                 <div class="row">
                     
-                    <div class="col col-xs-12">
+                    <div class="col-md-6  col-xs-12" style={{paddingTop:'3rem' ,paddingBottom:'2rem', display:'flex', justifyContent:'center'}}>
                         
-                        <div class="contact-form">
+                        <div class="contact-form" style={{height:'100%'}}>
                             <h3 style={{fontFamily:'Maya'}}>Contact Form</h3>
                             <ul>
                                 <li><i class="fa fa-home"></i>Head Office: El-Shourok Industrial Area - Abo Zaabal - Al-Khanka - Al-Qalubia</li>
@@ -47,7 +50,7 @@ export default function Contact() {
                             </form>
                         </div>
                     </div>
-                    <div className="col col-xs-12 p-3" style={{widgetSpacing: '20px'}}>
+                    <div className="col-md-6 p-3 col-xs-12 p-3" style={{widgetSpacing: '20px'}}>
                     <Fade right duration={1000} delay={500}>    <div className="row">
 <div className='elementor-widget-wrap elementor-element-populated' style={{position: 'relative',width: '100%',flexWrap: 'wrap',alignContent: 'flex-start',    display: 'flex', padding:'10px', justifyContent:'center'}}>
 <div className='elementor-icon' style={{fontSize:'40px',padding:'20px 26px', backgroundColor:'#C0AB89', color:'#fff', borderRadius:'50%'}}>
@@ -95,13 +98,13 @@ export default function Contact() {
         </section>
         <section>
             <div className="container p-3">
-                <div className="row">
+                <div className="row p-3">
                     <div className="col"> 
                     <div style={{display:'flex', flexDirection:'column', alignItems:'center'}}>
   <div style={{position:'relative', width:'300px', height:'300px', borderRadius:'50%', overflow:'hidden'}}>
     <iframe src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3446.7918597514235!2d31.389328915119837!3d30.2430114818105!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMzDCsDE0JzM0LjgiTiAzMcKwMjMnMjkuNSJF!5e0!3m2!1sen!2seg!4v1681817776603!5m2!1sen!2seg" style={{border:'0', width:'100%', height:'100%'}} allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
   </div>
-  <h5 style={{textAlign:'center', marginTop:'20px',color:'rgb(118, 99, 69)',fontFamily:'Maya', fontSize:'26px'}}>Factory Branch</h5>
+  <h5 style={{textAlign:'center', marginTop:'20px',color:'rgb(118, 99, 69)',fontFamily:'Maya', fontSize:'26px', marginBottom:'1rem'}}>Factory Branch</h5>
 </div>
 </div>
 <div className="col"> 
@@ -109,7 +112,7 @@ export default function Contact() {
   <div style={{position:'relative', width:'300px', height:'300px', borderRadius:'50%', overflow:'hidden'}}>
     <iframe src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3450.9016555438807!2d31.268097915117007!3d30.12562748185287!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMzDCsDA3JzMyLjMiTiAzMcKwMTYnMTMuMCJF!5e0!3m2!1sen!2seg!4v1681817450116!5m2!1sen!2seg" style={{border:'0', width:'100%', height:'100%'}} allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
   </div>
-  <h5 style={{textAlign:'center', marginTop:'20px',color:'rgb(118, 99, 69)',fontFamily:'Maya', fontSize:'26px'}}>Shubra Branch</h5>
+  <h5 style={{textAlign:'center', marginTop:'20px',color:'rgb(118, 99, 69)',fontFamily:'Maya', fontSize:'26px', marginBottom:'1rem'}}>Shubra Branch</h5>
 </div>
 </div>
 <div className="col"> 
@@ -117,7 +120,7 @@ export default function Contact() {
   <div style={{position:'relative', width:'300px', height:'300px', borderRadius:'50%', overflow:'hidden'}}>
     <iframe src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3450.341494250402!2d31.393973315117314!3d30.141651181847052!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMzDCsDA4JzI5LjkiTiAzMcKwMjMnNDYuMiJF!5e0!3m2!1sen!2seg!4v1681817543047!5m2!1sen!2seg" style={{border:'0', width:'100%', height:'100%'}} allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
   </div>
-  <h5 style={{textAlign:'center', marginTop:'20px',color:'rgb(118, 99, 69)',fontFamily:'Maya', fontSize:'26px'}}>Gesr El Suez Branch</h5>
+  <h5 style={{textAlign:'center', marginTop:'20px',color:'rgb(118, 99, 69)',fontFamily:'Maya', fontSize:'26px', marginBottom:'1rem'}}>Gesr El Suez Branch</h5>
 </div>
 </div>
 

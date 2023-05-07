@@ -1,5 +1,5 @@
 
-import React from 'react';
+import React,{useEffect} from 'react';
 import Fade from 'react-reveal/Fade';
 import { Element } from 'react-scroll';
 import {Link} from 'react-router-dom';
@@ -11,6 +11,9 @@ import dyedStretch5 from '../images/Products/Printed Bengaline Light for T-Shirt
 
 
 export default function BengalineSub6() {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
   return (
     <>
     <div class="page-title">

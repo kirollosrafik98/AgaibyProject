@@ -1,6 +1,6 @@
 import React from 'react';
 import blog from '../images/test.jpg'
-
+import { Link } from 'react-router-dom';
 export default function Footer() {
     const today = new Date();
 
@@ -20,14 +20,14 @@ export default function Footer() {
                         <div class="widget site-map-widget">
                             <h3 style={{fontFamily:'Maya'}}>Navigation</h3>
                             <ul>
-                                <li><a style={{textDecoration:'none'}}>Home</a></li>
-                                <li><a style={{textDecoration:'none'}}>About</a></li>
-                                <li><a style={{textDecoration:'none'}}>History</a></li>
+                                <li><Link to='/' style={{textDecoration:'none'}}>Home</Link></li>
+                                <li><Link to='/about' style={{textDecoration:'none'}}>About</Link></li>
+                                <li><Link to='/history' style={{textDecoration:'none'}}>History</Link></li>
 
-                                <li><a style={{textDecoration:'none'}}>Gallery</a></li>
-                                <li><a style={{textDecoration:'none'}}>Blog</a></li>
-                                <li><a style={{textDecoration:'none'}}>Products</a></li>
-                                <li><a style={{textDecoration:'none'}}>Contact</a></li>
+                                <li><Link to='/galleryHome' style={{textDecoration:'none'}}>Gallery</Link></li>
+                                <li><Link to='/blog' style={{textDecoration:'none'}}>Blog</Link></li>
+                                <li><Link to='/products' style={{textDecoration:'none'}}>Products</Link></li>
+                                <li><Link to='/contact' style={{textDecoration:'none'}}>Contact</Link></li>
                             </ul>
                         </div>
                     </div>

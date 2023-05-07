@@ -1,9 +1,12 @@
-import React from "react";
+import React ,{useEffect} from "react";
 import about from "../images/blackFabric (8).jpg";
 import Fade from "react-reveal/Fade";
 import ProgressBar from "./ProgressBar";
-import aboutbg from "../images/aboutbg.jpg";
+import aboutbg from "../images/blackFabric (5).jpg";
 export default function About() {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
   return (
     <>
       <div class="page-title">
@@ -64,7 +67,7 @@ export default function About() {
               </Fade>
               <div className="container">
                 <div className="row">
-                  <div className="col">
+                  <div className="col-md-6">
                     <h3
                       style={{
                         color: "#C0AB89",
@@ -89,8 +92,8 @@ export default function About() {
                       </p>
                     </Fade>
                   </div>
-
-                  <div className="col">
+{/* <div className="col-md-2"></div> */}
+                  <div className="col-md-6">
                     {" "}
                     <h3
                       style={{
@@ -120,7 +123,7 @@ export default function About() {
                 </div>
                 <div className="row">
                   <Fade bottom duration={1000} delay={500}>
-                    <img src={about} style={{ borderRadius: "20px", height:'70vh' }} alt="" />
+                    <img src={about} style={{ borderRadius: "20px", width:'100%' }} alt="" />
                   </Fade>
                 </div>
                 <div className="row " style={{paddingTop:'3%'}}>
