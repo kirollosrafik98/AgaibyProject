@@ -87,7 +87,7 @@ export default function LastestProjects() {
                         </div></SwiperSlide>
                         <SwiperSlide><div class="grid">
                             <div class="img-holder">
-                                <img src={img5} style={{width:'100%', height:'350px',objectFit:'cover'}} alt/>
+                                <img src={img10} style={{width:'100%', height:'350px',objectFit:'cover'}} alt/>
                             </div>
                             <div class="details" style={{ height: '100px', overflow: 'hidden' }}>
                                 <h3><a style={{textDecoration:'none', color:'#000', fontFamily:'Maya', fontSize:'18px'}}>Dyed Bengaline Light for T-Shirt with Lycra</a></h3>
@@ -96,7 +96,7 @@ export default function LastestProjects() {
                         </div> </SwiperSlide>
                         <SwiperSlide><div class="grid">
                             <div class="img-holder">
-                                <img src={img6} style={{width:'100%', height:'350px',objectFit:'cover'}} alt/>
+                                <img src={img11} style={{width:'100%', height:'350px',objectFit:'cover'}} alt/>
                             </div>
                             <div class="details" style={{ height: '100px', overflow: 'hidden' }}>
                                 <h3><a style={{textDecoration:'none', color:'#000', fontFamily:'Maya', fontSize:'18px'}}>Dyed Gabardine twill Fabric for Pants and Uniform</a></h3>
@@ -105,7 +105,7 @@ export default function LastestProjects() {
                         </div> </SwiperSlide>
                         <SwiperSlide>    <div class="grid">
                             <div class="img-holder">
-                                <img src={img7} style={{width:'100%', height:'350px',objectFit:'cover'}} alt/>
+                                <img src={img5} style={{width:'100%', height:'350px',objectFit:'cover'}} alt/>
                             </div>
                             <div class="details" style={{ height: '100px', overflow: 'hidden' }}>
                                 <h3><a style={{textDecoration:'none', color:'#000', fontFamily:'Maya', fontSize:'18px'}}>Printed Bengaline Stretch for Pants</a></h3>
@@ -114,7 +114,7 @@ export default function LastestProjects() {
                         </div></SwiperSlide>
                         <SwiperSlide>    <div class="grid">
                             <div class="img-holder">
-                                <img src={img8} style={{width:'100%', height:'350px',objectFit:'cover'}} alt/>
+                                <img src={img6} style={{width:'100%', height:'350px',objectFit:'cover'}} alt/>
                             </div>
                             <div class="details" style={{ height: '100px', overflow: 'hidden' }}>
                                 <h3><a style={{textDecoration:'none', color:'#000', fontFamily:'Maya', fontSize:'18px'}}>Printed Rozalin Fabric</a></h3>
@@ -123,7 +123,7 @@ export default function LastestProjects() {
                         </div></SwiperSlide>
                         <SwiperSlide>    <div class="grid">
                             <div class="img-holder">
-                                <img src={img9} style={{width:'100%', height:'350px',objectFit:'cover'}} alt/>
+                                <img src={img7} style={{width:'100%', height:'350px',objectFit:'cover'}} alt/>
                             </div>
                             <div class="details" style={{ height: '100px', overflow: 'hidden' }}>
                                 <h3><a style={{textDecoration:'none', color:'#000', fontFamily:'Maya', fontSize:'18px'}}>Printed Scuba Fabric</a></h3>
@@ -132,7 +132,7 @@ export default function LastestProjects() {
                         </div></SwiperSlide>
                         <SwiperSlide>    <div class="grid">
                             <div class="img-holder">
-                                <img src={img10} style={{width:'100%', height:'350px',objectFit:'cover'}} alt/>
+                                <img src={img8} style={{width:'100%', height:'350px',objectFit:'cover'}} alt/>
                             </div>
                             <div class="details" style={{ height: '100px', overflow: 'hidden' }}>
                                 <h3><a style={{textDecoration:'none', color:'#000', fontFamily:'Maya', fontSize:'18px'}}>Printed Soft Lycra Fabric Microfiber</a></h3>
@@ -141,7 +141,7 @@ export default function LastestProjects() {
                         </div></SwiperSlide>
                         <SwiperSlide>    <div class="grid">
                             <div class="img-holder">
-                                <img src={img11} style={{width:'100%', height:'350px',objectFit:'cover'}} alt/>
+                                <img src={img9} style={{width:'100%', height:'350px',objectFit:'cover'}} alt/>
                             </div>
                             <div class="details" style={{ height: '100px', overflow: 'hidden' }}>
                                 <h3><a style={{textDecoration:'none', color:'#000', fontFamily:'Maya', fontSize:'18px'}}>Printed Bengaline Light for T-Shirt with Lycra</a></h3>

@@ -2,7 +2,7 @@ import React from 'react';
 import blog from '../images/test.jpg'
 import { Link } from 'react-router-dom';
 import logo from '../images/Agaybi 1 - Copy.png'
-export default function Footer() {
+export default function FooterFr() {
     const today = new Date();
 
   return (
@@ -15,7 +15,7 @@ export default function Footer() {
                             <h3>
                               <img src={logo} alt=""  style={{width:'10%'}}/>
                               <a  class="logo" style={{textDecoration:'none', fontFamily:'Maya'}}>The Egyptian Swiss Textile</a></h3>
-                            <p>We are a textile manufacturer that strives for the best quality while utilizing the most efficient resources. Furthermore, our goal is to leave a mark in the textile market and ensure client satisfaction by providing the greatest quality at reasonable prices.</p>
+                            <p>Nous sommes un fabricant textile qui vise la meilleure qualité en utilisant les ressources les plus efficaces. De plus, notre objectif est de laisser une empreinte dans le marché textile et d'assurer la satisfaction de notre clientèle en fournissant une qualité supérieure à des prix raisonnables.</p>
                         </div>
                     </div>
 
@@ -24,15 +24,15 @@ export default function Footer() {
                             <h3 style={{fontFamily:'Maya'}}>Navigation</h3>
                             <div className="row">
                               <div className="col-md-6"> <ul style={{paddingLeft:'0'}}>
-                                <li><Link to='/' style={{textDecoration:'none'}}>Home</Link></li>
-                                <li><Link to='/about' style={{textDecoration:'none'}}>About</Link></li>
-                                <li><Link to='/history' style={{textDecoration:'none'}}>History</Link></li>
+                                <li><Link to='/' style={{textDecoration:'none'}}>Accueil</Link></li>
+                                <li><Link to='/about' style={{textDecoration:'none'}}>À propos</Link></li>
+                                <li><Link to='/history' style={{textDecoration:'none'}}>Histoire</Link></li>
 
-                                <li><Link to='/galleryHome' style={{textDecoration:'none'}}>Gallery</Link></li>
+                                <li><Link to='/galleryHome' style={{textDecoration:'none'}}>Galerie</Link></li>
                                 </ul></div>
                               <div className="col-md-6"> <ul>
                                 <li><Link to='/blog' style={{textDecoration:'none'}}>Blog</Link></li>
-                                <li><Link to='/products' style={{textDecoration:'none'}}>Products</Link></li>
+                                <li><Link to='/products' style={{textDecoration:'none'}}>Produits</Link></li>
                                 <li><Link to='/contact' style={{textDecoration:'none'}}>Contact</Link></li>
                             </ul></div>
 
@@ -69,7 +69,7 @@ export default function Footer() {
 
                     <div class="col col-lg-4 col-md-4 col-xs-6">
                         <div class="widget newsletter-widget">
-                            <h3 style={{fontFamily:'Maya'}}>Subscription</h3>
+                            <h3 style={{fontFamily:'Maya'}}>Abonnement</h3>
                             <ul>
                                 <li><i style={{color:'#C0AB89'}} class="fa-regular fa-envelope" aria-hidden="true"></i>  test@neon.com</li>
                                 <li><i style={{color:'#C0AB89'}} class="fa fa-volume-control-phone" aria-hidden="true"></i>  +20 244 564 541</li>

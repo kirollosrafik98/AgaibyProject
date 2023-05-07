@@ -4003,7 +4003,7 @@ a:focus {
   font-size: 1.5rem;
   font-weight: normal;
   font-weight: normal;
-  margin: 0 0 1.8em;
+  margin: 0 0 5px;
 }
 
 @media (max-width: 1199px) {
@@ -4023,7 +4023,7 @@ a:focus {
 .site-footer .about-widget .logo {
   /* background: url("../src/images/Agaybi 1.png") left center/auto no-repeat local; */
   position: relative;
-  padding-left: 42px;
+  /* padding-left: 42px; */
 }
 
 @media (max-width: 991px) {
