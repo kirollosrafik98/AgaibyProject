@@ -113,7 +113,7 @@ export default function History() {
           <Fade top duration={1000} delay={500}>    <h2 class="w3-center w3-animate-top" style={{fontFamily:'Millania', fontSize:'70px', textAlign:'center'}}>Meet Our <span style={{color:'#C0AB89'}}>Founders</span></h2></Fade>
 
           </div>
-        <div className="col-md-5 elCard p-3" style={{height:'45vh'}}>
+        <div className="col-md-5 elCard p-3" style={{height:'55vh'}}>
             <div className="mainContainer">
               <div className="theCard">
                 {/* <div className="theFrontAbdel"></div> */}
@@ -176,7 +176,7 @@ export default function History() {
             </div>
           </div>
           <div className="col-md-2"></div>
-          <div className="col-md-5 elCard  p-3" style={{height:'45vh'}}>
+          <div className="col-md-5 elCard  p-3" style={{height:'55vh'}}>
             <div className="mainContainer">
               <div className="theCard">
                 {/* <div className="theFrontHany"></div> */}

@@ -72,7 +72,7 @@ export default function Home() {
                    </div>
                    <div className="col-md-7">
                     <div className="container">
-                    <h1 className="w3-container  w3-animate-top" style={{color:'#766345', fontSize:'48px', fontWeight:'bold', textTransform:'capitalize' ,lineHeight:'1.2em', fontFamily:'Maya'}}>The Best Solution For Your Textile And Garment Needs</h1>
+                    <h1 className="w3-container  w3-animate-top" style={{color:'#766345', fontSize:'31px', fontWeight:'bold', textTransform:'capitalize' ,lineHeight:'1.2em', fontFamily:'Maya'}}>The Best Solution For Your Textile And Garment Needs</h1>
                     <p>Our aim is to meet the following criteria in order to provide the best textile solution while also meeting the needs of our customers:</p>
                  <ul>
                     <li style={{marginTop:'calc(16px/2)' ,paddingBottom:'calc(16px/2)'}}>
@@ -109,7 +109,7 @@ Quality Control System</span>
                     <div class="col col-xs-12">
                         <h2 style={{color:'#766345',fontFamily:'Millania', fontSize:'50px'}}>Our Services
 </h2>
-<Fade top duration={1000} delay={500}>   <h1  style={{color:'#766345', fontSize:'48px', fontWeight:'bold', textTransform:'capitalize' ,lineHeight:'1.2em', fontFamily:'Maya'}}>Delivering The Highest Quality Fabrics</h1>
+<Fade top duration={1000} delay={500}>   <h1  style={{color:'#766345', fontSize:'31px', fontWeight:'bold', textTransform:'capitalize' ,lineHeight:'1.2em', fontFamily:'Maya'}}>Delivering The Highest Quality Fabrics</h1>
 </Fade>       </div>
                 </div> 
                 <Element name="services">
@@ -406,7 +406,7 @@ Quality Control System</span>
           <div class="entry-media">
             <img src={blog1} style={{width:'100%', height:'200px',objectFit:'cover'}} alt class="img img-responsive"/>
           </div>
-          <div class="entry-details">
+          <div class="entry-details"  style={{ height: '220px', overflow: 'hidden' }}>
             <h3><a style={{textDecoration:'none', fontFamily:'Maya'}}>Increasing the innovativeness of textile and apparel industry</a></h3>
             <span class="entry-date"> March 16, 2023</span>
             <div class="entry-footer">
@@ -423,7 +423,7 @@ Quality Control System</span>
           <div class="entry-media">
             <img src={blog2} style={{width:'100%', height:'200px',objectFit:'cover'}}  alt class="img img-responsive"/>
           </div>
-          <div class="entry-details">
+          <div class="entry-details"  style={{ height: '220px', overflow: 'hidden' }}>
             <h3><a style={{textDecoration:'none', fontFamily:'Maya'}}>Will Industrial Engineers replace Traditional Production Managers?</a></h3>
             <span class="entry-date">February 6, 2023</span>
             <div class="entry-footer">
@@ -440,7 +440,7 @@ Quality Control System</span>
           <div class="entry-media">
             <img src={blog3} style={{width:'100%', height:'200px',objectFit:'cover'}}  alt class="img img-responsive"/>
           </div>
-          <div class="entry-details">
+          <div class="entry-details"  style={{ height: '220px', overflow: 'hidden' }}>
             <h3><a style={{textDecoration:'none', fontFamily:'Maya'}}>10 Fabrics to Wear in Summer to Beat the Heat</a></h3>
             <span class="entry-date">March 10, 2023</span>
             <div class="entry-footer">

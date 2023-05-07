@@ -3742,7 +3742,7 @@ a:focus {
 
 @media (max-width: 767px) {
   .hero-slider-s2 .slide {
-    height: 500px;
+    height: 203px;
   }
 }
 
@@ -8682,7 +8682,7 @@ clear: both;
     height: 226px!important;
 }
 .section-padding {
-  padding: 60px 0 80px!important;
+  padding: 20px 0 20px!important;
 }
 .services-serction-s2, .services-serction-s3 {
   padding-bottom: 20px!important;

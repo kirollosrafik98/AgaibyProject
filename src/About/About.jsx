@@ -53,7 +53,7 @@ export default function About() {
                   class="overview-text"
                   style={{
                     color: "#766345",
-                    fontSize: "48px",
+                    fontSize: "31px",
                     fontWeight: "bold",
                     textTransform: "capitalize",
                     lineHeight: "1.2em",
@@ -182,7 +182,7 @@ export default function About() {
             <h2
               style={{
                 color: "#C0AB89",
-                fontSize: "36px",
+                fontSize: "34px",
                 lineHeight: "1.2em",
                 fontFamily: "Maya",
                 paddingBottom:'2%'
