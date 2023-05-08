@@ -90,6 +90,30 @@ import HomeFr from './Home/HomeFr';
 import NavbarSp from './Navbar/NavbarSp';
 import FooterSp from './Footer/FooterSp';
 import AboutSp from './About/AboutSp';
+import HomeSp from './Home/HomeSp';
+import ContactSp from './Contact/ContactSp';
+import HistorySp from './History/HistorySp';
+import BlogFr from './Blog/BlogFr';
+import Blog1Fr from './Blog/Blog1Fr';
+import Blog2Fr from './Blog/Blog2Fr';
+import Blog3Fr from './Blog/Blog3Fr';
+import Blog4Fr from './Blog/Blog4Fr';
+import Blog5Fr from './Blog/Blog5Fr';
+import Blog6Fr from './Blog/Blog6Fr';
+import Blog7Fr from './Blog/Blog7Fr';
+import Blog8Fr from './Blog/Blog8Fr';
+import Blog9Fr from './Blog/Blog9Fr';
+import Blog10Fr from './Blog/Blog10Fr';
+import BlogSp from './Blog/BlogSp';
+import Blog1Sp from './Blog/Blog1Sp';
+import Blog2Sp from './Blog/Blog2Sp';
+import Blog3Sp from './Blog/Blog3Sp';
+import Blog4Sp from './Blog/Blog4Sp';
+import Blog5Sp from './Blog/Blog5Sp';
+import Blog6Sp from './Blog/Blog6Sp';
+import Blog7Sp from './Blog/Blog7Sp';
+import Blog8Sp from './Blog/Blog8Sp';
+import Blog9Sp from './Blog/Blog9Sp';
 function App() {
   const [ar, setAr] =  useState(localStorage.getItem('lang') ? localStorage.getItem('lang') : "eng");
 
@@ -116,17 +140,17 @@ function App() {
  <Route path='/galleryHome' element={<GalleryHomeFr/> }/> 
  <Route path='/branch1' element={<Branch1Fr/>}/>
     <Route path='/branch2' element={<Branch2Fr/>}/>
-    <Route path='/blog' element={<Blog/>}/>
-    <Route  path='/blog1' element={<Blog1/>}/>
-<Route  path='/blog2' element={<Blog2/>}/>
-<Route  path='/blog3' element={<Blog3/>}/>
-<Route  path='/blog4' element={<Blog4/>}/>
-<Route  path='/blog5' element={<Blog5/>}/>
-<Route  path='/blog6' element={<Blog6/>}/>
-<Route  path='/blog7' element={<Blog7/>}/>
-<Route  path='/blog8' element={<Blog8/>}/>
-<Route  path='/blog9' element={<Blog9/>}/>
-<Route  path='/blog10' element={<Blog10/>}/>
+    <Route path='/blog' element={<BlogFr/>}/>
+    <Route  path='/blog1' element={<Blog1Fr/>}/>
+<Route  path='/blog2' element={<Blog2Fr/>}/>
+<Route  path='/blog3' element={<Blog3Fr/>}/>
+<Route  path='/blog4' element={<Blog4Fr/>}/>
+<Route  path='/blog5' element={<Blog5Fr/>}/>
+<Route  path='/blog6' element={<Blog6Fr/>}/>
+<Route  path='/blog7' element={<Blog7Fr/>}/>
+<Route  path='/blog8' element={<Blog8Fr/>}/>
+<Route  path='/blog9' element={<Blog9Fr/>}/>
+<Route  path='/blog10' element={<Blog10Fr/>}/>
 <Route  path='/products' element={<Products/>}/>
 <Route  path='/dyedStretch' element={<DyedStretch/>}/>
 <Route  path='/rozalin' element={<Rozalin/>}/>
@@ -187,24 +211,24 @@ function App() {
 }
 {ar ==='spain'&&
   <>
-   <Route path='/' element={<HomeFr/> }/> 
+   <Route path='/' element={<HomeSp/> }/> 
 
  <Route path='/about' element={<AboutSp/> }/> 
- <Route path='/history' element={<HistoryFr/> }/> 
- <Route path='/contact' element={<ContactFr/> }/> 
+ <Route path='/history' element={<HistorySp/> }/> 
+ <Route path='/contact' element={<ContactSp/> }/> 
  <Route path='/galleryHome' element={<GalleryHomeFr/> }/> 
  <Route path='/branch1' element={<Branch1Fr/>}/>
     <Route path='/branch2' element={<Branch2Fr/>}/>
-    <Route path='/blog' element={<Blog/>}/>
-    <Route  path='/blog1' element={<Blog1/>}/>
-<Route  path='/blog2' element={<Blog2/>}/>
-<Route  path='/blog3' element={<Blog3/>}/>
-<Route  path='/blog4' element={<Blog4/>}/>
-<Route  path='/blog5' element={<Blog5/>}/>
-<Route  path='/blog6' element={<Blog6/>}/>
-<Route  path='/blog7' element={<Blog7/>}/>
-<Route  path='/blog8' element={<Blog8/>}/>
-<Route  path='/blog9' element={<Blog9/>}/>
+    <Route path='/blog' element={<BlogSp/>}/>
+    <Route  path='/blog1' element={<Blog1Sp/>}/>
+<Route  path='/blog2' element={<Blog2Sp/>}/>
+<Route  path='/blog3' element={<Blog3Sp/>}/>
+<Route  path='/blog4' element={<Blog4Sp/>}/>
+<Route  path='/blog5' element={<Blog5Sp/>}/>
+<Route  path='/blog6' element={<Blog6Sp/>}/>
+<Route  path='/blog7' element={<Blog7Sp/>}/>
+<Route  path='/blog8' element={<Blog8Sp/>}/>
+<Route  path='/blog9' element={<Blog9Sp/>}/>
 <Route  path='/blog10' element={<Blog10/>}/>
 <Route  path='/products' element={<Products/>}/>
 <Route  path='/dyedStretch' element={<DyedStretch/>}/>

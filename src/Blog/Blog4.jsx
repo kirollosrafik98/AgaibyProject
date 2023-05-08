@@ -2,7 +2,7 @@ import React,{useEffect} from 'react'
 import Fade from 'react-reveal/Fade';
 import firstBlog from '../images/firstBlog.png';
 
-export default function Blog1() {
+export default function Blog4() {
   useEffect(() => {
     window.scrollTo(0, 0);
   }, []);

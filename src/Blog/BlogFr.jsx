@@ -14,7 +14,7 @@ import blog10 from '../images/blog10.jpg';
 import { Element } from 'react-scroll';
 import Fade from 'react-reveal/Fade';
 import { Link } from 'react-router-dom';
-export default function Blog() {
+export default function BlogFr() {
   useEffect(() => {
     window.scrollTo(0, 0);
   }, []);
@@ -22,7 +22,7 @@ export default function Blog() {
 <>
 <div class="page-title">
             <div class="container">
-            <Fade top duration={1000} delay={500}>  <h1 style={{color:'#C0AB89', fontFamily:'Millania', fontSize:'80px'}}>Blogs</h1></Fade>
+            <Fade top duration={1000} delay={500}>  <h1 style={{color:'#C0AB89', fontFamily:'Millania', fontSize:'80px'}}>Blogues</h1></Fade>
 
                 {/* <h1>Blog</h1> */}
             </div>
@@ -41,10 +41,10 @@ export default function Blog() {
           </div>
           <div class="entry-details"  style={{ height: '220px', overflow: 'hidden' }}>
             <h3><a style={{textDecoration:'none', fontFamily:'Maya'}}>
-              Increasing the innovativeness of textile and apparel industry</a></h3>
-            <span class="entry-date">March 16, 2023</span>
+            Accroître l'innovation de l'industrie du textile et de l'habillement</a></h3>
+            <span class="entry-date">Mars 16, 2023</span>
             <div class="entry-footer">
-              <Link to='/blog1' style={{textDecoration:'none'}} class="read-more">Read More</Link>
+              <Link to='/blog1' style={{textDecoration:'none'}} class="read-more">En savoir plus</Link>
               {/* <a style={{textDecoration:'none'}} class="comments"><i class="fa fa-comments" aria-hidden="true"></i> 5</a> */}
             </div>
           </div>
@@ -58,10 +58,10 @@ export default function Blog() {
             <img src={blog2} style={{width:'100%', height:'200px',objectFit:'cover'}}  alt class="img img-responsive"/>
           </div>
           <div class="entry-details"  style={{ height: '220px', overflow: 'hidden' }}>
-            <h3><a style={{textDecoration:'none', fontFamily:'Maya'}}>Will Industrial Engineers replace Traditional Production Managers?</a></h3>
-            <span class="entry-date">February 6, 2023</span>
+            <h3><a style={{textDecoration:'none', fontFamily:'Maya'}}>Les ingénieurs industriels remplaceront-ils les responsables de production traditionnels ?</a></h3>
+            <span class="entry-date">Février 6, 2023</span>
             <div class="entry-footer">
-              <Link to='/blog2' style={{textDecoration:'none'}} class="read-more">Read More</Link>
+              <Link to='/blog2' style={{textDecoration:'none'}} class="read-more">En savoir plus</Link>
               {/* <a style={{textDecoration:'none'}} class="comments"><i class="fa fa-comments" aria-hidden="true"></i> 5</a> */}
             </div>
           </div>
@@ -75,11 +75,11 @@ export default function Blog() {
             <img src={blog3} style={{width:'100%', height:'200px',objectFit:'cover'}}  alt class="img img-responsive"/>
           </div>
           <div class="entry-details"  style={{ height: '220px', overflow: 'hidden' }}>
-            <h3><a style={{textDecoration:'none', fontFamily:'Maya'}}>10 Fabrics to Wear in Summer to Beat the Heat</a></h3>
-            <span class="entry-date">March 10, 2023
+            <h3><a style={{textDecoration:'none', fontFamily:'Maya'}}>10 tissus à porter en été pour combattre la chaleur</a></h3>
+            <span class="entry-date">Mars 10, 2023
 </span>
             <div class="entry-footer">
-              <Link to='/blog3' style={{textDecoration:'none'}} class="read-more">Read More</Link>
+              <Link to='/blog3' style={{textDecoration:'none'}} class="read-more">En savoir plus</Link>
               {/* <a style={{textDecoration:'none'}} class="comments"><i class="fa fa-comments" aria-hidden="true"></i> 5</a> */}
             </div>
           </div>
@@ -93,10 +93,10 @@ export default function Blog() {
             <img src={blog4} style={{width:'100%', height:'200px',objectFit:'cover'}}  alt class="img img-responsive"/>
           </div>
           <div class="entry-details"  style={{ height: '220px', overflow: 'hidden' }}>
-            <h3><a style={{textDecoration:'none', fontFamily:'Maya'}}>Advancements in Fabric Weaving Technologies</a></h3>
-            <span class="entry-date">March 13, 2018</span>
+            <h3><a style={{textDecoration:'none', fontFamily:'Maya'}}>Progrès dans les technologies de tissage de tissus</a></h3>
+            <span class="entry-date">Mars 13, 2018</span>
             <div class="entry-footer">
-              <Link to='/blog4' style={{textDecoration:'none'}} class="read-more">Read More</Link>
+              <Link to='/blog4' style={{textDecoration:'none'}} class="read-more">En savoir plus</Link>
               {/* <a style={{textDecoration:'none'}} class="comments"><i class="fa fa-comments" aria-hidden="true"></i> 5</a> */}
             </div>
           </div>
@@ -110,10 +110,10 @@ export default function Blog() {
             <img src={blog5} style={{width:'100%', height:'200px',objectFit:'cover'}}  alt class="img img-responsive"/>
           </div>
           <div class="entry-details"  style={{ height: '220px', overflow: 'hidden' }}>
-            <h3><a style={{textDecoration:'none', fontFamily:'Maya'}}>Strategies for Textile & Apparel Sourcing</a></h3>
-            <span class="entry-date"> February 1, 2023</span>
+            <h3><a style={{textDecoration:'none', fontFamily:'Maya'}}>Stratégies d'approvisionnement en textiles et vêtements</a></h3>
+            <span class="entry-date"> Février 1, 2023</span>
             <div class="entry-footer">
-              <Link to='/blog5' style={{textDecoration:'none'}} class="read-more">Read More</Link>
+              <Link to='/blog5' style={{textDecoration:'none'}} class="read-more">En savoir plus</Link>
               {/* <a style={{textDecoration:'none'}} class="comments"><i class="fa fa-comments" aria-hidden="true"></i> 5</a> */}
             </div>
           </div>
@@ -127,11 +127,11 @@ export default function Blog() {
             <img src={blog6} style={{width:'100%', height:'200px',objectFit:'cover'}}  alt class="img img-responsive"/>
           </div>
           <div class="entry-details"  style={{ height: '220px', overflow: 'hidden' }}>
-            <h3><a style={{textDecoration:'none', fontFamily:'Maya'}}>STTI coalition welcomes improvement purchasing practices by BRM</a></h3>
+            <h3><a style={{textDecoration:'none', fontFamily:'Maya'}}>La coalition STTI salue l'amélioration des pratiques d'achat par le BRM</a></h3>
             <span class="entry-date">
-March 14, 2023</span>
+Mars 14, 2023</span>
             <div class="entry-footer">
-              <Link to='/blog6' style={{textDecoration:'none'}} class="read-more">Read More</Link>
+              <Link to='/blog6' style={{textDecoration:'none'}} class="read-more">En savoir plus</Link>
               {/* <a style={{textDecoration:'none'}} class="comments"><i class="fa fa-comments" aria-hidden="true"></i> 5</a> */}
             </div>
           </div>
@@ -145,11 +145,11 @@ March 14, 2023</span>
             <img src={blog7} style={{width:'100%', height:'200px',objectFit:'cover'}}  alt class="img img-responsive"/>
           </div>
           <div class="entry-details"  style={{ height: '220px', overflow: 'hidden' }}>
-            <h3><a style={{textDecoration:'none', fontFamily:'Maya'}}>Fiber from Milk Byproducts – a New Dimension</a></h3>
-            <span class="entry-date">March 18, 2023
+            <h3><a style={{textDecoration:'none', fontFamily:'Maya'}}>Fibres de sous-produits du lait – une nouvelle dimension</a></h3>
+            <span class="entry-date">Mars 18, 2023
 </span>
             <div class="entry-footer">
-              <Link to='/blog7' style={{textDecoration:'none'}} class="read-more">Read More</Link>
+              <Link to='/blog7' style={{textDecoration:'none'}} class="read-more">En savoir plus</Link>
               {/* <a style={{textDecoration:'none'}} class="comments"><i class="fa fa-comments" aria-hidden="true"></i> 5</a> */}
             </div>
           </div>
@@ -163,11 +163,11 @@ March 14, 2023</span>
             <img src={blog8} style={{width:'100%', height:'200px',objectFit:'cover'}}  alt class="img img-responsive"/>
           </div>
           <div class="entry-details"  style={{ height: '220px', overflow: 'hidden' }}>
-            <h3><a style={{textDecoration:'none', fontFamily:'Maya'}}>Future of Textiles with Nanotechnology</a></h3>
-            <span class="entry-date">March 16, 2023
+            <h3><a style={{textDecoration:'none', fontFamily:'Maya'}}>L'avenir des textiles avec la nanotechnologie</a></h3>
+            <span class="entry-date">Mars 16, 2023
 </span>
             <div class="entry-footer">
-              <Link to='/blog8' style={{textDecoration:'none'}} class="read-more">Read More</Link>
+              <Link to='/blog8' style={{textDecoration:'none'}} class="read-more">En savoir plus</Link>
               {/* <a style={{textDecoration:'none'}} class="comments"><i class="fa fa-comments" aria-hidden="true"></i> 5</a> */}
             </div>
           </div>
@@ -181,11 +181,11 @@ March 14, 2023</span>
             <img src={blog9} style={{width:'100%', height:'200px',objectFit:'cover'}}  alt class="img img-responsive"/>
           </div>
           <div class="entry-details"  style={{ height: '220px', overflow: 'hidden' }}>
-            <h3><a style={{textDecoration:'none', fontFamily:'Maya'}}>Sustainability in Textile <br /> Processing
+            <h3><a style={{textDecoration:'none', fontFamily:'Maya'}}>Durabilité dans le traitement <br /> des textiles
 </a></h3>
-            <span class="entry-date">September 18, 2022</span>
+            <span class="entry-date">Septembre 18, 2022</span>
             <div class="entry-footer">
-              <Link to='/blog9' style={{textDecoration:'none'}} class="read-more">Read More</Link>
+              <Link to='/blog9' style={{textDecoration:'none'}} class="read-more">En savoir plus</Link>
               {/* <a style={{textDecoration:'none'}} class="comments"><i class="fa fa-comments" aria-hidden="true"></i> 5</a> */}
             </div>
           </div>
@@ -199,11 +199,11 @@ March 14, 2023</span>
             <img src={blog10} style={{width:'100%', height:'200px',objectFit:'cover'}}  alt class="img img-responsive"/>
           </div>
           <div class="entry-details"  style={{ height: '220px', overflow: 'hidden' }}>
-            <h3><a style={{textDecoration:'none', fontFamily:'Maya'}}>Study on application of reduced Graphene Oxide on cotton fabric...
+            <h3><a style={{textDecoration:'none', fontFamily:'Maya'}}>Etude d'application d'Oxyde de Graphène réduit sur tissu coton...
 </a></h3>
-            <span class="entry-date"> February 23, 2022</span>
+            <span class="entry-date"> Février 23, 2022</span>
             <div class="entry-footer">
-              <Link to='/blog10' style={{textDecoration:'none'}} class="read-more">Read More</Link>
+              <Link to='/blog10' style={{textDecoration:'none'}} class="read-more">En savoir plus</Link>
               {/* <a style={{textDecoration:'none'}} class="comments"><i class="fa fa-comments" aria-hidden="true"></i> 5</a> */}
             </div>
           </div>
