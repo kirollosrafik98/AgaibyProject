@@ -17,7 +17,17 @@ export default function BengalineSub4() {
     <>
     <div class="page-title">
                 <div class="container">
-                <Fade top duration={1000} delay={500}>  <h1 style={{color:'#C0AB89', fontFamily:'Millania', fontSize:'80px'}}>Printed Bengaline Light for T-Shirt with Lycra</h1></Fade>
+                <Fade top duration={1000} delay={500}>  <h1 style={{color:'#C0AB89', fontFamily:'Millania', fontSize:'80px'}}>  {
+         localStorage.getItem("lang") === "eng" 
+          ? "Printed Bengaline Light for T-Shirt with Lycra"
+          :localStorage.getItem("lang")=== "egp" 
+            ? "‎بنجالين لايت مطبوع قميص وتيشرت" 
+            :localStorage.getItem("lang")=== "fr" 
+              ? "Bengaline Légère Imprimée pour T-Shirt avec Lycra" 
+              :localStorage.getItem("lang")=== "spain" 
+                ? "Luz Bengalina Estampada para Camiseta con Lycra " 
+                : ""
+        }</h1></Fade>
     
                 </div>
             </div>
@@ -35,7 +45,17 @@ export default function BengalineSub4() {
               </div>
              
                 <div class="entry-footer" style={{display:'flex', justifyContent:'center'}}>
-                  <Link  style={{textDecoration:'none' ,display:'block'}} class="read-more">Get Quote</Link>
+                  <Link  style={{textDecoration:'none' ,display:'block'}} class="read-more"> {
+         localStorage.getItem("lang") === "eng" 
+          ? " Get Quote"
+          :localStorage.getItem("lang")=== "egp" 
+            ? "احصل على السعر" 
+            :localStorage.getItem("lang")=== "fr" 
+              ? "Obtenir un devis" 
+              :localStorage.getItem("lang")=== "spain" 
+                ? "Obtener cotización" 
+                : ""
+        }</Link>
                 </div>
            
             </div>
@@ -50,7 +70,17 @@ export default function BengalineSub4() {
               </div>
              
                 <div class="entry-footer" style={{display:'flex', justifyContent:'center'}}>
-                  <Link  style={{textDecoration:'none' ,display:'block'}} class="read-more">Get Quote</Link>
+                  <Link  style={{textDecoration:'none' ,display:'block'}} class="read-more"> {
+         localStorage.getItem("lang") === "eng" 
+          ? " Get Quote"
+          :localStorage.getItem("lang")=== "egp" 
+            ? "احصل على السعر" 
+            :localStorage.getItem("lang")=== "fr" 
+              ? "Obtenir un devis" 
+              :localStorage.getItem("lang")=== "spain" 
+                ? "Obtener cotización" 
+                : ""
+        }</Link>
                 </div>
            
             </div>
@@ -65,7 +95,17 @@ export default function BengalineSub4() {
               </div>
              
                 <div class="entry-footer" style={{display:'flex', justifyContent:'center'}}>
-                  <Link  style={{textDecoration:'none' ,display:'block'}} class="read-more">Get Quote</Link>
+                  <Link  style={{textDecoration:'none' ,display:'block'}} class="read-more"> {
+         localStorage.getItem("lang") === "eng" 
+          ? " Get Quote"
+          :localStorage.getItem("lang")=== "egp" 
+            ? "احصل على السعر" 
+            :localStorage.getItem("lang")=== "fr" 
+              ? "Obtenir un devis" 
+              :localStorage.getItem("lang")=== "spain" 
+                ? "Obtener cotización" 
+                : ""
+        }</Link>
                 </div>
            
             </div>
@@ -80,7 +120,17 @@ export default function BengalineSub4() {
               </div>
              
                 <div class="entry-footer" style={{display:'flex', justifyContent:'center'}}>
-                  <Link  style={{textDecoration:'none' ,display:'block'}} class="read-more">Get Quote</Link>
+                  <Link  style={{textDecoration:'none' ,display:'block'}} class="read-more"> {
+         localStorage.getItem("lang") === "eng" 
+          ? " Get Quote"
+          :localStorage.getItem("lang")=== "egp" 
+            ? "احصل على السعر" 
+            :localStorage.getItem("lang")=== "fr" 
+              ? "Obtenir un devis" 
+              :localStorage.getItem("lang")=== "spain" 
+                ? "Obtener cotización" 
+                : ""
+        }</Link>
                 </div>
            
             </div>

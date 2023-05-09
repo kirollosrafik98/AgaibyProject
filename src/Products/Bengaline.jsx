@@ -1,5 +1,5 @@
 
-import React,{useEffect} from 'react';
+import React,{useEffect, useState} from 'react';
 import Fade from 'react-reveal/Fade';
 import { Element } from 'react-scroll';
 import {Link} from 'react-router-dom';
@@ -24,14 +24,29 @@ import dyedStretch17 from '../images/Products/Printed Bengaline Light for T-Shir
 
 
 export default function Bengaline() {
+
   useEffect(() => {
     window.scrollTo(0, 0);
   }, []);
+ 
+
   return (
 <>
 <div class="page-title">
             <div class="container">
-            <Fade top duration={1000} delay={500}>  <h1 style={{color:'#C0AB89', fontFamily:'Millania', fontSize:'80px'}}>Printed Bengaline Light for T-Shirt with Lycra </h1></Fade>
+            <Fade top duration={1000} delay={500}>  <h1 style={{color:'#C0AB89', fontFamily:'Millania', fontSize:'80px'}}>
+            {
+         localStorage.getItem("lang") === "eng" 
+          ? "Printed Bengaline Light for T-Shirt with Lycra"
+          :localStorage.getItem("lang")=== "egp" 
+            ? "‎بنجالين لايت مطبوع قميص وتيشرت" 
+            :localStorage.getItem("lang")=== "fr" 
+              ? "Bengaline Légère Imprimée pour T-Shirt avec Lycra" 
+              :localStorage.getItem("lang")=== "spain" 
+                ? "Luz Bengalina Estampada para Camiseta con Lycra " 
+                : ""
+        }
+              </h1></Fade>
 
             </div>
         </div>
@@ -49,10 +64,32 @@ export default function Bengaline() {
             <img src={dyedStretch1} style={{width:'100%', height:'300px', objectFit:'cover'}} alt class="img img-responsive"/>
           </div>
           <div class="entry-details">
-            <h3><a style={{textDecoration:'none', fontFamily:'Maya'}}>Printed Bengaline Light for T-Shirt with Lycra  </a></h3>
+            <h3><a style={{textDecoration:'none', fontFamily:'Maya'}}>    {
+         localStorage.getItem("lang") === "eng" 
+          ? "Printed Bengaline Light for T-Shirt with Lycra"
+          :localStorage.getItem("lang")=== "egp" 
+            ? "‎بنجالين لايت مطبوع قميص وتيشرت" 
+            :localStorage.getItem("lang")=== "fr" 
+              ? "Bengaline Légère Imprimée pour T-Shirt avec Lycra" 
+              :localStorage.getItem("lang")=== "spain" 
+                ? "Luz Bengalina Estampada para Camiseta con Lycra " 
+                : ""
+        } </a></h3>
             {/* <span class="entry-date">30 November, 2018</span> */}
             <div class="entry-footer">
-              <Link to='/bengalineSub1' style={{textDecoration:'none'}} class="read-more">Show More</Link>
+              <Link to='/bengalineSub1' style={{textDecoration:'none'}} class="read-more">
+              {
+         localStorage.getItem("lang") === "eng" 
+          ? " Show More"
+          :localStorage.getItem("lang")=== "egp" 
+            ? "أظهر المزيد" 
+            :localStorage.getItem("lang")=== "fr" 
+              ? "Montre plus" 
+              :localStorage.getItem("lang")=== "spain" 
+                ? "Mostrar más " 
+                : ""
+        }
+               </Link>
               {/* <a style={{textDecoration:'none'}} class="comments"><i class="fa fa-comments" aria-hidden="true"></i> 5</a> */}
             </div>
           </div>
@@ -67,10 +104,30 @@ export default function Bengaline() {
             <img src={dyedStretch2} style={{width:'100%', height:'300px', objectFit:'cover'}} alt class="img img-responsive"/>
           </div>
           <div class="entry-details">
-            <h3><a style={{textDecoration:'none', fontFamily:'Maya'}}>Printed Bengaline Light for T-Shirt with Lycra </a></h3>
+            <h3><a style={{textDecoration:'none', fontFamily:'Maya'}}>    {
+         localStorage.getItem("lang") === "eng" 
+          ? "Printed Bengaline Light for T-Shirt with Lycra"
+          :localStorage.getItem("lang")=== "egp" 
+            ? "‎بنجالين لايت مطبوع قميص وتيشرت" 
+            :localStorage.getItem("lang")=== "fr" 
+              ? "Bengaline Légère Imprimée pour T-Shirt avec Lycra" 
+              :localStorage.getItem("lang")=== "spain" 
+                ? "Luz Bengalina Estampada para Camiseta con Lycra " 
+                : ""
+        }</a></h3>
             {/* <span class="entry-date">30 November, 2018</span> */}
             <div class="entry-footer">
-              <Link to='/bengalineSub2' style={{textDecoration:'none'}} class="read-more">Show More</Link>
+              <Link to='/bengalineSub2' style={{textDecoration:'none'}} class="read-more">     {
+         localStorage.getItem("lang") === "eng" 
+          ? " Show More"
+          :localStorage.getItem("lang")=== "egp" 
+            ? "أظهر المزيد" 
+            :localStorage.getItem("lang")=== "fr" 
+              ? "Montre plus" 
+              :localStorage.getItem("lang")=== "spain" 
+                ? "Mostrar más " 
+                : ""
+        }</Link>
               {/* <a style={{textDecoration:'none'}} class="comments"><i class="fa fa-comments" aria-hidden="true"></i> 5</a> */}
             </div>
           </div>
@@ -84,10 +141,30 @@ export default function Bengaline() {
             <img src={dyedStretch3} style={{width:'100%', height:'300px', objectFit:'cover'}} alt class="img img-responsive"/>
           </div>
           <div class="entry-details">
-            <h3><a style={{textDecoration:'none', fontFamily:'Maya'}}>Printed Bengaline Light for T-Shirt with Lycra  </a></h3>
+            <h3><a style={{textDecoration:'none', fontFamily:'Maya'}}>    {
+         localStorage.getItem("lang") === "eng" 
+          ? "Printed Bengaline Light for T-Shirt with Lycra"
+          :localStorage.getItem("lang")=== "egp" 
+            ? "‎بنجالين لايت مطبوع قميص وتيشرت" 
+            :localStorage.getItem("lang")=== "fr" 
+              ? "Bengaline Légère Imprimée pour T-Shirt avec Lycra" 
+              :localStorage.getItem("lang")=== "spain" 
+                ? "Luz Bengalina Estampada para Camiseta con Lycra " 
+                : ""
+        } </a></h3>
             {/* <span class="entry-date">30 November, 2018</span> */}
             <div class="entry-footer">
-              <Link to='/bengalineSub3' style={{textDecoration:'none'}} class="read-more">Show More</Link>
+              <Link to='/bengalineSub3' style={{textDecoration:'none'}} class="read-more">     {
+         localStorage.getItem("lang") === "eng" 
+          ? " Show More"
+          :localStorage.getItem("lang")=== "egp" 
+            ? "أظهر المزيد" 
+            :localStorage.getItem("lang")=== "fr" 
+              ? "Montre plus" 
+              :localStorage.getItem("lang")=== "spain" 
+                ? "Mostrar más " 
+                : ""
+        }</Link>
               {/* <a style={{textDecoration:'none'}} class="comments"><i class="fa fa-comments" aria-hidden="true"></i> 5</a> */}
             </div>
           </div>
@@ -101,10 +178,30 @@ export default function Bengaline() {
             <img src={dyedStretch4} style={{width:'100%', height:'300px', objectFit:'cover'}} alt class="img img-responsive"/>
           </div>
           <div class="entry-details">
-            <h3><a style={{textDecoration:'none', fontFamily:'Maya'}}>Printed Bengaline Light for T-Shirt with Lycra </a></h3>
+            <h3><a style={{textDecoration:'none', fontFamily:'Maya'}}>    {
+         localStorage.getItem("lang") === "eng" 
+          ? "Printed Bengaline Light for T-Shirt with Lycra"
+          :localStorage.getItem("lang")=== "egp" 
+            ? "‎بنجالين لايت مطبوع قميص وتيشرت" 
+            :localStorage.getItem("lang")=== "fr" 
+              ? "Bengaline Légère Imprimée pour T-Shirt avec Lycra" 
+              :localStorage.getItem("lang")=== "spain" 
+                ? "Luz Bengalina Estampada para Camiseta con Lycra " 
+                : ""
+        }</a></h3>
             {/* <span class="entry-date">30 November, 2018</span> */}
             <div class="entry-footer">
-              <Link to='/bengalineSub4' style={{textDecoration:'none'}} class="read-more">Show More</Link>
+              <Link to='/bengalineSub4' style={{textDecoration:'none'}} class="read-more">     {
+         localStorage.getItem("lang") === "eng" 
+          ? " Show More"
+          :localStorage.getItem("lang")=== "egp" 
+            ? "أظهر المزيد" 
+            :localStorage.getItem("lang")=== "fr" 
+              ? "Montre plus" 
+              :localStorage.getItem("lang")=== "spain" 
+                ? "Mostrar más " 
+                : ""
+        }</Link>
               {/* <a style={{textDecoration:'none'}} class="comments"><i class="fa fa-comments" aria-hidden="true"></i> 5</a> */}
             </div>
           </div>
@@ -119,10 +216,30 @@ export default function Bengaline() {
             <img src={dyedStretch5} style={{width:'100%', height:'300px', objectFit:'cover'}} alt class="img img-responsive"/>
           </div>
           <div class="entry-details">
-            <h3><a style={{textDecoration:'none', fontFamily:'Maya'}}>Printed Bengaline Light for T-Shirt with Lycra  </a></h3>
+            <h3><a style={{textDecoration:'none', fontFamily:'Maya'}}>    {
+         localStorage.getItem("lang") === "eng" 
+          ? "Printed Bengaline Light for T-Shirt with Lycra"
+          :localStorage.getItem("lang")=== "egp" 
+            ? "‎بنجالين لايت مطبوع قميص وتيشرت" 
+            :localStorage.getItem("lang")=== "fr" 
+              ? "Bengaline Légère Imprimée pour T-Shirt avec Lycra" 
+              :localStorage.getItem("lang")=== "spain" 
+                ? "Luz Bengalina Estampada para Camiseta con Lycra " 
+                : ""
+        } </a></h3>
             {/* <span class="entry-date">30 November, 2018</span> */}
             <div class="entry-footer">
-              <Link to='/bengalineSub5' style={{textDecoration:'none'}} class="read-more">Show More</Link>
+              <Link to='/bengalineSub5' style={{textDecoration:'none'}} class="read-more">     {
+         localStorage.getItem("lang") === "eng" 
+          ? " Show More"
+          :localStorage.getItem("lang")=== "egp" 
+            ? "أظهر المزيد" 
+            :localStorage.getItem("lang")=== "fr" 
+              ? "Montre plus" 
+              :localStorage.getItem("lang")=== "spain" 
+                ? "Mostrar más " 
+                : ""
+        }</Link>
               {/* <a style={{textDecoration:'none'}} class="comments"><i class="fa fa-comments" aria-hidden="true"></i> 5</a> */}
             </div>
           </div>
@@ -136,10 +253,30 @@ export default function Bengaline() {
             <img src={dyedStretch6} style={{width:'100%', height:'300px', objectFit:'cover'}} alt class="img img-responsive"/>
           </div>
           <div class="entry-details">
-            <h3><a style={{textDecoration:'none', fontFamily:'Maya'}}>Printed Bengaline Light for T-Shirt with Lycra  </a></h3>
+            <h3><a style={{textDecoration:'none', fontFamily:'Maya'}}>    {
+         localStorage.getItem("lang") === "eng" 
+          ? "Printed Bengaline Light for T-Shirt with Lycra"
+          :localStorage.getItem("lang")=== "egp" 
+            ? "‎بنجالين لايت مطبوع قميص وتيشرت" 
+            :localStorage.getItem("lang")=== "fr" 
+              ? "Bengaline Légère Imprimée pour T-Shirt avec Lycra" 
+              :localStorage.getItem("lang")=== "spain" 
+                ? "Luz Bengalina Estampada para Camiseta con Lycra " 
+                : ""
+        } </a></h3>
             {/* <span class="entry-date">30 November, 2018</span> */}
             <div class="entry-footer">
-              <Link to='/bengalineSub6' style={{textDecoration:'none'}} class="read-more">Show More</Link>
+              <Link to='/bengalineSub6' style={{textDecoration:'none'}} class="read-more">     {
+         localStorage.getItem("lang") === "eng" 
+          ? " Show More"
+          :localStorage.getItem("lang")=== "egp" 
+            ? "أظهر المزيد" 
+            :localStorage.getItem("lang")=== "fr" 
+              ? "Montre plus" 
+              :localStorage.getItem("lang")=== "spain" 
+                ? "Mostrar más " 
+                : ""
+        }</Link>
               {/* <a style={{textDecoration:'none'}} class="comments"><i class="fa fa-comments" aria-hidden="true"></i> 5</a> */}
             </div>
           </div>
@@ -153,10 +290,30 @@ export default function Bengaline() {
             <img src={dyedStretch7} style={{width:'100%', height:'300px', objectFit:'cover'}} alt class="img img-responsive"/>
           </div>
           <div class="entry-details">
-            <h3><a style={{textDecoration:'none', fontFamily:'Maya'}}>Printed Bengaline Light for T-Shirt with Lycra  </a></h3>
+            <h3><a style={{textDecoration:'none', fontFamily:'Maya'}}>    {
+         localStorage.getItem("lang") === "eng" 
+          ? "Printed Bengaline Light for T-Shirt with Lycra"
+          :localStorage.getItem("lang")=== "egp" 
+            ? "‎بنجالين لايت مطبوع قميص وتيشرت" 
+            :localStorage.getItem("lang")=== "fr" 
+              ? "Bengaline Légère Imprimée pour T-Shirt avec Lycra" 
+              :localStorage.getItem("lang")=== "spain" 
+                ? "Luz Bengalina Estampada para Camiseta con Lycra " 
+                : ""
+        } </a></h3>
             {/* <span class="entry-date">30 November, 2018</span> */}
             <div class="entry-footer">
-              <Link to='/bengalineSub7' style={{textDecoration:'none'}} class="read-more">Show More</Link>
+              <Link to='/bengalineSub7' style={{textDecoration:'none'}} class="read-more">     {
+         localStorage.getItem("lang") === "eng" 
+          ? " Show More"
+          :localStorage.getItem("lang")=== "egp" 
+            ? "أظهر المزيد" 
+            :localStorage.getItem("lang")=== "fr" 
+              ? "Montre plus" 
+              :localStorage.getItem("lang")=== "spain" 
+                ? "Mostrar más " 
+                : ""
+        }</Link>
               {/* <a style={{textDecoration:'none'}} class="comments"><i class="fa fa-comments" aria-hidden="true"></i> 5</a> */}
             </div>
           </div>
@@ -170,10 +327,30 @@ export default function Bengaline() {
             <img src={dyedStretch8} style={{width:'100%', height:'300px', objectFit:'cover'}} alt class="img img-responsive"/>
           </div>
           <div class="entry-details">
-            <h3><a style={{textDecoration:'none', fontFamily:'Maya'}}>Printed Bengaline Light for T-Shirt with Lycra  </a></h3>
+            <h3><a style={{textDecoration:'none', fontFamily:'Maya'}}>    {
+         localStorage.getItem("lang") === "eng" 
+          ? "Printed Bengaline Light for T-Shirt with Lycra"
+          :localStorage.getItem("lang")=== "egp" 
+            ? "‎بنجالين لايت مطبوع قميص وتيشرت" 
+            :localStorage.getItem("lang")=== "fr" 
+              ? "Bengaline Légère Imprimée pour T-Shirt avec Lycra" 
+              :localStorage.getItem("lang")=== "spain" 
+                ? "Luz Bengalina Estampada para Camiseta con Lycra " 
+                : ""
+        } </a></h3>
             {/* <span class="entry-date">30 November, 2018</span> */}
             <div class="entry-footer">
-              <Link to='/bengalineSub8' style={{textDecoration:'none'}} class="read-more">Show More</Link>
+              <Link to='/bengalineSub8' style={{textDecoration:'none'}} class="read-more">     {
+         localStorage.getItem("lang") === "eng" 
+          ? " Show More"
+          :localStorage.getItem("lang")=== "egp" 
+            ? "أظهر المزيد" 
+            :localStorage.getItem("lang")=== "fr" 
+              ? "Montre plus" 
+              :localStorage.getItem("lang")=== "spain" 
+                ? "Mostrar más " 
+                : ""
+        }</Link>
               {/* <a style={{textDecoration:'none'}} class="comments"><i class="fa fa-comments" aria-hidden="true"></i> 5</a> */}
             </div>
           </div>
@@ -187,10 +364,30 @@ export default function Bengaline() {
             <img src={dyedStretch9} style={{width:'100%', height:'300px', objectFit:'cover'}} alt class="img img-responsive"/>
           </div>
           <div class="entry-details">
-            <h3><a style={{textDecoration:'none', fontFamily:'Maya'}}>Printed Bengaline Light for T-Shirt with Lycra  </a></h3>
+            <h3><a style={{textDecoration:'none', fontFamily:'Maya'}}>    {
+         localStorage.getItem("lang") === "eng" 
+          ? "Printed Bengaline Light for T-Shirt with Lycra"
+          :localStorage.getItem("lang")=== "egp" 
+            ? "‎بنجالين لايت مطبوع قميص وتيشرت" 
+            :localStorage.getItem("lang")=== "fr" 
+              ? "Bengaline Légère Imprimée pour T-Shirt avec Lycra" 
+              :localStorage.getItem("lang")=== "spain" 
+                ? "Luz Bengalina Estampada para Camiseta con Lycra " 
+                : ""
+        } </a></h3>
             {/* <span class="entry-date">30 November, 2018</span> */}
             <div class="entry-footer">
-              <Link to='/bengalineSub9' style={{textDecoration:'none'}} class="read-more">Show More</Link>
+              <Link to='/bengalineSub9' style={{textDecoration:'none'}} class="read-more">     {
+         localStorage.getItem("lang") === "eng" 
+          ? " Show More"
+          :localStorage.getItem("lang")=== "egp" 
+            ? "أظهر المزيد" 
+            :localStorage.getItem("lang")=== "fr" 
+              ? "Montre plus" 
+              :localStorage.getItem("lang")=== "spain" 
+                ? "Mostrar más " 
+                : ""
+        }</Link>
               {/* <a style={{textDecoration:'none'}} class="comments"><i class="fa fa-comments" aria-hidden="true"></i> 5</a> */}
             </div>
           </div>
@@ -204,10 +401,30 @@ export default function Bengaline() {
             <img src={dyedStretch10} style={{width:'100%', height:'300px', objectFit:'cover'}} alt class="img img-responsive"/>
           </div>
           <div class="entry-details">
-            <h3><a style={{textDecoration:'none', fontFamily:'Maya'}}>Printed Bengaline Light for T-Shirt with Lycra  </a></h3>
+            <h3><a style={{textDecoration:'none', fontFamily:'Maya'}}>    {
+         localStorage.getItem("lang") === "eng" 
+          ? "Printed Bengaline Light for T-Shirt with Lycra"
+          :localStorage.getItem("lang")=== "egp" 
+            ? "‎بنجالين لايت مطبوع قميص وتيشرت" 
+            :localStorage.getItem("lang")=== "fr" 
+              ? "Bengaline Légère Imprimée pour T-Shirt avec Lycra" 
+              :localStorage.getItem("lang")=== "spain" 
+                ? "Luz Bengalina Estampada para Camiseta con Lycra " 
+                : ""
+        } </a></h3>
             {/* <span class="entry-date">30 November, 2018</span> */}
             <div class="entry-footer">
-              <Link to='/bengalineSub10' style={{textDecoration:'none'}} class="read-more">Show More</Link>
+              <Link to='/bengalineSub10' style={{textDecoration:'none'}} class="read-more">     {
+         localStorage.getItem("lang") === "eng" 
+          ? " Show More"
+          :localStorage.getItem("lang")=== "egp" 
+            ? "أظهر المزيد" 
+            :localStorage.getItem("lang")=== "fr" 
+              ? "Montre plus" 
+              :localStorage.getItem("lang")=== "spain" 
+                ? "Mostrar más " 
+                : ""
+        }</Link>
               {/* <a style={{textDecoration:'none'}} class="comments"><i class="fa fa-comments" aria-hidden="true"></i> 5</a> */}
             </div>
           </div>
@@ -221,10 +438,30 @@ export default function Bengaline() {
             <img src={dyedStretch11} style={{width:'100%', height:'300px', objectFit:'cover'}} alt class="img img-responsive"/>
           </div>
           <div class="entry-details">
-            <h3><a style={{textDecoration:'none', fontFamily:'Maya'}}>Printed Bengaline Light for T-Shirt with Lycra  </a></h3>
+            <h3><a style={{textDecoration:'none', fontFamily:'Maya'}}>    {
+         localStorage.getItem("lang") === "eng" 
+          ? "Printed Bengaline Light for T-Shirt with Lycra"
+          :localStorage.getItem("lang")=== "egp" 
+            ? "‎بنجالين لايت مطبوع قميص وتيشرت" 
+            :localStorage.getItem("lang")=== "fr" 
+              ? "Bengaline Légère Imprimée pour T-Shirt avec Lycra" 
+              :localStorage.getItem("lang")=== "spain" 
+                ? "Luz Bengalina Estampada para Camiseta con Lycra " 
+                : ""
+        } </a></h3>
             {/* <span class="entry-date">30 November, 2018</span> */}
             <div class="entry-footer">
-              <Link to='/bengalineSub11' style={{textDecoration:'none'}} class="read-more">Show More</Link>
+              <Link to='/bengalineSub11' style={{textDecoration:'none'}} class="read-more">     {
+         localStorage.getItem("lang") === "eng" 
+          ? " Show More"
+          :localStorage.getItem("lang")=== "egp" 
+            ? "أظهر المزيد" 
+            :localStorage.getItem("lang")=== "fr" 
+              ? "Montre plus" 
+              :localStorage.getItem("lang")=== "spain" 
+                ? "Mostrar más " 
+                : ""
+        }</Link>
               {/* <a style={{textDecoration:'none'}} class="comments"><i class="fa fa-comments" aria-hidden="true"></i> 5</a> */}
             </div>
           </div>
@@ -238,10 +475,30 @@ export default function Bengaline() {
             <img src={dyedStretch12} style={{width:'100%', height:'300px', objectFit:'cover'}} alt class="img img-responsive"/>
           </div>
           <div class="entry-details">
-            <h3><a style={{textDecoration:'none', fontFamily:'Maya'}}>Printed Bengaline Light for T-Shirt with Lycra  </a></h3>
+            <h3><a style={{textDecoration:'none', fontFamily:'Maya'}}>    {
+         localStorage.getItem("lang") === "eng" 
+          ? "Printed Bengaline Light for T-Shirt with Lycra"
+          :localStorage.getItem("lang")=== "egp" 
+            ? "‎بنجالين لايت مطبوع قميص وتيشرت" 
+            :localStorage.getItem("lang")=== "fr" 
+              ? "Bengaline Légère Imprimée pour T-Shirt avec Lycra" 
+              :localStorage.getItem("lang")=== "spain" 
+                ? "Luz Bengalina Estampada para Camiseta con Lycra " 
+                : ""
+        } </a></h3>
             {/* <span class="entry-date">30 November, 2018</span> */}
             <div class="entry-footer">
-              <Link to='/bengalineSub12' style={{textDecoration:'none'}} class="read-more">Show More</Link>
+              <Link to='/bengalineSub12' style={{textDecoration:'none'}} class="read-more">     {
+         localStorage.getItem("lang") === "eng" 
+          ? " Show More"
+          :localStorage.getItem("lang")=== "egp" 
+            ? "أظهر المزيد" 
+            :localStorage.getItem("lang")=== "fr" 
+              ? "Montre plus" 
+              :localStorage.getItem("lang")=== "spain" 
+                ? "Mostrar más " 
+                : ""
+        }</Link>
               {/* <a style={{textDecoration:'none'}} class="comments"><i class="fa fa-comments" aria-hidden="true"></i> 5</a> */}
             </div>
           </div>
@@ -255,10 +512,30 @@ export default function Bengaline() {
             <img src={dyedStretch13} style={{width:'100%', height:'300px', objectFit:'cover'}} alt class="img img-responsive"/>
           </div>
           <div class="entry-details">
-            <h3><a style={{textDecoration:'none', fontFamily:'Maya'}}>Printed Bengaline Light for T-Shirt with Lycra  </a></h3>
+            <h3><a style={{textDecoration:'none', fontFamily:'Maya'}}>    {
+         localStorage.getItem("lang") === "eng" 
+          ? "Printed Bengaline Light for T-Shirt with Lycra"
+          :localStorage.getItem("lang")=== "egp" 
+            ? "‎بنجالين لايت مطبوع قميص وتيشرت" 
+            :localStorage.getItem("lang")=== "fr" 
+              ? "Bengaline Légère Imprimée pour T-Shirt avec Lycra" 
+              :localStorage.getItem("lang")=== "spain" 
+                ? "Luz Bengalina Estampada para Camiseta con Lycra " 
+                : ""
+        } </a></h3>
             {/* <span class="entry-date">30 November, 2018</span> */}
             <div class="entry-footer">
-              <Link to='/bengalineSub13' style={{textDecoration:'none'}} class="read-more">Show More</Link>
+              <Link to='/bengalineSub13' style={{textDecoration:'none'}} class="read-more">     {
+         localStorage.getItem("lang") === "eng" 
+          ? " Show More"
+          :localStorage.getItem("lang")=== "egp" 
+            ? "أظهر المزيد" 
+            :localStorage.getItem("lang")=== "fr" 
+              ? "Montre plus" 
+              :localStorage.getItem("lang")=== "spain" 
+                ? "Mostrar más " 
+                : ""
+        }</Link>
               {/* <a style={{textDecoration:'none'}} class="comments"><i class="fa fa-comments" aria-hidden="true"></i> 5</a> */}
             </div>
           </div>
@@ -272,10 +549,30 @@ export default function Bengaline() {
             <img src={dyedStretch14} style={{width:'100%', height:'300px', objectFit:'cover'}} alt class="img img-responsive"/>
           </div>
           <div class="entry-details">
-            <h3><a style={{textDecoration:'none', fontFamily:'Maya'}}>Printed Bengaline Light for T-Shirt with Lycra  </a></h3>
+            <h3><a style={{textDecoration:'none', fontFamily:'Maya'}}>    {
+         localStorage.getItem("lang") === "eng" 
+          ? "Printed Bengaline Light for T-Shirt with Lycra"
+          :localStorage.getItem("lang")=== "egp" 
+            ? "‎بنجالين لايت مطبوع قميص وتيشرت" 
+            :localStorage.getItem("lang")=== "fr" 
+              ? "Bengaline Légère Imprimée pour T-Shirt avec Lycra" 
+              :localStorage.getItem("lang")=== "spain" 
+                ? "Luz Bengalina Estampada para Camiseta con Lycra " 
+                : ""
+        } </a></h3>
             {/* <span class="entry-date">30 November, 2018</span> */}
             <div class="entry-footer">
-              <Link to='/bengalineSub14' style={{textDecoration:'none'}} class="read-more">Show More</Link>
+              <Link to='/bengalineSub14' style={{textDecoration:'none'}} class="read-more">     {
+         localStorage.getItem("lang") === "eng" 
+          ? " Show More"
+          :localStorage.getItem("lang")=== "egp" 
+            ? "أظهر المزيد" 
+            :localStorage.getItem("lang")=== "fr" 
+              ? "Montre plus" 
+              :localStorage.getItem("lang")=== "spain" 
+                ? "Mostrar más " 
+                : ""
+        }</Link>
               {/* <a style={{textDecoration:'none'}} class="comments"><i class="fa fa-comments" aria-hidden="true"></i> 5</a> */}
             </div>
           </div>
@@ -289,10 +586,30 @@ export default function Bengaline() {
             <img src={dyedStretch15} style={{width:'100%', height:'300px', objectFit:'cover'}} alt class="img img-responsive"/>
           </div>
           <div class="entry-details">
-            <h3><a style={{textDecoration:'none', fontFamily:'Maya'}}>Printed Bengaline Light for T-Shirt with Lycra  </a></h3>
+            <h3><a style={{textDecoration:'none', fontFamily:'Maya'}}>    {
+         localStorage.getItem("lang") === "eng" 
+          ? "Printed Bengaline Light for T-Shirt with Lycra"
+          :localStorage.getItem("lang")=== "egp" 
+            ? "‎بنجالين لايت مطبوع قميص وتيشرت" 
+            :localStorage.getItem("lang")=== "fr" 
+              ? "Bengaline Légère Imprimée pour T-Shirt avec Lycra" 
+              :localStorage.getItem("lang")=== "spain" 
+                ? "Luz Bengalina Estampada para Camiseta con Lycra " 
+                : ""
+        } </a></h3>
             {/* <span class="entry-date">30 November, 2018</span> */}
             <div class="entry-footer">
-              <Link to='/bengalineSub15' style={{textDecoration:'none'}} class="read-more">Show More</Link>
+              <Link to='/bengalineSub15' style={{textDecoration:'none'}} class="read-more">     {
+         localStorage.getItem("lang") === "eng" 
+          ? " Show More"
+          :localStorage.getItem("lang")=== "egp" 
+            ? "أظهر المزيد" 
+            :localStorage.getItem("lang")=== "fr" 
+              ? "Montre plus" 
+              :localStorage.getItem("lang")=== "spain" 
+                ? "Mostrar más " 
+                : ""
+        }</Link>
               {/* <a style={{textDecoration:'none'}} class="comments"><i class="fa fa-comments" aria-hidden="true"></i> 5</a> */}
             </div>
           </div>
@@ -306,10 +623,30 @@ export default function Bengaline() {
             <img src={dyedStretch16} style={{width:'100%', height:'300px', objectFit:'cover'}} alt class="img img-responsive"/>
           </div>
           <div class="entry-details">
-            <h3><a style={{textDecoration:'none', fontFamily:'Maya'}}>Printed Bengaline Light for T-Shirt with Lycra  </a></h3>
+            <h3><a style={{textDecoration:'none', fontFamily:'Maya'}}>    {
+         localStorage.getItem("lang") === "eng" 
+          ? "Printed Bengaline Light for T-Shirt with Lycra"
+          :localStorage.getItem("lang")=== "egp" 
+            ? "‎بنجالين لايت مطبوع قميص وتيشرت" 
+            :localStorage.getItem("lang")=== "fr" 
+              ? "Bengaline Légère Imprimée pour T-Shirt avec Lycra" 
+              :localStorage.getItem("lang")=== "spain" 
+                ? "Luz Bengalina Estampada para Camiseta con Lycra " 
+                : ""
+        } </a></h3>
             {/* <span class="entry-date">30 November, 2018</span> */}
             <div class="entry-footer">
-              <Link to='/bengalineSub16' style={{textDecoration:'none'}} class="read-more">Show More</Link>
+              <Link to='/bengalineSub16' style={{textDecoration:'none'}} class="read-more">     {
+         localStorage.getItem("lang") === "eng" 
+          ? " Show More"
+          :localStorage.getItem("lang")=== "egp" 
+            ? "أظهر المزيد" 
+            :localStorage.getItem("lang")=== "fr" 
+              ? "Montre plus" 
+              :localStorage.getItem("lang")=== "spain" 
+                ? "Mostrar más " 
+                : ""
+        }</Link>
               {/* <a style={{textDecoration:'none'}} class="comments"><i class="fa fa-comments" aria-hidden="true"></i> 5</a> */}
             </div>
           </div>
@@ -323,10 +660,30 @@ export default function Bengaline() {
             <img src={dyedStretch17} style={{width:'100%', height:'300px', objectFit:'cover'}} alt class="img img-responsive"/>
           </div>
           <div class="entry-details">
-            <h3><a style={{textDecoration:'none', fontFamily:'Maya'}}>Printed Bengaline Light for T-Shirt with Lycra  </a></h3>
+            <h3><a style={{textDecoration:'none', fontFamily:'Maya'}}>    {
+         localStorage.getItem("lang") === "eng" 
+          ? "Printed Bengaline Light for T-Shirt with Lycra"
+          :localStorage.getItem("lang")=== "egp" 
+            ? "‎بنجالين لايت مطبوع قميص وتيشرت" 
+            :localStorage.getItem("lang")=== "fr" 
+              ? "Bengaline Légère Imprimée pour T-Shirt avec Lycra" 
+              :localStorage.getItem("lang")=== "spain" 
+                ? "Luz Bengalina Estampada para Camiseta con Lycra " 
+                : ""
+        } </a></h3>
             {/* <span class="entry-date">30 November, 2018</span> */}
             <div class="entry-footer">
-              <Link to='/bengalineSub17' style={{textDecoration:'none'}} class="read-more">Show More</Link>
+              <Link to='/bengalineSub17' style={{textDecoration:'none'}} class="read-more">     {
+         localStorage.getItem("lang") === "eng" 
+          ? " Show More"
+          :localStorage.getItem("lang")=== "egp" 
+            ? "أظهر المزيد" 
+            :localStorage.getItem("lang")=== "fr" 
+              ? "Montre plus" 
+              :localStorage.getItem("lang")=== "spain" 
+                ? "Mostrar más " 
+                : ""
+        }</Link>
               {/* <a style={{textDecoration:'none'}} class="comments"><i class="fa fa-comments" aria-hidden="true"></i> 5</a> */}
             </div>
           </div>

@@ -17,7 +17,19 @@ export default function DyedStretch() {
 <>
 <div class="page-title">
             <div class="container">
-            <Fade top duration={1000} delay={500}>  <h1 style={{color:'#C0AB89', fontFamily:'Millania', fontSize:'80px'}}>Printed Bengaline Stretch for Pants </h1></Fade>
+            <Fade top duration={1000} delay={500}>  <h1 style={{color:'#C0AB89', fontFamily:'Millania', fontSize:'80px'}}>
+            {
+         localStorage.getItem("lang") === "eng" 
+          ? "  Printed Bengaline Stretch for Pants "
+          :localStorage.getItem("lang")=== "egp" 
+            ? " ‎بنجالين ليكرا مطبوع شروال"
+            :localStorage.getItem("lang")=== "fr" 
+              ? "Bengaline stretch imprimé pour pantalon" 
+              :localStorage.getItem("lang")=== "spain" 
+                ? "Pantalón elástico bengalí estampado" 
+                : ""
+        }
+             </h1></Fade>
 
             </div>
         </div>
@@ -35,10 +47,30 @@ export default function DyedStretch() {
             <img src={dyedStretch1} style={{width:'100%', height:'300px', objectFit:'cover'}} alt class="img img-responsive"/>
           </div>
           <div class="entry-details">
-            <h3><a style={{textDecoration:'none', fontFamily:'Maya'}}>Printed Bengaline Stretch for Pants  </a></h3>
+            <h3><a style={{textDecoration:'none', fontFamily:'Maya'}}>   {
+         localStorage.getItem("lang") === "eng" 
+          ? "  Printed Bengaline Stretch for Pants "
+          :localStorage.getItem("lang")=== "egp" 
+            ? " ‎بنجالين ليكرا مطبوع شروال"
+            :localStorage.getItem("lang")=== "fr" 
+              ? "Bengaline stretch imprimé pour pantalon" 
+              :localStorage.getItem("lang")=== "spain" 
+                ? "Pantalón elástico bengalí estampado" 
+                : ""
+        }  </a></h3>
             {/* <span class="entry-date">30 November, 2018</span> */}
             <div class="entry-footer">
-              <Link to='/dyedStretchSub1' style={{textDecoration:'none'}} class="read-more">Show More</Link>
+              <Link to='/dyedStretchSub1' style={{textDecoration:'none'}} class="read-more">     {
+         localStorage.getItem("lang") === "eng" 
+          ? " Show More"
+          :localStorage.getItem("lang")=== "egp" 
+            ? "أظهر المزيد" 
+            :localStorage.getItem("lang")=== "fr" 
+              ? "Montre plus" 
+              :localStorage.getItem("lang")=== "spain" 
+                ? "Mostrar más " 
+                : ""
+        }</Link>
               {/* <a style={{textDecoration:'none'}} class="comments"><i class="fa fa-comments" aria-hidden="true"></i> 5</a> */}
             </div>
           </div>
@@ -53,10 +85,30 @@ export default function DyedStretch() {
             <img src={dyedStretch2} style={{width:'100%', height:'300px', objectFit:'cover'}} alt class="img img-responsive"/>
           </div>
           <div class="entry-details">
-            <h3><a style={{textDecoration:'none', fontFamily:'Maya'}}>Printed Bengaline Stretch for Pants </a></h3>
+            <h3><a style={{textDecoration:'none', fontFamily:'Maya'}}>   {
+         localStorage.getItem("lang") === "eng" 
+          ? "  Printed Bengaline Stretch for Pants "
+          :localStorage.getItem("lang")=== "egp" 
+            ? " ‎بنجالين ليكرا مطبوع شروال"
+            :localStorage.getItem("lang")=== "fr" 
+              ? "Bengaline stretch imprimé pour pantalon" 
+              :localStorage.getItem("lang")=== "spain" 
+                ? "Pantalón elástico bengalí estampado" 
+                : ""
+        } </a></h3>
             {/* <span class="entry-date">30 November, 2018</span> */}
             <div class="entry-footer">
-              <Link to='/dyedStretchSub2' style={{textDecoration:'none'}} class="read-more">Show More</Link>
+              <Link to='/dyedStretchSub2' style={{textDecoration:'none'}} class="read-more">     {
+         localStorage.getItem("lang") === "eng" 
+          ? " Show More"
+          :localStorage.getItem("lang")=== "egp" 
+            ? "أظهر المزيد" 
+            :localStorage.getItem("lang")=== "fr" 
+              ? "Montre plus" 
+              :localStorage.getItem("lang")=== "spain" 
+                ? "Mostrar más " 
+                : ""
+        }</Link>
               {/* <a style={{textDecoration:'none'}} class="comments"><i class="fa fa-comments" aria-hidden="true"></i> 5</a> */}
             </div>
           </div>
@@ -70,10 +122,30 @@ export default function DyedStretch() {
             <img src={dyedStretch3} style={{width:'100%', height:'300px', objectFit:'cover'}} alt class="img img-responsive"/>
           </div>
           <div class="entry-details">
-            <h3><a style={{textDecoration:'none', fontFamily:'Maya'}}>Printed Bengaline Stretch for Pants  </a></h3>
+            <h3><a style={{textDecoration:'none', fontFamily:'Maya'}}>   {
+         localStorage.getItem("lang") === "eng" 
+          ? "  Printed Bengaline Stretch for Pants "
+          :localStorage.getItem("lang")=== "egp" 
+            ? " ‎بنجالين ليكرا مطبوع شروال"
+            :localStorage.getItem("lang")=== "fr" 
+              ? "Bengaline stretch imprimé pour pantalon" 
+              :localStorage.getItem("lang")=== "spain" 
+                ? "Pantalón elástico bengalí estampado" 
+                : ""
+        }  </a></h3>
             {/* <span class="entry-date">30 November, 2018</span> */}
             <div class="entry-footer">
-              <Link to='/dyedStretchSub3' style={{textDecoration:'none'}} class="read-more">Show More</Link>
+              <Link to='/dyedStretchSub3' style={{textDecoration:'none'}} class="read-more">     {
+         localStorage.getItem("lang") === "eng" 
+          ? " Show More"
+          :localStorage.getItem("lang")=== "egp" 
+            ? "أظهر المزيد" 
+            :localStorage.getItem("lang")=== "fr" 
+              ? "Montre plus" 
+              :localStorage.getItem("lang")=== "spain" 
+                ? "Mostrar más " 
+                : ""
+        }</Link>
               {/* <a style={{textDecoration:'none'}} class="comments"><i class="fa fa-comments" aria-hidden="true"></i> 5</a> */}
             </div>
           </div>
@@ -87,10 +159,30 @@ export default function DyedStretch() {
             <img src={dyedStretch4} style={{width:'100%', height:'300px', objectFit:'cover'}} alt class="img img-responsive"/>
           </div>
           <div class="entry-details">
-            <h3><a style={{textDecoration:'none', fontFamily:'Maya'}}>Printed Bengaline Stretch for Pants </a></h3>
+            <h3><a style={{textDecoration:'none', fontFamily:'Maya'}}>   {
+         localStorage.getItem("lang") === "eng" 
+          ? "  Printed Bengaline Stretch for Pants "
+          :localStorage.getItem("lang")=== "egp" 
+            ? " ‎بنجالين ليكرا مطبوع شروال"
+            :localStorage.getItem("lang")=== "fr" 
+              ? "Bengaline stretch imprimé pour pantalon" 
+              :localStorage.getItem("lang")=== "spain" 
+                ? "Pantalón elástico bengalí estampado" 
+                : ""
+        } </a></h3>
             {/* <span class="entry-date">30 November, 2018</span> */}
             <div class="entry-footer">
-              <Link to='/dyedStretchSub4' style={{textDecoration:'none'}} class="read-more">Show More</Link>
+              <Link to='/dyedStretchSub4' style={{textDecoration:'none'}} class="read-more">     {
+         localStorage.getItem("lang") === "eng" 
+          ? " Show More"
+          :localStorage.getItem("lang")=== "egp" 
+            ? "أظهر المزيد" 
+            :localStorage.getItem("lang")=== "fr" 
+              ? "Montre plus" 
+              :localStorage.getItem("lang")=== "spain" 
+                ? "Mostrar más " 
+                : ""
+        }</Link>
               {/* <a style={{textDecoration:'none'}} class="comments"><i class="fa fa-comments" aria-hidden="true"></i> 5</a> */}
             </div>
           </div>
@@ -105,10 +197,30 @@ export default function DyedStretch() {
             <img src={dyedStretch5} style={{width:'100%', height:'300px', objectFit:'cover'}} alt class="img img-responsive"/>
           </div>
           <div class="entry-details">
-            <h3><a style={{textDecoration:'none', fontFamily:'Maya'}}>Printed Bengaline Stretch for Pants  </a></h3>
+            <h3><a style={{textDecoration:'none', fontFamily:'Maya'}}>   {
+         localStorage.getItem("lang") === "eng" 
+          ? "  Printed Bengaline Stretch for Pants "
+          :localStorage.getItem("lang")=== "egp" 
+            ? " ‎بنجالين ليكرا مطبوع شروال"
+            :localStorage.getItem("lang")=== "fr" 
+              ? "Bengaline stretch imprimé pour pantalon" 
+              :localStorage.getItem("lang")=== "spain" 
+                ? "Pantalón elástico bengalí estampado" 
+                : ""
+        }  </a></h3>
             {/* <span class="entry-date">30 November, 2018</span> */}
             <div class="entry-footer">
-              <Link to='/dyedStretchSub5' style={{textDecoration:'none'}} class="read-more">Show More</Link>
+              <Link to='/dyedStretchSub5' style={{textDecoration:'none'}} class="read-more">     {
+         localStorage.getItem("lang") === "eng" 
+          ? " Show More"
+          :localStorage.getItem("lang")=== "egp" 
+            ? "أظهر المزيد" 
+            :localStorage.getItem("lang")=== "fr" 
+              ? "Montre plus" 
+              :localStorage.getItem("lang")=== "spain" 
+                ? "Mostrar más " 
+                : ""
+        }</Link>
               {/* <a style={{textDecoration:'none'}} class="comments"><i class="fa fa-comments" aria-hidden="true"></i> 5</a> */}
             </div>
           </div>
@@ -122,10 +234,30 @@ export default function DyedStretch() {
             <img src={dyedStretch6} style={{width:'100%', height:'300px', objectFit:'cover'}} alt class="img img-responsive"/>
           </div>
           <div class="entry-details">
-            <h3><a style={{textDecoration:'none', fontFamily:'Maya'}}>Printed Bengaline Stretch for Pants  </a></h3>
+            <h3><a style={{textDecoration:'none', fontFamily:'Maya'}}>   {
+         localStorage.getItem("lang") === "eng" 
+          ? "  Printed Bengaline Stretch for Pants "
+          :localStorage.getItem("lang")=== "egp" 
+            ? " ‎بنجالين ليكرا مطبوع شروال"
+            :localStorage.getItem("lang")=== "fr" 
+              ? "Bengaline stretch imprimé pour pantalon" 
+              :localStorage.getItem("lang")=== "spain" 
+                ? "Pantalón elástico bengalí estampado" 
+                : ""
+        }  </a></h3>
             {/* <span class="entry-date">30 November, 2018</span> */}
             <div class="entry-footer">
-              <Link to='/dyedStretchSub6' style={{textDecoration:'none'}} class="read-more">Show More</Link>
+              <Link to='/dyedStretchSub6' style={{textDecoration:'none'}} class="read-more">     {
+         localStorage.getItem("lang") === "eng" 
+          ? " Show More"
+          :localStorage.getItem("lang")=== "egp" 
+            ? "أظهر المزيد" 
+            :localStorage.getItem("lang")=== "fr" 
+              ? "Montre plus" 
+              :localStorage.getItem("lang")=== "spain" 
+                ? "Mostrar más " 
+                : ""
+        }</Link>
               {/* <a style={{textDecoration:'none'}} class="comments"><i class="fa fa-comments" aria-hidden="true"></i> 5</a> */}
             </div>
           </div>

@@ -31,7 +31,17 @@ export default function DyedStretchSub1() {
     <>
     <div class="page-title">
                 <div class="container">
-                <Fade top duration={1000} delay={500}>  <h1 style={{color:'#C0AB89', fontFamily:'Millania', fontSize:'80px'}}>Printed Bengaline Stretch for Pants</h1></Fade>
+                <Fade top duration={1000} delay={500}>  <h1 style={{color:'#C0AB89', fontFamily:'Millania', fontSize:'80px'}}>   {
+         localStorage.getItem("lang") === "eng" 
+          ? "  Printed Bengaline Stretch for Pants "
+          :localStorage.getItem("lang")=== "egp" 
+            ? " ‎بنجالين ليكرا مطبوع شروال"
+            :localStorage.getItem("lang")=== "fr" 
+              ? "Bengaline stretch imprimé pour pantalon" 
+              :localStorage.getItem("lang")=== "spain" 
+                ? "Pantalón elástico bengalí estampado" 
+                : ""
+        }</h1></Fade>
     
                 </div>
             </div>
@@ -51,7 +61,17 @@ export default function DyedStretchSub1() {
               </div>
              
                 <div class="entry-footer" style={{display:'flex', justifyContent:'center'}}>
-                  <Link  style={{textDecoration:'none' ,display:'block'}} class="read-more">Get Quote</Link>
+                  <Link  style={{textDecoration:'none' ,display:'block'}} class="read-more"> {
+         localStorage.getItem("lang") === "eng" 
+          ? " Get Quote"
+          :localStorage.getItem("lang")=== "egp" 
+            ? "احصل على السعر" 
+            :localStorage.getItem("lang")=== "fr" 
+              ? "Obtenir un devis" 
+              :localStorage.getItem("lang")=== "spain" 
+                ? "Obtener cotización" 
+                : ""
+        }</Link>
                 </div>
            
             </div>
@@ -66,7 +86,17 @@ export default function DyedStretchSub1() {
               </div>
              
                 <div class="entry-footer" style={{display:'flex', justifyContent:'center'}}>
-                  <Link  style={{textDecoration:'none' ,display:'block'}} class="read-more">Get Quote</Link>
+                  <Link  style={{textDecoration:'none' ,display:'block'}} class="read-more"> {
+         localStorage.getItem("lang") === "eng" 
+          ? " Get Quote"
+          :localStorage.getItem("lang")=== "egp" 
+            ? "احصل على السعر" 
+            :localStorage.getItem("lang")=== "fr" 
+              ? "Obtenir un devis" 
+              :localStorage.getItem("lang")=== "spain" 
+                ? "Obtener cotización" 
+                : ""
+        }</Link>
                 </div>
            
             </div>
@@ -81,7 +111,17 @@ export default function DyedStretchSub1() {
               </div>
              
                 <div class="entry-footer" style={{display:'flex', justifyContent:'center'}}>
-                  <Link  style={{textDecoration:'none' ,display:'block'}} class="read-more">Get Quote</Link>
+                  <Link  style={{textDecoration:'none' ,display:'block'}} class="read-more"> {
+         localStorage.getItem("lang") === "eng" 
+          ? " Get Quote"
+          :localStorage.getItem("lang")=== "egp" 
+            ? "احصل على السعر" 
+            :localStorage.getItem("lang")=== "fr" 
+              ? "Obtenir un devis" 
+              :localStorage.getItem("lang")=== "spain" 
+                ? "Obtener cotización" 
+                : ""
+        }</Link>
                 </div>
            
             </div>

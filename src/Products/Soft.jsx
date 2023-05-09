@@ -23,7 +23,19 @@ export default function Soft() {
     <>
     <div class="page-title">
                 <div class="container">
-                <Fade top duration={1000} delay={500}>  <h1 style={{color:'#C0AB89', fontFamily:'Millania', fontSize:'80px'}}>Dyed Soft Fabric for Pants</h1></Fade>
+                <Fade top duration={1000} delay={500}>  <h1 style={{color:'#C0AB89', fontFamily:'Millania', fontSize:'80px'}}>
+                {
+         localStorage.getItem("lang") === "eng" 
+          ? " Dyed Soft Fabric for Pants"
+          :localStorage.getItem("lang")=== "egp" 
+            ? " قماش سوفت ليكرا تقيل الشروال البنطلون"
+            :localStorage.getItem("lang")=== "fr" 
+              ? "Tissu doux teint pour pantalon" 
+              :localStorage.getItem("lang")=== "spain" 
+                ? "Tela suave teñida para pantalones" 
+                : ""
+        }
+                 </h1></Fade>
     
                 </div>
             </div>
@@ -41,7 +53,17 @@ export default function Soft() {
               </div>
              
                 <div class="entry-footer" style={{display:'flex', justifyContent:'center'}}>
-                  <Link  style={{textDecoration:'none' ,display:'block'}} class="read-more">Get Quote</Link>
+                  <Link  style={{textDecoration:'none' ,display:'block'}} class="read-more"> {
+         localStorage.getItem("lang") === "eng" 
+          ? " Get Quote"
+          :localStorage.getItem("lang")=== "egp" 
+            ? "احصل على السعر" 
+            :localStorage.getItem("lang")=== "fr" 
+              ? "Obtenir un devis" 
+              :localStorage.getItem("lang")=== "spain" 
+                ? "Obtener cotización" 
+                : ""
+        }</Link>
                 </div>
            
             </div>
@@ -56,7 +78,17 @@ export default function Soft() {
               </div>
              
                 <div class="entry-footer" style={{display:'flex', justifyContent:'center'}}>
-                  <Link  style={{textDecoration:'none' ,display:'block'}} class="read-more">Get Quote</Link>
+                  <Link  style={{textDecoration:'none' ,display:'block'}} class="read-more"> {
+         localStorage.getItem("lang") === "eng" 
+          ? " Get Quote"
+          :localStorage.getItem("lang")=== "egp" 
+            ? "احصل على السعر" 
+            :localStorage.getItem("lang")=== "fr" 
+              ? "Obtenir un devis" 
+              :localStorage.getItem("lang")=== "spain" 
+                ? "Obtener cotización" 
+                : ""
+        }</Link>
                 </div>
            
             </div>
@@ -71,7 +103,17 @@ export default function Soft() {
               </div>
              
                 <div class="entry-footer" style={{display:'flex', justifyContent:'center'}}>
-                  <Link  style={{textDecoration:'none' ,display:'block'}} class="read-more">Get Quote</Link>
+                  <Link  style={{textDecoration:'none' ,display:'block'}} class="read-more"> {
+         localStorage.getItem("lang") === "eng" 
+          ? " Get Quote"
+          :localStorage.getItem("lang")=== "egp" 
+            ? "احصل على السعر" 
+            :localStorage.getItem("lang")=== "fr" 
+              ? "Obtenir un devis" 
+              :localStorage.getItem("lang")=== "spain" 
+                ? "Obtener cotización" 
+                : ""
+        }</Link>
                 </div>
            
             </div>
@@ -86,7 +128,17 @@ export default function Soft() {
               </div>
              
                 <div class="entry-footer" style={{display:'flex', justifyContent:'center'}}>
-                  <Link  style={{textDecoration:'none' ,display:'block'}} class="read-more">Get Quote</Link>
+                  <Link  style={{textDecoration:'none' ,display:'block'}} class="read-more"> {
+         localStorage.getItem("lang") === "eng" 
+          ? " Get Quote"
+          :localStorage.getItem("lang")=== "egp" 
+            ? "احصل على السعر" 
+            :localStorage.getItem("lang")=== "fr" 
+              ? "Obtenir un devis" 
+              :localStorage.getItem("lang")=== "spain" 
+                ? "Obtener cotización" 
+                : ""
+        }</Link>
                 </div>
            
             </div>
@@ -101,7 +153,17 @@ export default function Soft() {
               </div>
              
                 <div class="entry-footer" style={{display:'flex', justifyContent:'center'}}>
-                  <Link  style={{textDecoration:'none' ,display:'block'}} class="read-more">Get Quote</Link>
+                  <Link  style={{textDecoration:'none' ,display:'block'}} class="read-more"> {
+         localStorage.getItem("lang") === "eng" 
+          ? " Get Quote"
+          :localStorage.getItem("lang")=== "egp" 
+            ? "احصل على السعر" 
+            :localStorage.getItem("lang")=== "fr" 
+              ? "Obtenir un devis" 
+              :localStorage.getItem("lang")=== "spain" 
+                ? "Obtener cotización" 
+                : ""
+        }</Link>
                 </div>
            
             </div>
@@ -116,7 +178,17 @@ export default function Soft() {
               </div>
              
                 <div class="entry-footer" style={{display:'flex', justifyContent:'center'}}>
-                  <Link  style={{textDecoration:'none' ,display:'block'}} class="read-more">Get Quote</Link>
+                  <Link  style={{textDecoration:'none' ,display:'block'}} class="read-more"> {
+         localStorage.getItem("lang") === "eng" 
+          ? " Get Quote"
+          :localStorage.getItem("lang")=== "egp" 
+            ? "احصل على السعر" 
+            :localStorage.getItem("lang")=== "fr" 
+              ? "Obtenir un devis" 
+              :localStorage.getItem("lang")=== "spain" 
+                ? "Obtener cotización" 
+                : ""
+        }</Link>
                 </div>
            
             </div>
@@ -131,7 +203,17 @@ export default function Soft() {
               </div>
              
                 <div class="entry-footer" style={{display:'flex', justifyContent:'center'}}>
-                  <Link  style={{textDecoration:'none' ,display:'block'}} class="read-more">Get Quote</Link>
+                  <Link  style={{textDecoration:'none' ,display:'block'}} class="read-more"> {
+         localStorage.getItem("lang") === "eng" 
+          ? " Get Quote"
+          :localStorage.getItem("lang")=== "egp" 
+            ? "احصل على السعر" 
+            :localStorage.getItem("lang")=== "fr" 
+              ? "Obtenir un devis" 
+              :localStorage.getItem("lang")=== "spain" 
+                ? "Obtener cotización" 
+                : ""
+        }</Link>
                 </div>
            
             </div>
@@ -146,7 +228,17 @@ export default function Soft() {
               </div>
              
                 <div class="entry-footer" style={{display:'flex', justifyContent:'center'}}>
-                  <Link  style={{textDecoration:'none' ,display:'block'}} class="read-more">Get Quote</Link>
+                  <Link  style={{textDecoration:'none' ,display:'block'}} class="read-more"> {
+         localStorage.getItem("lang") === "eng" 
+          ? " Get Quote"
+          :localStorage.getItem("lang")=== "egp" 
+            ? "احصل على السعر" 
+            :localStorage.getItem("lang")=== "fr" 
+              ? "Obtenir un devis" 
+              :localStorage.getItem("lang")=== "spain" 
+                ? "Obtener cotización" 
+                : ""
+        }</Link>
                 </div>
            
             </div>

@@ -16,7 +16,17 @@ export default function MicrofiberSub8() {
     <>
     <div class="page-title">
                 <div class="container">
-                <Fade top duration={1000} delay={500}>  <h1 style={{color:'#C0AB89', fontFamily:'Millania', fontSize:'80px'}}>Printed Soft Lycra Fabric Microfiber</h1></Fade>
+                <Fade top duration={1000} delay={500}>  <h1 style={{color:'#C0AB89', fontFamily:'Millania', fontSize:'80px'}}>   {
+         localStorage.getItem("lang") === "eng" 
+          ? "     Printed Soft Lycra Fabric Microfiber "
+          :localStorage.getItem("lang")=== "egp" 
+            ? "قماش سوفت خفيف ليكرا مطبوع"
+            :localStorage.getItem("lang")=== "fr" 
+              ? "Microfibre de tissu Lycra doux imprimé" 
+              :localStorage.getItem("lang")=== "spain" 
+                ? "Microfibra de tela de lycra suave impresa" 
+                : ""
+        }</h1></Fade>
     
                 </div>
             </div>
@@ -34,7 +44,17 @@ export default function MicrofiberSub8() {
               </div>
              
                 <div class="entry-footer" style={{display:'flex', justifyContent:'center'}}>
-                  <Link  style={{textDecoration:'none' ,display:'block'}} class="read-more">Get Quote</Link>
+                  <Link  style={{textDecoration:'none' ,display:'block'}} class="read-more"> {
+         localStorage.getItem("lang") === "eng" 
+          ? " Get Quote"
+          :localStorage.getItem("lang")=== "egp" 
+            ? "احصل على السعر" 
+            :localStorage.getItem("lang")=== "fr" 
+              ? "Obtenir un devis" 
+              :localStorage.getItem("lang")=== "spain" 
+                ? "Obtener cotización" 
+                : ""
+        }</Link>
                 </div>
            
             </div>
@@ -49,7 +69,17 @@ export default function MicrofiberSub8() {
               </div>
              
                 <div class="entry-footer" style={{display:'flex', justifyContent:'center'}}>
-                  <Link  style={{textDecoration:'none' ,display:'block'}} class="read-more">Get Quote</Link>
+                  <Link  style={{textDecoration:'none' ,display:'block'}} class="read-more"> {
+         localStorage.getItem("lang") === "eng" 
+          ? " Get Quote"
+          :localStorage.getItem("lang")=== "egp" 
+            ? "احصل على السعر" 
+            :localStorage.getItem("lang")=== "fr" 
+              ? "Obtenir un devis" 
+              :localStorage.getItem("lang")=== "spain" 
+                ? "Obtener cotización" 
+                : ""
+        }</Link>
                 </div>
            
             </div>
@@ -64,7 +94,17 @@ export default function MicrofiberSub8() {
               </div>
              
                 <div class="entry-footer" style={{display:'flex', justifyContent:'center'}}>
-                  <Link  style={{textDecoration:'none' ,display:'block'}} class="read-more">Get Quote</Link>
+                  <Link  style={{textDecoration:'none' ,display:'block'}} class="read-more"> {
+         localStorage.getItem("lang") === "eng" 
+          ? " Get Quote"
+          :localStorage.getItem("lang")=== "egp" 
+            ? "احصل على السعر" 
+            :localStorage.getItem("lang")=== "fr" 
+              ? "Obtenir un devis" 
+              :localStorage.getItem("lang")=== "spain" 
+                ? "Obtener cotización" 
+                : ""
+        }</Link>
                 </div>
            
             </div>
@@ -79,7 +119,17 @@ export default function MicrofiberSub8() {
               </div>
              
                 <div class="entry-footer" style={{display:'flex', justifyContent:'center'}}>
-                  <Link  style={{textDecoration:'none' ,display:'block'}} class="read-more">Get Quote</Link>
+                  <Link  style={{textDecoration:'none' ,display:'block'}} class="read-more"> {
+         localStorage.getItem("lang") === "eng" 
+          ? " Get Quote"
+          :localStorage.getItem("lang")=== "egp" 
+            ? "احصل على السعر" 
+            :localStorage.getItem("lang")=== "fr" 
+              ? "Obtenir un devis" 
+              :localStorage.getItem("lang")=== "spain" 
+                ? "Obtener cotización" 
+                : ""
+        }</Link>
                 </div>
            
             </div>

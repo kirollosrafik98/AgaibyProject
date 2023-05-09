@@ -29,10 +29,32 @@ export default function Lycra() {
             <img src={dyedStretch1} style={{width:'100%', height:'300px', objectFit:'cover'}} alt class="img img-responsive"/>
           </div>
           <div class="entry-details">
-            <h3><a style={{textDecoration:'none', fontFamily:'Maya'}}>Dyed Bengaline Light for T-Shirt with Lycra</a></h3>
+            <h3><a style={{textDecoration:'none', fontFamily:'Maya'}}>
+            {
+         localStorage.getItem("lang") === "eng" 
+          ? "   Dyed Bengaline Light for T-Shirt with Lycra "
+          :localStorage.getItem("lang")=== "egp" 
+            ? "بنجالين لايت قميص وتيشرت"
+            :localStorage.getItem("lang")=== "fr" 
+              ? "Teint Bengaline Light pour T-Shirt avec Lycra" 
+              :localStorage.getItem("lang")=== "spain" 
+                ? "Luz bengalina teñida para camiseta con licra" 
+                : ""
+        }
+             </a></h3>
             {/* <span class="entry-date">30 November, 2018</span> */}
             <div class="entry-footer">
-              <Link to='/dyedLycra' style={{textDecoration:'none'}} class="read-more">Show More</Link>
+              <Link to='/dyedLycra' style={{textDecoration:'none'}} class="read-more">     {
+         localStorage.getItem("lang") === "eng" 
+          ? " Show More"
+          :localStorage.getItem("lang")=== "egp" 
+            ? "أظهر المزيد" 
+            :localStorage.getItem("lang")=== "fr" 
+              ? "Montre plus" 
+              :localStorage.getItem("lang")=== "spain" 
+                ? "Mostrar más " 
+                : ""
+        }</Link>
               {/* <a style={{textDecoration:'none'}} class="comments"><i class="fa fa-comments" aria-hidden="true"></i> 5</a> */}
             </div>
           </div>

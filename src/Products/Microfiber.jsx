@@ -25,7 +25,19 @@ export default function Microfiber() {
 <>
 <div class="page-title">
             <div class="container">
-            <Fade top duration={1000} delay={500}>  <h1 style={{color:'#C0AB89', fontFamily:'Millania', fontSize:'80px'}}>Printed Soft Lycra Fabric Microfiber </h1></Fade>
+            <Fade top duration={1000} delay={500}>  <h1 style={{color:'#C0AB89', fontFamily:'Millania', fontSize:'80px'}}>
+            {
+         localStorage.getItem("lang") === "eng" 
+          ? "     Printed Soft Lycra Fabric Microfiber "
+          :localStorage.getItem("lang")=== "egp" 
+            ? "قماش سوفت خفيف ليكرا مطبوع"
+            :localStorage.getItem("lang")=== "fr" 
+              ? "Microfibre de tissu Lycra doux imprimé" 
+              :localStorage.getItem("lang")=== "spain" 
+                ? "Microfibra de tela de lycra suave impresa" 
+                : ""
+        }
+             </h1></Fade>
 
             </div>
         </div>
@@ -43,10 +55,33 @@ export default function Microfiber() {
             <img src={dyedStretch1} style={{width:'100%', height:'300px', objectFit:'cover'}} alt class="img img-responsive"/>
           </div>
           <div class="entry-details">
-            <h3><a style={{textDecoration:'none', fontFamily:'Maya'}}>Printed Soft Lycra Fabric Microfiber  </a></h3>
+            <h3><a style={{textDecoration:'none', fontFamily:'Maya'}}>   {
+         localStorage.getItem("lang") === "eng" 
+          ? "     Printed Soft Lycra Fabric Microfiber "
+          :localStorage.getItem("lang")=== "egp" 
+            ? "قماش سوفت خفيف ليكرا مطبوع"
+            :localStorage.getItem("lang")=== "fr" 
+              ? "Microfibre de tissu Lycra doux imprimé" 
+              :localStorage.getItem("lang")=== "spain" 
+                ? "Microfibra de tela de lycra suave impresa" 
+                : ""
+        }  </a></h3>
             {/* <span class="entry-date">30 November, 2018</span> */}
             <div class="entry-footer">
-              <Link to='/microfiberSub1' style={{textDecoration:'none'}} class="read-more">Show More</Link>
+              <Link to='/microfiberSub1' style={{textDecoration:'none'}} class="read-more">
+              {
+         localStorage.getItem("lang") === "eng" 
+          ? " Show More"
+          :localStorage.getItem("lang")=== "egp" 
+            ? "أظهر المزيد" 
+            :localStorage.getItem("lang")=== "fr" 
+              ? "Montre plus" 
+              :localStorage.getItem("lang")=== "spain" 
+                ? "Mostrar más " 
+                : ""
+        }
+                
+              </Link>
               {/* <a style={{textDecoration:'none'}} class="comments"><i class="fa fa-comments" aria-hidden="true"></i> 5</a> */}
             </div>
           </div>
@@ -61,10 +96,33 @@ export default function Microfiber() {
             <img src={dyedStretch2} style={{width:'100%', height:'300px', objectFit:'cover'}} alt class="img img-responsive"/>
           </div>
           <div class="entry-details">
-            <h3><a style={{textDecoration:'none', fontFamily:'Maya'}}>Printed Soft Lycra Fabric Microfiber </a></h3>
+            <h3><a style={{textDecoration:'none', fontFamily:'Maya'}}>   {
+         localStorage.getItem("lang") === "eng" 
+          ? "     Printed Soft Lycra Fabric Microfiber "
+          :localStorage.getItem("lang")=== "egp" 
+            ? "قماش سوفت خفيف ليكرا مطبوع"
+            :localStorage.getItem("lang")=== "fr" 
+              ? "Microfibre de tissu Lycra doux imprimé" 
+              :localStorage.getItem("lang")=== "spain" 
+                ? "Microfibra de tela de lycra suave impresa" 
+                : ""
+        } </a></h3>
             {/* <span class="entry-date">30 November, 2018</span> */}
             <div class="entry-footer">
-              <Link to='/microfiberSub2' style={{textDecoration:'none'}} class="read-more">Show More</Link>
+              <Link to='/microfiberSub2' style={{textDecoration:'none'}} class="read-more">
+              {
+         localStorage.getItem("lang") === "eng" 
+          ? " Show More"
+          :localStorage.getItem("lang")=== "egp" 
+            ? "أظهر المزيد" 
+            :localStorage.getItem("lang")=== "fr" 
+              ? "Montre plus" 
+              :localStorage.getItem("lang")=== "spain" 
+                ? "Mostrar más " 
+                : ""
+        }
+                
+              </Link>
               {/* <a style={{textDecoration:'none'}} class="comments"><i class="fa fa-comments" aria-hidden="true"></i> 5</a> */}
             </div>
           </div>
@@ -78,10 +136,33 @@ export default function Microfiber() {
             <img src={dyedStretch3} style={{width:'100%', height:'300px', objectFit:'cover'}} alt class="img img-responsive"/>
           </div>
           <div class="entry-details">
-            <h3><a style={{textDecoration:'none', fontFamily:'Maya'}}>Printed Soft Lycra Fabric Microfiber  </a></h3>
+            <h3><a style={{textDecoration:'none', fontFamily:'Maya'}}>   {
+         localStorage.getItem("lang") === "eng" 
+          ? "     Printed Soft Lycra Fabric Microfiber "
+          :localStorage.getItem("lang")=== "egp" 
+            ? "قماش سوفت خفيف ليكرا مطبوع"
+            :localStorage.getItem("lang")=== "fr" 
+              ? "Microfibre de tissu Lycra doux imprimé" 
+              :localStorage.getItem("lang")=== "spain" 
+                ? "Microfibra de tela de lycra suave impresa" 
+                : ""
+        }  </a></h3>
             {/* <span class="entry-date">30 November, 2018</span> */}
             <div class="entry-footer">
-              <Link to='/microfiberSub3' style={{textDecoration:'none'}} class="read-more">Show More</Link>
+              <Link to='/microfiberSub3' style={{textDecoration:'none'}} class="read-more">
+
+              {
+         localStorage.getItem("lang") === "eng" 
+          ? " Show More"
+          :localStorage.getItem("lang")=== "egp" 
+            ? "أظهر المزيد" 
+            :localStorage.getItem("lang")=== "fr" 
+              ? "Montre plus" 
+              :localStorage.getItem("lang")=== "spain" 
+                ? "Mostrar más " 
+                : ""
+        }
+              </Link>
               {/* <a style={{textDecoration:'none'}} class="comments"><i class="fa fa-comments" aria-hidden="true"></i> 5</a> */}
             </div>
           </div>
@@ -95,10 +176,33 @@ export default function Microfiber() {
             <img src={dyedStretch4} style={{width:'100%', height:'300px', objectFit:'cover'}} alt class="img img-responsive"/>
           </div>
           <div class="entry-details">
-            <h3><a style={{textDecoration:'none', fontFamily:'Maya'}}>Printed Soft Lycra Fabric Microfiber </a></h3>
+            <h3><a style={{textDecoration:'none', fontFamily:'Maya'}}>   {
+         localStorage.getItem("lang") === "eng" 
+          ? "     Printed Soft Lycra Fabric Microfiber "
+          :localStorage.getItem("lang")=== "egp" 
+            ? "قماش سوفت خفيف ليكرا مطبوع"
+            :localStorage.getItem("lang")=== "fr" 
+              ? "Microfibre de tissu Lycra doux imprimé" 
+              :localStorage.getItem("lang")=== "spain" 
+                ? "Microfibra de tela de lycra suave impresa" 
+                : ""
+        } </a></h3>
             {/* <span class="entry-date">30 November, 2018</span> */}
             <div class="entry-footer">
-              <Link to='/microfiberSub4' style={{textDecoration:'none'}} class="read-more">Show More</Link>
+              <Link to='/microfiberSub4' style={{textDecoration:'none'}} class="read-more">
+
+              {
+         localStorage.getItem("lang") === "eng" 
+          ? " Show More"
+          :localStorage.getItem("lang")=== "egp" 
+            ? "أظهر المزيد" 
+            :localStorage.getItem("lang")=== "fr" 
+              ? "Montre plus" 
+              :localStorage.getItem("lang")=== "spain" 
+                ? "Mostrar más " 
+                : ""
+        }
+              </Link>
               {/* <a style={{textDecoration:'none'}} class="comments"><i class="fa fa-comments" aria-hidden="true"></i> 5</a> */}
             </div>
           </div>
@@ -113,10 +217,33 @@ export default function Microfiber() {
             <img src={dyedStretch5} style={{width:'100%', height:'300px', objectFit:'cover'}} alt class="img img-responsive"/>
           </div>
           <div class="entry-details">
-            <h3><a style={{textDecoration:'none', fontFamily:'Maya'}}>Printed Soft Lycra Fabric Microfiber  </a></h3>
+            <h3><a style={{textDecoration:'none', fontFamily:'Maya'}}>   {
+         localStorage.getItem("lang") === "eng" 
+          ? "     Printed Soft Lycra Fabric Microfiber "
+          :localStorage.getItem("lang")=== "egp" 
+            ? "قماش سوفت خفيف ليكرا مطبوع"
+            :localStorage.getItem("lang")=== "fr" 
+              ? "Microfibre de tissu Lycra doux imprimé" 
+              :localStorage.getItem("lang")=== "spain" 
+                ? "Microfibra de tela de lycra suave impresa" 
+                : ""
+        }  </a></h3>
             {/* <span class="entry-date">30 November, 2018</span> */}
             <div class="entry-footer">
-              <Link to='/microfiberSub5' style={{textDecoration:'none'}} class="read-more">Show More</Link>
+              <Link to='/microfiberSub5' style={{textDecoration:'none'}} class="read-more">
+              {
+         localStorage.getItem("lang") === "eng" 
+          ? " Show More"
+          :localStorage.getItem("lang")=== "egp" 
+            ? "أظهر المزيد" 
+            :localStorage.getItem("lang")=== "fr" 
+              ? "Montre plus" 
+              :localStorage.getItem("lang")=== "spain" 
+                ? "Mostrar más " 
+                : ""
+        }
+                
+              </Link>
               {/* <a style={{textDecoration:'none'}} class="comments"><i class="fa fa-comments" aria-hidden="true"></i> 5</a> */}
             </div>
           </div>
@@ -130,10 +257,33 @@ export default function Microfiber() {
             <img src={dyedStretch6} style={{width:'100%', height:'300px', objectFit:'cover'}} alt class="img img-responsive"/>
           </div>
           <div class="entry-details">
-            <h3><a style={{textDecoration:'none', fontFamily:'Maya'}}>Printed Soft Lycra Fabric Microfiber  </a></h3>
+            <h3><a style={{textDecoration:'none', fontFamily:'Maya'}}>   {
+         localStorage.getItem("lang") === "eng" 
+          ? "     Printed Soft Lycra Fabric Microfiber "
+          :localStorage.getItem("lang")=== "egp" 
+            ? "قماش سوفت خفيف ليكرا مطبوع"
+            :localStorage.getItem("lang")=== "fr" 
+              ? "Microfibre de tissu Lycra doux imprimé" 
+              :localStorage.getItem("lang")=== "spain" 
+                ? "Microfibra de tela de lycra suave impresa" 
+                : ""
+        }  </a></h3>
             {/* <span class="entry-date">30 November, 2018</span> */}
             <div class="entry-footer">
-              <Link to='/microfiberSub6' style={{textDecoration:'none'}} class="read-more">Show More</Link>
+              <Link to='/microfiberSub6' style={{textDecoration:'none'}} class="read-more">
+              {
+         localStorage.getItem("lang") === "eng" 
+          ? " Show More"
+          :localStorage.getItem("lang")=== "egp" 
+            ? "أظهر المزيد" 
+            :localStorage.getItem("lang")=== "fr" 
+              ? "Montre plus" 
+              :localStorage.getItem("lang")=== "spain" 
+                ? "Mostrar más " 
+                : ""
+        }
+                
+              </Link>
               {/* <a style={{textDecoration:'none'}} class="comments"><i class="fa fa-comments" aria-hidden="true"></i> 5</a> */}
             </div>
           </div>
@@ -147,10 +297,33 @@ export default function Microfiber() {
             <img src={dyedStretch7} style={{width:'100%', height:'300px', objectFit:'cover'}} alt class="img img-responsive"/>
           </div>
           <div class="entry-details">
-            <h3><a style={{textDecoration:'none', fontFamily:'Maya'}}>Printed Soft Lycra Fabric Microfiber  </a></h3>
+            <h3><a style={{textDecoration:'none', fontFamily:'Maya'}}>   {
+         localStorage.getItem("lang") === "eng" 
+          ? "     Printed Soft Lycra Fabric Microfiber "
+          :localStorage.getItem("lang")=== "egp" 
+            ? "قماش سوفت خفيف ليكرا مطبوع"
+            :localStorage.getItem("lang")=== "fr" 
+              ? "Microfibre de tissu Lycra doux imprimé" 
+              :localStorage.getItem("lang")=== "spain" 
+                ? "Microfibra de tela de lycra suave impresa" 
+                : ""
+        } </a></h3>
             {/* <span class="entry-date">30 November, 2018</span> */}
             <div class="entry-footer">
-              <Link to='/microfiberSub7' style={{textDecoration:'none'}} class="read-more">Show More</Link>
+              <Link to='/microfiberSub7' style={{textDecoration:'none'}} class="read-more">
+              {
+         localStorage.getItem("lang") === "eng" 
+          ? " Show More"
+          :localStorage.getItem("lang")=== "egp" 
+            ? "أظهر المزيد" 
+            :localStorage.getItem("lang")=== "fr" 
+              ? "Montre plus" 
+              :localStorage.getItem("lang")=== "spain" 
+                ? "Mostrar más " 
+                : ""
+        }
+                
+              </Link>
               {/* <a style={{textDecoration:'none'}} class="comments"><i class="fa fa-comments" aria-hidden="true"></i> 5</a> */}
             </div>
           </div>
@@ -164,10 +337,33 @@ export default function Microfiber() {
             <img src={dyedStretch8} style={{width:'100%', height:'300px', objectFit:'cover'}} alt class="img img-responsive"/>
           </div>
           <div class="entry-details">
-            <h3><a style={{textDecoration:'none', fontFamily:'Maya'}}>Printed Soft Lycra Fabric Microfiber  </a></h3>
+            <h3><a style={{textDecoration:'none', fontFamily:'Maya'}}>   {
+         localStorage.getItem("lang") === "eng" 
+          ? "     Printed Soft Lycra Fabric Microfiber "
+          :localStorage.getItem("lang")=== "egp" 
+            ? "قماش سوفت خفيف ليكرا مطبوع"
+            :localStorage.getItem("lang")=== "fr" 
+              ? "Microfibre de tissu Lycra doux imprimé" 
+              :localStorage.getItem("lang")=== "spain" 
+                ? "Microfibra de tela de lycra suave impresa" 
+                : ""
+        } </a></h3>
             {/* <span class="entry-date">30 November, 2018</span> */}
             <div class="entry-footer">
-              <Link to='/microfiberSub8' style={{textDecoration:'none'}} class="read-more">Show More</Link>
+              <Link to='/microfiberSub8' style={{textDecoration:'none'}} class="read-more">
+              {
+         localStorage.getItem("lang") === "eng" 
+          ? " Show More"
+          :localStorage.getItem("lang")=== "egp" 
+            ? "أظهر المزيد" 
+            :localStorage.getItem("lang")=== "fr" 
+              ? "Montre plus" 
+              :localStorage.getItem("lang")=== "spain" 
+                ? "Mostrar más " 
+                : ""
+        }
+                
+              </Link>
               {/* <a style={{textDecoration:'none'}} class="comments"><i class="fa fa-comments" aria-hidden="true"></i> 5</a> */}
             </div>
           </div>
@@ -181,10 +377,33 @@ export default function Microfiber() {
             <img src={dyedStretch9} style={{width:'100%', height:'300px', objectFit:'cover'}} alt class="img img-responsive"/>
           </div>
           <div class="entry-details">
-            <h3><a style={{textDecoration:'none', fontFamily:'Maya'}}>Printed Soft Lycra Fabric Microfiber  </a></h3>
+            <h3><a style={{textDecoration:'none', fontFamily:'Maya'}}>   {
+         localStorage.getItem("lang") === "eng" 
+          ? "     Printed Soft Lycra Fabric Microfiber "
+          :localStorage.getItem("lang")=== "egp" 
+            ? "قماش سوفت خفيف ليكرا مطبوع"
+            :localStorage.getItem("lang")=== "fr" 
+              ? "Microfibre de tissu Lycra doux imprimé" 
+              :localStorage.getItem("lang")=== "spain" 
+                ? "Microfibra de tela de lycra suave impresa" 
+                : ""
+        } </a></h3>
             {/* <span class="entry-date">30 November, 2018</span> */}
             <div class="entry-footer">
-              <Link to='/microfiberSub9' style={{textDecoration:'none'}} class="read-more">Show More</Link>
+              <Link to='/microfiberSub9' style={{textDecoration:'none'}} class="read-more">
+
+              {
+         localStorage.getItem("lang") === "eng" 
+          ? " Show More"
+          :localStorage.getItem("lang")=== "egp" 
+            ? "أظهر المزيد" 
+            :localStorage.getItem("lang")=== "fr" 
+              ? "Montre plus" 
+              :localStorage.getItem("lang")=== "spain" 
+                ? "Mostrar más " 
+                : ""
+        }
+              </Link>
               {/* <a style={{textDecoration:'none'}} class="comments"><i class="fa fa-comments" aria-hidden="true"></i> 5</a> */}
             </div>
           </div>
@@ -198,10 +417,33 @@ export default function Microfiber() {
             <img src={dyedStretch10} style={{width:'100%', height:'300px', objectFit:'cover'}} alt class="img img-responsive"/>
           </div>
           <div class="entry-details">
-            <h3><a style={{textDecoration:'none', fontFamily:'Maya'}}>Printed Soft Lycra Fabric Microfiber  </a></h3>
+            <h3><a style={{textDecoration:'none', fontFamily:'Maya'}}>   {
+         localStorage.getItem("lang") === "eng" 
+          ? "     Printed Soft Lycra Fabric Microfiber "
+          :localStorage.getItem("lang")=== "egp" 
+            ? "قماش سوفت خفيف ليكرا مطبوع"
+            :localStorage.getItem("lang")=== "fr" 
+              ? "Microfibre de tissu Lycra doux imprimé" 
+              :localStorage.getItem("lang")=== "spain" 
+                ? "Microfibra de tela de lycra suave impresa" 
+                : ""
+        } </a></h3>
             {/* <span class="entry-date">30 November, 2018</span> */}
             <div class="entry-footer">
-              <Link to='/microfiberSub10' style={{textDecoration:'none'}} class="read-more">Show More</Link>
+              <Link to='/microfiberSub10' style={{textDecoration:'none'}} class="read-more">
+              {
+         localStorage.getItem("lang") === "eng" 
+          ? " Show More"
+          :localStorage.getItem("lang")=== "egp" 
+            ? "أظهر المزيد" 
+            :localStorage.getItem("lang")=== "fr" 
+              ? "Montre plus" 
+              :localStorage.getItem("lang")=== "spain" 
+                ? "Mostrar más " 
+                : ""
+        }
+                
+              </Link>
               {/* <a style={{textDecoration:'none'}} class="comments"><i class="fa fa-comments" aria-hidden="true"></i> 5</a> */}
             </div>
           </div>
@@ -215,10 +457,33 @@ export default function Microfiber() {
             <img src={dyedStretch11} style={{width:'100%', height:'300px', objectFit:'cover'}} alt class="img img-responsive"/>
           </div>
           <div class="entry-details">
-            <h3><a style={{textDecoration:'none', fontFamily:'Maya'}}>Printed Soft Lycra Fabric Microfiber  </a></h3>
+            <h3><a style={{textDecoration:'none', fontFamily:'Maya'}}>   {
+         localStorage.getItem("lang") === "eng" 
+          ? "     Printed Soft Lycra Fabric Microfiber "
+          :localStorage.getItem("lang")=== "egp" 
+            ? "قماش سوفت خفيف ليكرا مطبوع"
+            :localStorage.getItem("lang")=== "fr" 
+              ? "Microfibre de tissu Lycra doux imprimé" 
+              :localStorage.getItem("lang")=== "spain" 
+                ? "Microfibra de tela de lycra suave impresa" 
+                : ""
+        } </a></h3>
             {/* <span class="entry-date">30 November, 2018</span> */}
             <div class="entry-footer">
-              <Link to='/microfiberSub11' style={{textDecoration:'none'}} class="read-more">Show More</Link>
+              <Link to='/microfiberSub11' style={{textDecoration:'none'}} class="read-more">
+              {
+         localStorage.getItem("lang") === "eng" 
+          ? " Show More"
+          :localStorage.getItem("lang")=== "egp" 
+            ? "أظهر المزيد" 
+            :localStorage.getItem("lang")=== "fr" 
+              ? "Montre plus" 
+              :localStorage.getItem("lang")=== "spain" 
+                ? "Mostrar más " 
+                : ""
+        }
+                
+              </Link>
               {/* <a style={{textDecoration:'none'}} class="comments"><i class="fa fa-comments" aria-hidden="true"></i> 5</a> */}
             </div>
           </div>

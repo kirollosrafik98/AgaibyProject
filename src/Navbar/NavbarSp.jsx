@@ -74,7 +74,7 @@ export default function NavbarSp({ar, setAr}) {
                         <div class="language" style={{width:'30%',display:'flex', justifyContent:'end'}}>
                         <div    onClick={() => {setAr('eng');localStorage.setItem('lang','eng')}}>
                                          <img src={uk} style={{width:'90%', paddingRight:'4px'}} alt="" /></div> 
-                                         <div    onClick={() => {setAr('ar');localStorage.setItem('lang','ar')}}> 
+                                         <div    onClick={() => {setAr('egp');localStorage.setItem('lang','egp')}}> 
                                              <img src={egypt} style={{width:'90%', paddingRight:'4px'}} alt="" />
                                               </div>
                                                                                    {/* <div    onClick={() => {setAr('fr');localStorage.setItem('lang','fr')}}>

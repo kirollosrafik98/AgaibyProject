@@ -22,7 +22,17 @@ export default function PrintedStretchSub4() {
     <>
     <div class="page-title">
                 <div class="container">
-                <Fade top duration={1000} delay={500}>  <h1 style={{color:'#C0AB89', fontFamily:'Millania', fontSize:'80px'}}>Dyed Bengaline Stretch for Pants</h1></Fade>
+                <Fade top duration={1000} delay={500}>  <h1 style={{color:'#C0AB89', fontFamily:'Millania', fontSize:'80px'}}> {
+         localStorage.getItem("lang") === "eng" 
+          ? "Dyed Bengaline Stretch for Pants"
+          :localStorage.getItem("lang")=== "egp" 
+            ? "‎بنجالين ليكرا شروال"
+            :localStorage.getItem("lang")=== "fr" 
+              ? "Stretch bengalin teint pour pantalon" 
+              :localStorage.getItem("lang")=== "spain" 
+                ? "Pantalón elástico bengalino teñido" 
+                : ""
+        }</h1></Fade>
     
                 </div>
             </div>
@@ -40,7 +50,17 @@ export default function PrintedStretchSub4() {
               </div>
              
                 <div class="entry-footer" style={{display:'flex', justifyContent:'center'}}>
-                  <Link  style={{textDecoration:'none' ,display:'block'}} class="read-more">Get Quote</Link>
+                  <Link  style={{textDecoration:'none' ,display:'block'}} class="read-more"> {
+         localStorage.getItem("lang") === "eng" 
+          ? " Get Quote"
+          :localStorage.getItem("lang")=== "egp" 
+            ? "احصل على السعر" 
+            :localStorage.getItem("lang")=== "fr" 
+              ? "Obtenir un devis" 
+              :localStorage.getItem("lang")=== "spain" 
+                ? "Obtener cotización" 
+                : ""
+        }</Link>
                 </div>
            
             </div>
@@ -55,7 +75,17 @@ export default function PrintedStretchSub4() {
               </div>
              
                 <div class="entry-footer" style={{display:'flex', justifyContent:'center'}}>
-                  <Link  style={{textDecoration:'none' ,display:'block'}} class="read-more">Get Quote</Link>
+                  <Link  style={{textDecoration:'none' ,display:'block'}} class="read-more"> {
+         localStorage.getItem("lang") === "eng" 
+          ? " Get Quote"
+          :localStorage.getItem("lang")=== "egp" 
+            ? "احصل على السعر" 
+            :localStorage.getItem("lang")=== "fr" 
+              ? "Obtenir un devis" 
+              :localStorage.getItem("lang")=== "spain" 
+                ? "Obtener cotización" 
+                : ""
+        }</Link>
                 </div>
            
             </div>
@@ -70,7 +100,17 @@ export default function PrintedStretchSub4() {
               </div>
              
                 <div class="entry-footer" style={{display:'flex', justifyContent:'center'}}>
-                  <Link  style={{textDecoration:'none' ,display:'block'}} class="read-more">Get Quote</Link>
+                  <Link  style={{textDecoration:'none' ,display:'block'}} class="read-more"> {
+         localStorage.getItem("lang") === "eng" 
+          ? " Get Quote"
+          :localStorage.getItem("lang")=== "egp" 
+            ? "احصل على السعر" 
+            :localStorage.getItem("lang")=== "fr" 
+              ? "Obtenir un devis" 
+              :localStorage.getItem("lang")=== "spain" 
+                ? "Obtener cotización" 
+                : ""
+        }</Link>
                 </div>
            
             </div>
@@ -85,7 +125,17 @@ export default function PrintedStretchSub4() {
               </div>
              
                 <div class="entry-footer" style={{display:'flex', justifyContent:'center'}}>
-                  <Link  style={{textDecoration:'none' ,display:'block'}} class="read-more">Get Quote</Link>
+                  <Link  style={{textDecoration:'none' ,display:'block'}} class="read-more"> {
+         localStorage.getItem("lang") === "eng" 
+          ? " Get Quote"
+          :localStorage.getItem("lang")=== "egp" 
+            ? "احصل على السعر" 
+            :localStorage.getItem("lang")=== "fr" 
+              ? "Obtenir un devis" 
+              :localStorage.getItem("lang")=== "spain" 
+                ? "Obtener cotización" 
+                : ""
+        }</Link>
                 </div>
            
             </div>
@@ -101,7 +151,17 @@ export default function PrintedStretchSub4() {
               </div>
              
                 <div class="entry-footer" style={{display:'flex', justifyContent:'center'}}>
-                  <Link  style={{textDecoration:'none' ,display:'block'}} class="read-more">Get Quote</Link>
+                  <Link  style={{textDecoration:'none' ,display:'block'}} class="read-more"> {
+         localStorage.getItem("lang") === "eng" 
+          ? " Get Quote"
+          :localStorage.getItem("lang")=== "egp" 
+            ? "احصل على السعر" 
+            :localStorage.getItem("lang")=== "fr" 
+              ? "Obtenir un devis" 
+              :localStorage.getItem("lang")=== "spain" 
+                ? "Obtener cotización" 
+                : ""
+        }</Link>
                 </div>
            
             </div>
@@ -117,7 +177,17 @@ export default function PrintedStretchSub4() {
               </div>
              
                 <div class="entry-footer" style={{display:'flex', justifyContent:'center'}}>
-                  <Link  style={{textDecoration:'none' ,display:'block'}} class="read-more">Get Quote</Link>
+                  <Link  style={{textDecoration:'none' ,display:'block'}} class="read-more"> {
+         localStorage.getItem("lang") === "eng" 
+          ? " Get Quote"
+          :localStorage.getItem("lang")=== "egp" 
+            ? "احصل على السعر" 
+            :localStorage.getItem("lang")=== "fr" 
+              ? "Obtenir un devis" 
+              :localStorage.getItem("lang")=== "spain" 
+                ? "Obtener cotización" 
+                : ""
+        }</Link>
                 </div>
            
             </div>
@@ -132,7 +202,17 @@ export default function PrintedStretchSub4() {
               </div>
              
                 <div class="entry-footer" style={{display:'flex', justifyContent:'center'}}>
-                  <Link  style={{textDecoration:'none' ,display:'block'}} class="read-more">Get Quote</Link>
+                  <Link  style={{textDecoration:'none' ,display:'block'}} class="read-more"> {
+         localStorage.getItem("lang") === "eng" 
+          ? " Get Quote"
+          :localStorage.getItem("lang")=== "egp" 
+            ? "احصل على السعر" 
+            :localStorage.getItem("lang")=== "fr" 
+              ? "Obtenir un devis" 
+              :localStorage.getItem("lang")=== "spain" 
+                ? "Obtener cotización" 
+                : ""
+        }</Link>
                 </div>
            
             </div>

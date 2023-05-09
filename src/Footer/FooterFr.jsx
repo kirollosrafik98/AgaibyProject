@@ -71,7 +71,7 @@ export default function FooterFr() {
                         <div class="widget newsletter-widget">
                             <h3 style={{fontFamily:'Maya'}}>Abonnement</h3>
                             <ul>
-                                <li><i style={{color:'#C0AB89'}} class="fa-regular fa-envelope" aria-hidden="true"></i>  test@neon.com</li>
+                                <li><i style={{color:'#C0AB89'}} class="fa-regular fa-envelope" aria-hidden="true"></i> Info@agaipy.com</li>
                                 <li><i style={{color:'#C0AB89'}} class="fa fa-volume-control-phone" aria-hidden="true"></i>  +20 244 564 541</li>
                             </ul>
                             <form class="form">
