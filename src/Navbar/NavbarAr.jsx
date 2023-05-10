@@ -38,15 +38,17 @@ export default function NavbarAr({ ar, setAr }) {
               class="collapse navbar-collapse"
               id="navbarSupportedContent"
               style={{ width: "70%" }}
-            ><div
+            >
+              
+              <div
             class="language"
-            style={{ width: "30%", display: "flex", justifyContent: "end" }}
+            style={{ width: "15%", display: "flex", justifyContent: "end" }}
           >
          
          
          <ul style={{display:'flex', paddingLeft:'0',flexDirection:'row'}}>
             <li>  <div    onClick={() => {setAr('eng');localStorage.setItem('lang','eng')}}>
-                                     <img src={uk} style={{width:'90%', paddingRight:'4px'}} alt="" /></div> 
+                                     <img src={uk} style={{width:'70%', paddingRight:'4px'}} alt="" /></div> 
             </li>
             <li><div
               onClick={() => {
@@ -56,7 +58,7 @@ export default function NavbarAr({ ar, setAr }) {
             >
               <img
                 src={french}
-                style={{ width: "30%", paddingRight: "4px" }}
+                style={{ width: "70%", paddingRight: "4px" }}
                 alt=""
               />{" "}
             </div></li>
@@ -69,7 +71,7 @@ export default function NavbarAr({ ar, setAr }) {
               {" "}
               <img
                 src={spain}
-                style={{ width: "30%", paddingRight: "4px" }}
+                style={{ width: "70%", paddingRight: "4px" }}
                 alt=""
               />
             </div></li>
@@ -79,6 +81,7 @@ export default function NavbarAr({ ar, setAr }) {
             
            
           </div>
+          <div style={{width:'15%'}}></div>
               <ul
                 class=" navbar-nav  mb-2 mb-lg-0"
                 style={{

@@ -1,7 +1,44 @@
-import React,{useEffect} from 'react'
+import React,{useEffect,useState} from 'react'
 import Fade from 'react-reveal/Fade';
 
+import axios from 'axios';
+import swal from 'sweetalert';
 export default function ContactFr() {
+    const [name, setName] = useState('');
+	const [email, setEmail] = useState('');
+	const [message, setMessage] = useState('');
+    const handleSubmit = (event) => {
+		event.preventDefault();
+		const data = {
+		  name,
+		  email,
+		  message
+		};
+		sendData(data);
+	  }
+    const sendData = (data) => {
+		axios.post('https://agaiby-t23y.onrender.com/contact/sendMessage', data)
+		  .then(response => {
+			console.log(response.data);
+      swal({
+        title: "Bon travail!",
+        text: "Vos données ont été envoyées avec succès!",
+        icon: "succès",
+        button: {
+          text: "D'ACCORD",
+          value: true,
+        },
+      }).then((value) => {
+        if (value) {
+          window.location.reload();
+        }
+      });
+})
+		  .catch(error => {
+			console.log(error);			swal("Oops!", "Veuillez réessayer!", "erreur");
+
+		  });
+	  }
     useEffect(() => {
         window.scrollTo(0, 0);
       }, []);
@@ -28,15 +65,15 @@ export default function ContactFr() {
                                 <li><i class="fa fa-phone"></i>+20 244 564 541 - +20 244 564 540</li>
                             </ul>
                             <h4 style={{fontFamily:'Maya'}}>Envoyer un e-mail</h4>
-                            <form class="form contact-validation-active" id="contact-form">
+                            <form class="form contact-validation-active" id="contact-form"  method="post" onSubmit={handleSubmit}>
                                 <div>
-                                    <input type="text" name="name" class="form-control" placeholder="Nom / prénom"/>
+                                    <input type="text" name="name" class="form-control" placeholder="Nom / prénom" value={name} onChange={(e) => setName(e.target.value)}/>
                                 </div>
                                 <div>
-                                    <input type="email" name="email" class="form-control" placeholder="Email"/>
+                                    <input type="email" name="email" class="form-control" placeholder="Email" value={email} onChange={(e) => setEmail(e.target.value)}/>
                                 </div>
                                 <div>
-                                    <textarea name="note" class="form-control" placeholder="Message"></textarea>
+                                    <textarea name="message" class="form-control" placeholder="Message" value={message} onChange={(e) => setMessage(e.target.value)}></textarea>
                                 </div>
                                 <div class="submit">
                                 <Fade left duration={1000} delay={500}>

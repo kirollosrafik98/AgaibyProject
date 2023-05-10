@@ -1,7 +1,44 @@
-import React, { useEffect } from "react";
+import React, { useEffect,useState } from "react";
 import Fade from "react-reveal/Fade";
 
+import axios from 'axios';
+import swal from 'sweetalert';
 export default function ContactAr() {
+  const [name, setName] = useState('');
+	const [email, setEmail] = useState('');
+	const [message, setMessage] = useState('');
+    const handleSubmit = (event) => {
+		event.preventDefault();
+		const data = {
+		  name,
+		  email,
+		  message
+		};
+		sendData(data);
+	  }
+    const sendData = (data) => {
+		axios.post('https://agaiby-t23y.onrender.com/contact/sendMessage', data)
+		  .then(response => {
+			console.log(response.data);
+      swal({
+        title: "أحسنت!",
+        text: "تم إرسال بياناتك بنجاح!",
+        icon: "نجاح",
+        button: {
+          text: "موافق",
+          value: true,
+        },
+      }).then((value) => {
+        if (value) {
+          window.location.reload();
+        }
+      });
+})
+		  .catch(error => {
+			console.log(error);			swal("أُووبس!", "حاول مرة اخرى!", "خطأ");
+
+		  });
+	  }
   useEffect(() => {
     window.scrollTo(0, 0);
   }, []);
@@ -179,14 +216,14 @@ export default function ContactAr() {
                   </li> 
                 </ul>
                 <h4 style={{ fontFamily: "Maya" }}  dir="rtl" lang="ar">ارسل بريد الكتروني</h4>
-                <form class="form contact-validation-active" id="contact-form">
+                <form class="form contact-validation-active" id="contact-form" method="post" onSubmit={handleSubmit}>
                   <div>
                     <input
                       type="text"
                       name="name"
                       class="form-control"
                       placeholder="الاسم بالكامل"
-                      dir="rtl" lang="ar" />
+                      dir="rtl" lang="ar" value={name} onChange={(e) => setName(e.target.value)}/>
                   </div>
                   <div>
                     <input
@@ -194,14 +231,14 @@ export default function ContactAr() {
                       name="email"
                       class="form-control"
                       placeholder="البريد الالكتروني"
-                      dir="rtl" lang="ar" />
+                      dir="rtl" lang="ar" value={email} onChange={(e) => setEmail(e.target.value)}/>
                   </div>
                   <div>
                     <textarea
-                      name="note"
+                      name="message"
                       class="form-control"
                       placeholder="رسالة"
-                      dir="rtl" lang="ar"  ></textarea>
+                      dir="rtl" lang="ar"  value={message} onChange={(e) => setMessage(e.target.value)}></textarea>
                   </div>
                   <div class="submit">
                     <Fade left duration={1000} delay={500}>

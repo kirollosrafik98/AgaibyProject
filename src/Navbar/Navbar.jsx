@@ -175,13 +175,14 @@ export default function Navbar({ ar, setAr }) {
                     }}
                     onClick={verena}
                   >
-                    Contact
+                    Contact Us
                   </Link>
                 </li>
               </ul>
+              <div style={{width:'15%'}}></div>
               <div
                 class="language"
-                style={{ width: "30%", display: "flex", justifyContent: "end" }}
+                style={{ width: "15%", display: "flex", justifyContent: "end" }}
               >
                 {/* <img src={uk} style={{width:'10%', paddingRight:'4px'}} alt="" /> */}
                 {/* <div    onClick={() => {setAr('ar');localStorage.setItem('lang','ar')}}> */}
@@ -195,7 +196,7 @@ export default function Navbar({ ar, setAr }) {
                 >
                   <img
                     src={egypt}
-                    style={{ width: "90%", paddingRight: "4px" }}
+                    style={{ width: "70%", paddingRight: "4px" }}
                     alt=""
                   />
                 </div></li>
@@ -207,7 +208,7 @@ export default function Navbar({ ar, setAr }) {
                 >
                   <img
                     src={french}
-                    style={{ width: "30%", paddingRight: "4px" }}
+                    style={{ width: "70%", paddingRight: "4px" }}
                     alt=""
                   />{" "}
                 </div></li>
@@ -220,7 +221,7 @@ export default function Navbar({ ar, setAr }) {
                   {" "}
                   <img
                     src={spain}
-                    style={{ width: "30%", paddingRight: "4px" }}
+                    style={{ width: "70%", paddingRight: "4px" }}
                     alt=""
                   />
                 </div></li>

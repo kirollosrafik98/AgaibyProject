@@ -1,7 +1,44 @@
-import React,{useEffect} from 'react'
+import React,{useEffect,useState} from 'react'
 import Fade from 'react-reveal/Fade';
 
+import axios from 'axios';
+import swal from 'sweetalert';
 export default function Contact() {
+    const [name, setName] = useState('');
+	const [email, setEmail] = useState('');
+	const [message, setMessage] = useState('');
+    const handleSubmit = (event) => {
+		event.preventDefault();
+		const data = {
+		  name,
+		  email,
+		  message
+		};
+		sendData(data);
+	  }
+    const sendData = (data) => {
+		axios.post('https://agaiby-t23y.onrender.com/contact/sendMessage', data)
+		  .then(response => {
+			console.log(response.data);
+            swal({
+                title: "Good job!",
+                text: "Your data has been sent successfully!",
+                icon: "success",
+                button: {
+                  text: "OK",
+                  value: true,
+                },
+              }).then((value) => {
+                if (value) {
+                  window.location.reload();
+                }
+              });
+		  })
+		  .catch(error => {
+			console.log(error);			swal("Oops!", "Please try again!", "error");
+
+		  });
+	  }
     useEffect(() => {
         window.scrollTo(0, 0);
       }, []);
@@ -28,15 +65,15 @@ export default function Contact() {
                                 <li><i class="fa fa-phone"></i>+20 244 564 541 - +20 244 564 540</li>
                             </ul>
                             <h4 style={{fontFamily:'Maya'}}>Send Email</h4>
-                            <form class="form contact-validation-active" id="contact-form">
+                            <form class="form contact-validation-active" id="contact-form" method="post" onSubmit={handleSubmit}>
                                 <div>
-                                    <input type="text" name="name" class="form-control" placeholder="Full Name"/>
+                                    <input type="text" name="name" class="form-control" placeholder="Full Name" value={name} onChange={(e) => setName(e.target.value)}/>
                                 </div>
                                 <div>
-                                    <input type="email" name="email" class="form-control" placeholder="Email"/>
+                                    <input type="email" name="email" class="form-control" placeholder="Email" value={email} onChange={(e) => setEmail(e.target.value)}/>
                                 </div>
                                 <div>
-                                    <textarea name="note" class="form-control" placeholder="Message"></textarea>
+                                    <textarea name="message" class="form-control" placeholder="Message" value={message} onChange={(e) => setMessage(e.target.value)}></textarea>
                                 </div>
                                 <div class="submit">
                                 <Fade left duration={1000} delay={500}>
@@ -104,7 +141,7 @@ export default function Contact() {
   <div style={{position:'relative', width:'300px', height:'300px', borderRadius:'50%', overflow:'hidden'}}>
     <iframe src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3446.7918597514235!2d31.389328915119837!3d30.2430114818105!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMzDCsDE0JzM0LjgiTiAzMcKwMjMnMjkuNSJF!5e0!3m2!1sen!2seg!4v1681817776603!5m2!1sen!2seg" style={{border:'0', width:'100%', height:'100%'}} allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
   </div>
-  <h5 style={{textAlign:'center', marginTop:'20px',color:'rgb(118, 99, 69)',fontFamily:'Maya', fontSize:'26px', marginBottom:'1rem'}}>Factory Branch</h5>
+  <h5 style={{textAlign:'center', marginTop:'20px',color:'rgb(118, 99, 69)',fontFamily:'Maya', fontSize:'26px', marginBottom:'1rem'}}>Factory </h5>
 </div>
 </div>
 <div className="col"> 

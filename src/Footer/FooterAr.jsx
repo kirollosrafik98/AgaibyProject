@@ -13,7 +13,7 @@ export default function FooterAr() {
           
           <div class="col col-lg-4 col-md-4 col-xs-6">
               <div class="widget newsletter-widget">
-                <h3 style={{ fontFamily: "Maya" }}  dir="rtl" lang="ar">الاشتراك</h3>
+                <h3 style={{ fontFamily: "Maya" }}  dir="rtl" lang="ar">تواصل معنا</h3>
                 <ul dir="rtl" lang="ar">
                   <li>
                     <i
@@ -29,23 +29,10 @@ export default function FooterAr() {
                       class="fa fa-volume-control-phone"
                       aria-hidden="true"
                     ></i>{" "}
-                    +20 244 564 541
+                 +20 244 564 541 - +20 244 564 540
                   </li>
                 </ul>
-                <form class="form">
-                  <div>
-                  <button class="btn" type="submit">
-                      <i class="fa-regular fa-paper-plane"></i>
-                    </button>
-                    <input
-                     dir="rtl" lang="ar"
-                      type="text"
-                      class="form-control"
-                      placeholder="البريد الالكتروني"
-                    />
-                   
-                  </div>
-                </form>
+               
               </div>
 
               <div class="widget social-media-widget">

@@ -71,11 +71,12 @@ export default function NavbarSp({ar, setAr}) {
                             </li>
                             <li><Link className='nav-item' to='/contact'  style={{textDecoration:'none', color:'#C0AB89', fontSize:'20px'}} onClick={verena}>Contacto</Link></li>
                         </ul>
-                        <div class="language" style={{width:'30%',display:'flex', justifyContent:'end'}}>
+                        <div style={{width:'15%'}}></div>
+                        <div class="language" style={{width:'15%',display:'flex', justifyContent:'end'}}>
                         <div    onClick={() => {setAr('eng');localStorage.setItem('lang','eng')}}>
-                                         <img src={uk} style={{width:'90%', paddingRight:'4px'}} alt="" /></div> 
+                                         <img src={uk} style={{width:'70%', paddingRight:'4px'}} alt="" /></div> 
                                          <div    onClick={() => {setAr('egp');localStorage.setItem('lang','egp')}}> 
-                                             <img src={egypt} style={{width:'90%', paddingRight:'4px'}} alt="" />
+                                             <img src={egypt} style={{width:'70%', paddingRight:'4px'}} alt="" />
                                               </div>
                                                                                    {/* <div    onClick={() => {setAr('fr');localStorage.setItem('lang','fr')}}>
  <img src={french} style={{width:'10%', paddingRight:'4px'}} alt="" /> </div>  */}
@@ -88,7 +89,7 @@ export default function NavbarSp({ar, setAr}) {
                   {" "}
                   <img
                     src={french}
-                    style={{ width: "35%", paddingRight: "4px" }}
+                    style={{ width: "70%", paddingRight: "4px" }}
                     alt=""
                   />
                 </div>

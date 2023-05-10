@@ -69,18 +69,12 @@ export default function FooterFr() {
 
                     <div class="col col-lg-4 col-md-4 col-xs-6">
                         <div class="widget newsletter-widget">
-                            <h3 style={{fontFamily:'Maya'}}>Abonnement</h3>
+                            <h3 style={{fontFamily:'Maya'}}>Contactez-nous</h3>
                             <ul>
                                 <li><i style={{color:'#C0AB89'}} class="fa-regular fa-envelope" aria-hidden="true"></i> Info@agaipy.com</li>
-                                <li><i style={{color:'#C0AB89'}} class="fa fa-volume-control-phone" aria-hidden="true"></i>  +20 244 564 541</li>
+                                <li><i style={{color:'#C0AB89'}} class="fa fa-volume-control-phone" aria-hidden="true"></i> +20 244 564 541 - +20 244 564 540</li>
                             </ul>
-                            <form class="form">
-                                <div>
-                                    <input type="text" class="form-control" placeholder="email address"/>
-                                    <button class="btn" type="submit"><i class="fa-regular fa-paper-plane"></i></button>
-                                </div>
-
-                            </form>
+                          
                         </div>
 
                         <div class="widget social-media-widget">

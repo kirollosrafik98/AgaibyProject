@@ -128,6 +128,13 @@ import BlogAr from './Blog/BlogAr';
 import Blog1Ar from './Blog/Blog1Ar';
 import Blog2Ar from './Blog/Blog2Ar';
 import Blog3Ar from './Blog/Blog3Ar';
+import Blog4Ar from './Blog/Blog4Ar';
+import Blog5Ar from './Blog/Blog5Ar';
+import Blog6Ar from './Blog/Blog6Ar';
+import Blog7Ar from './Blog/Blog7Ar';
+import Blog8Ar from './Blog/Blog8Ar';
+import Blog9Ar from './Blog/Blog9Ar';
+import Blog10Ar from './Blog/Blog10Ar';
 function App() {
   const [ar, setAr] =  useState(localStorage.getItem('lang') ? localStorage.getItem('lang') : "eng");
 
@@ -395,13 +402,13 @@ function App() {
 <Route  path='/blog1' element={<Blog1Ar/>}/>
 <Route  path='/blog2' element={<Blog2Ar/>}/>
 <Route  path='/blog3' element={<Blog3Ar/>}/>
-<Route  path='/blog4' element={<Blog4/>}/>
-<Route  path='/blog5' element={<Blog5/>}/>
-<Route  path='/blog6' element={<Blog6/>}/>
-<Route  path='/blog7' element={<Blog7/>}/>
-<Route  path='/blog8' element={<Blog8/>}/>
-<Route  path='/blog9' element={<Blog9/>}/>
-<Route  path='/blog10' element={<Blog10/>}/>
+<Route  path='/blog4' element={<Blog4Ar/>}/>
+<Route  path='/blog5' element={<Blog5Ar/>}/>
+<Route  path='/blog6' element={<Blog6Ar/>}/>
+<Route  path='/blog7' element={<Blog7Ar/>}/>
+<Route  path='/blog8' element={<Blog8Ar/>}/>
+<Route  path='/blog9' element={<Blog9Ar/>}/>
+<Route  path='/blog10' element={<Blog10Ar/>}/>
 <Route  path='/products' element={<Products/>}/>
 <Route  path='/dyedStretch' element={<DyedStretch/>}/>
 <Route  path='/rozalin' element={<Rozalin/>}/>
