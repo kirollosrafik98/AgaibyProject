@@ -42,7 +42,7 @@ export default function NavbarAr({ ar, setAr }) {
               
               <div
             class="language"
-            style={{ width: "15%", display: "flex", justifyContent: "end" }}
+            style={{ width: "15%", display: "flex", justifyContent: "end", float:'right' }}
           >
          
          
@@ -83,11 +83,11 @@ export default function NavbarAr({ ar, setAr }) {
           </div>
           <div style={{width:'15%'}}></div>
               <ul
-                class=" navbar-nav  mb-2 mb-lg-0"
+                class=" navbar-nav  mb-2 mb-lg-0 ulSize"
                 style={{
                   display: "flex",
                   justifyContent: "space-evenly",
-                  width: "70%",
+                
                 }}
                 dir="rtl" lang="ar" >
 <li>
@@ -206,7 +206,7 @@ export default function NavbarAr({ ar, setAr }) {
               style={{  padding: "0" }}
               to="/"
             >
-              <img src={logo} />
+              <img src={logo}  style={{width:'100%', float:'right'}}/>
             </Link>
           </div>
         </nav>

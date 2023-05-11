@@ -8748,8 +8748,13 @@ clear: both;
 .logoLnav{
   width:70%!important
 }
+.ulSize{
+  width:100%!important
 }
-
+}
+.ulSize{
+  width:70%
+}
 .logoLnav{
   width:20%
 }
