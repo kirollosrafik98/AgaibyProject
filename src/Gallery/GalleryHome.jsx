@@ -28,7 +28,7 @@ export default function GalleryHome() {
       <Fade right>
         <div class="grid">
           <div class="entry-media">
-            <img src={Branch1} style={{width:'100%', height:'500px',objectFit:'cover'}}  alt class="img img-responsive"/>
+          <Link to='/branch1'> <img src={Branch1} style={{width:'100%', height:'500px',objectFit:'cover'}}  alt class="img img-responsive"/></Link>
           </div>
           <div class="entry-details">
             <h3><a style={{textDecoration:'none', fontFamily:'Maya'}}>Shubra Branch</a></h3>
@@ -45,7 +45,7 @@ export default function GalleryHome() {
       <Fade right>
         <div class="grid">
           <div class="entry-media">
-            <img src={Branch2}  style={{width:'100%', height:'500px',objectFit:'cover'}}  alt class="img img-responsive"/>
+          <Link to='/branch2'>   <img src={Branch2}  style={{width:'100%', height:'500px',objectFit:'cover'}}  alt class="img img-responsive"/></Link> 
           </div>
           <div class="entry-details">
             <h3><a style={{textDecoration:'none', fontFamily:'Maya'}}>Gesr El Suez Branch</a></h3>

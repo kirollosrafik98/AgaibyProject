@@ -186,8 +186,9 @@ export default function NavbarSp({ ar, setAr }) {
                 style={{
                   width: "15%",
                   display: "flex",
-                  justifyContent: "end",
+                  // justifyContent: "end",
                   paddingLeft: "3%",
+                  float:'right'
                 }}
               >
              <ul className="direction">

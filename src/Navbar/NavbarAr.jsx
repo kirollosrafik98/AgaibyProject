@@ -31,7 +31,7 @@ export default function NavbarAr({ ar, setAr }) {
               aria-controls="navbarSupportedContent"
               aria-expanded="false"
               aria-label="Toggle navigation"
-            >
+          style={{marginTop:'2%'}}  >
               <span class="navbar-toggler-icon"></span>
             </button>
             <div
@@ -202,7 +202,7 @@ export default function NavbarAr({ ar, setAr }) {
               
             </div>
             <Link
-              class="navbar-brand specialReq"
+              class="navbar-brand  logoLnav"
               style={{  padding: "0" }}
               to="/"
             >

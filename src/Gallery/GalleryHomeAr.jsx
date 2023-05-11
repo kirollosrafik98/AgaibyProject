@@ -42,7 +42,8 @@ export default function GalleryHomeAr() {
                 <Fade right>
                   <div class="grid">
                     <div class="entry-media">
-                      <img
+                    <Link
+                          to="/branch1">  <img
                         src={Branch1}
                         style={{
                           width: "100%",
@@ -51,7 +52,7 @@ export default function GalleryHomeAr() {
                         }}
                         alt
                         class="img img-responsive"
-                      />
+                      /></Link> 
                     </div>
                     <div class="entry-details">
                       <h3  dir="rtl" lang="ar">
@@ -80,7 +81,8 @@ export default function GalleryHomeAr() {
                 <Fade right>
                   <div class="grid">
                     <div class="entry-media">
-                      <img
+                    <Link
+                          to="/branch2"> <img
                         src={Branch2}
                         style={{
                           width: "100%",
@@ -89,7 +91,7 @@ export default function GalleryHomeAr() {
                         }}
                         alt
                         class="img img-responsive"
-                      />
+                      /></Link> 
                     </div>
                     <div class="entry-details">
                       <h3  dir="rtl" lang="ar">

@@ -43,7 +43,7 @@ export default function NavbarFr({ ar, setAr }) {
             <div
               class="collapse navbar-collapse"
               id="navbarSupportedContent"
-              style={{ width: "70%" }}
+              style={{ width: "70%"}}
             >
               <ul
                 class=" navbar-nav  mb-2 mb-lg-0"
@@ -186,8 +186,9 @@ export default function NavbarFr({ ar, setAr }) {
                 style={{
                   width: "15%",
                   display: "flex",
-                  justifyContent: "end",
+                  // justifyContent: "end",
                   paddingLeft: "3%",
+                  float:'right'
                 }}
               >
                <ul className="direction">

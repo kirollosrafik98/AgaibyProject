@@ -8734,17 +8734,24 @@ clear: both;
    flex-direction:column!important;
 }
 .specialReq{
-  width: 100%!important;
+  /* width: 100%!important; */
   display: flex!important;
   justify-content: end!important;
 }
 .specialFooter{
   display: none!important;
 }
-.navbaSpecial{
+/* .navbaSpecial{
   display: flex!important;
   flex-direction: unset!important;
+} */
+.logoLnav{
+  width:70%!important
 }
+}
+
+.logoLnav{
+  width:20%
 }
 .specialFooter{
   display: block;
@@ -8763,7 +8770,7 @@ clear: both;
   align-items: center;
   background-color: rgba(0, 0, 0, 0.5);
   backdrop-filter: blur(5px);
-  z-index: 1;
+  z-index: 10000;
 }
 
 .popup-form {

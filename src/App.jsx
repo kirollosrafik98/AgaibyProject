@@ -77,7 +77,7 @@ import BengalineSub16 from './Products/BengalineSub16';
 import BengalineSub11 from './Products/BengalineSub11';
 import BengalineSub17 from './Products/BengalineSub17';
 import History from './History/History';
-import { useState } from 'react';
+import { useEffect, useState } from 'react';
 import AboutFr from './About/AboutFr';
 import NavbarFr from './Navbar/NavbarFr';
 import FooterFr from './Footer/FooterFr';
@@ -136,6 +136,11 @@ import Blog8Ar from './Blog/Blog8Ar';
 import Blog9Ar from './Blog/Blog9Ar';
 import Blog10Ar from './Blog/Blog10Ar';
 function App() {
+ 
+
+  useEffect(() => {
+localStorage.setItem('lang','eng') 
+ }, []);
   const [ar, setAr] =  useState(localStorage.getItem('lang') ? localStorage.getItem('lang') : "eng");
 
   return (

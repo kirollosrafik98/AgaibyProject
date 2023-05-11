@@ -23,8 +23,8 @@ export default function Navbar({ ar, setAr }) {
         >
           <div class="container-fluid">
             <Link
-              class="navbar-brand"
-              style={{ width: "20%", padding: "0" }}
+              class="navbar-brand logoLnav"
+              style={{  padding: "0" }}
               to="/"
             >
               <img src={logo} />
@@ -43,7 +43,7 @@ export default function Navbar({ ar, setAr }) {
             <div
               class="collapse navbar-collapse"
               id="navbarSupportedContent"
-              style={{ width: "70%" }}
+              style={{ width: "70%"}}
             >
               <ul
                 class=" navbar-nav  mb-2 mb-lg-0"
@@ -186,8 +186,9 @@ export default function Navbar({ ar, setAr }) {
                 style={{
                   width: "15%",
                   display: "flex",
-                  justifyContent: "end",
+                  // justifyContent: "end",
                   paddingLeft: "3%",
+                  float:'right'
                 }}
               >
                 {/* <img src={uk} style={{width:'10%', paddingRight:'4px'}} alt="" /> */}
