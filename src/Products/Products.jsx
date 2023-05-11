@@ -25,7 +25,7 @@ export default function Products() {
 <>
 <div class="page-title">
             <div class="container">
-            <Fade top duration={1000} delay={500}>  <h1 style={{color:'#C0AB89', fontFamily:'Millania', fontSize:'80px'}}>
+            <Fade top duration={1000} delay={500}>  <h1 style={{color:'#C0AB89', fontFamily:'Millania', fontSize:'60px'}}>
             {
          localStorage.getItem("lang") === "eng" 
           ? "Products"
@@ -41,7 +41,7 @@ export default function Products() {
 
             </div>
         </div>
-        <section class="blog-content-section section-padding" style={{paddingTop:'80px'}}>
+        <section class="blog-content-section section-padding" style={{paddingTop:'60px'}}>
             <div class="container">
       
  <Element name='blog'>

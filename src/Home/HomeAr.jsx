@@ -93,7 +93,7 @@ export default function HomeAr() {
                         class="fa-solid fa-circle-check fs-4"
                       ></i>
                     </span>
-                    <span style={{ paddingLeft: "2%" }}>
+                    <span style={{ paddingRight: "2%" }}>
                     أفضل معايير الجودة
                     </span>
                   </li>
@@ -109,7 +109,7 @@ export default function HomeAr() {
                         class="fa-solid fa-circle-check fs-4"
                       ></i>
                     </span>
-                    <span style={{ paddingLeft: "2%" }}>
+                    <span style={{ paddingRight: "2%" }}>
                     100 ٪ ضمان الرضا
                     </span>
                   </li>
@@ -125,7 +125,7 @@ export default function HomeAr() {
                         class="fa-solid fa-circle-check fs-4"
                       ></i>
                     </span>
-                    <span style={{ paddingLeft: "2%" }}>
+                    <span style={{ paddingRight: "2%" }}>
                     نظام مراقبة الجودة
                     </span>
                   </li>
@@ -159,6 +159,7 @@ export default function HomeAr() {
                     borderRadius: "10px",
                     display: "flex",
                     justifyContent: "center",
+                    paddingBottom:'2%'
                   }}
                 >
                   <Link

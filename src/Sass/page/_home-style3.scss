@@ -10,7 +10,7 @@
 
 	@include widther(1200px) {
 		padding: 0;
-		margin-top: -80px;
+		margin-top: -60px;
 
 		&:before {
 		    content: "";
@@ -30,7 +30,7 @@
 
 		@include widther(1200px) {
 			background-color: $white;
-			padding: 80px 65px 50px;
+			padding: 60px 65px 50px;
 			margin-bottom: 120px;
 			-webkit-box-shadow: 1px 5px 19px 0px lighten($black, 85%);
 			-moz-box-shadow: 1px 5px 19px 0px lighten($black, 85%);
@@ -375,7 +375,7 @@
 
 	.faq-col {
 		@include media-query(1199px) {
-			margin-top: 80px;
+			margin-top: 60px;
 		}
 
 		@include media-query(991px) {

@@ -28,7 +28,7 @@ export default function BlogAr() {
               style={{
                 color: "#C0AB89",
                 fontFamily: "Millania",
-                fontSize: "80px",
+                fontSize: "60px",
               }}
             >
               مدونة
@@ -41,7 +41,7 @@ export default function BlogAr() {
 
       <section
         class="blog-content-section section-padding"
-        style={{ paddingTop: "80px" }}
+        style={{ paddingTop: "60px" }}
       >
         <div class="container">
           <Element name="blog">

@@ -1,7 +1,7 @@
 /*** sidebar ***/
 .sidebar {
 	@include media-query(991px) {
-		margin-top: 80px;
+		margin-top: 60px;
 	}
 
 	@include media-query(767px) {
@@ -129,7 +129,7 @@
 			top: 0;
 
 			@include media-query(991px) {
-				width: 80px;
+				width: 60px;
 				height: 75px;
 			}
 		}

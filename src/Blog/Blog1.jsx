@@ -10,7 +10,7 @@ export default function Blog1() {
 <>
 <div class="page-title">
             <div class="container">
-            <Fade top duration={1000} delay={500}>  <h1 style={{color:'#C0AB89', fontFamily:'Millania', fontSize:'80px'}}>Blog</h1></Fade>
+            <Fade top duration={1000} delay={500}>  <h1 style={{color:'#C0AB89', fontFamily:'Millania', fontSize:'60px'}}>Blog</h1></Fade>
 
                 {/* <h1>Blog</h1> */}
             </div>

@@ -10,7 +10,7 @@
 
 .blog-details-page .blog-single-content {
 	@include widther(992px) {
-		margin-bottom: 80px;
+		margin-bottom: 60px;
 	}
 
 	@include media-query(991px) {

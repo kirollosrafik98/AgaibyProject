@@ -249,7 +249,7 @@ a:focus {
 
 @media (max-width: 767px) {
   .section-padding {
-    padding: 75px 0 80px;
+    padding: 75px 0 60px;
   }
 }
 
@@ -486,7 +486,7 @@ a:focus {
 .section-title-s1 h2:after {
   content: "";
   background-color: #C0AB89;
-  width: 80px;
+  width: 60px;
   height: 2px;
   position: absolute;
   left: 0;
@@ -720,7 +720,7 @@ a:focus {
 
 .theme-btn-s1 {
   font-family: "Merriweather", serif;
-  width: 180px;
+  width: 160px;
   height: 45px;
   line-height: 42px;
   font-size: 18px;
@@ -1557,7 +1557,7 @@ a:focus {
 
 @media (max-width: 767px) {
   .client-login-area .client-login-form {
-    width: 280px;
+    width: 260px;
     padding: 30px;
   }
 }
@@ -1894,7 +1894,7 @@ a:focus {
 
 @media (max-width: 991px) {
   .sidebar {
-    margin-top: 80px;
+    margin-top: 60px;
   }
 }
 
@@ -2037,7 +2037,7 @@ a:focus {
 
 @media (max-width: 991px) {
   .sidebar .news-letter-widget:before {
-    width: 80px;
+    width: 60px;
     height: 75px;
   }
 }
@@ -2787,7 +2787,7 @@ a:focus {
   .site-header #navbar {
     background: #fff;
     display: block !important;
-    width: 280px;
+    width: 260px;
     height: 100% !important;
     margin: 0;
     padding: 0;
@@ -3089,7 +3089,7 @@ a:focus {
 
 @media (max-width: 991px) {
   .header-style-1 .navbar-brand img, .header-style-3 .navbar-brand img {
-    max-width: 180px;
+    max-width: 160px;
   }
 }
 
@@ -3742,7 +3742,7 @@ a:focus {
 
 @media (max-width: 767px) {
   .hero-slider-s2 .slide {
-    height: 203px;
+    height: 225px;
   }
 }
 
@@ -3965,7 +3965,7 @@ a:focus {
 
 @media (max-width: 767px) {
   .site-footer {
-    padding: 80px 0 20px;
+    padding: 60px 0 20px;
   }
 }
 
@@ -3982,7 +3982,7 @@ a:focus {
 
 @media (max-width: 1199px) {
   .site-footer .container > .row > .col {
-    margin-bottom: 80px;
+    margin-bottom: 60px;
   }
 }
 
@@ -4370,7 +4370,7 @@ a:focus {
 
 @media (max-width: 650px) {
   .services-section {
-    padding-bottom: 80px;
+    padding-bottom: 60px;
   }
 }
 
@@ -4396,18 +4396,18 @@ a:focus {
 .testimonial-section .testimonials-slider .grid {
   background-color: #C0AB89;
   text-align: center;
-  padding: 80px 65px 65px;
+  padding: 60px 65px 65px;
 }
 
 @media (max-width: 1199px) {
   .testimonial-section .testimonials-slider .grid {
-    padding: 80px 45px 65px;
+    padding: 60px 45px 65px;
   }
 }
 
 @media (max-width: 767px) {
   .testimonial-section .testimonials-slider .grid {
-    padding: 80px 25px 45px;
+    padding: 60px 25px 45px;
   }
 }
 
@@ -4995,7 +4995,7 @@ a:focus {
 
 @media (max-width: 1199px) {
   .faq-blog .blog-col {
-    margin-top: 80px;
+    margin-top: 60px;
   }
 }
 
@@ -5723,7 +5723,7 @@ a:focus {
 @media screen and (min-width: 1200px) {
   .services-serction-s3 {
     padding: 0;
-    margin-top: -80px;
+    margin-top: -60px;
   }
   .services-serction-s3:before {
     content: "";
@@ -5745,7 +5745,7 @@ a:focus {
 @media screen and (min-width: 1200px) {
   .services-serction-s3 > .container {
     background-color: #fff;
-    padding: 80px 65px 50px;
+    padding: 60px 65px 50px;
     margin-bottom: 120px;
     -webkit-box-shadow: 1px 5px 19px 0px #d9d9d9;
     -moz-box-shadow: 1px 5px 19px 0px #d9d9d9;
@@ -6134,7 +6134,7 @@ a:focus {
 
 @media (max-width: 1199px) {
   .testimonials-s2-faq .faq-col {
-    margin-top: 80px;
+    margin-top: 60px;
   }
 }
 
@@ -6190,7 +6190,7 @@ a:focus {
 
 @media (max-width: 1199px) {
   .overview-section {
-    padding-top: 80px;
+    padding-top: 60px;
   }
 }
 
@@ -6313,7 +6313,7 @@ a:focus {
 
 .overview-section .chart-area {
   height: 450px;
-  margin: 80px 0;
+  margin: 60px 0;
 }
 
 @media (max-width: 767px) {
@@ -6467,7 +6467,7 @@ a:focus {
     width: 100%;
     position: static;
     left: 0;
-    margin-top: 80px;
+    margin-top: 60px;
   }
 }
 
@@ -7405,7 +7405,7 @@ a:focus {
 
 @media (max-width: 1199px) {
   .careers-section .job .apply-share a {
-    width: 180px;
+    width: 160px;
     height: 45px;
     line-height: 45px;
     font-size: 16px;
@@ -7522,7 +7522,7 @@ a:focus {
 }
 
 .services-single-pg .service-single-content .service-single-slider {
-  margin-top: 80px;
+  margin-top: 60px;
 }
 
 @media (max-width: 991px) {
@@ -7597,7 +7597,7 @@ a:focus {
 }
 
 .services-single-pg .service-single-content .service-single-tab {
-  margin-top: 80px;
+  margin-top: 60px;
 }
 
 @media (max-width: 991px) {
@@ -7748,7 +7748,7 @@ a:focus {
 
 @media screen and (min-width: 992px) {
   .blog-details-page .blog-single-content {
-    margin-bottom: 80px;
+    margin-bottom: 60px;
   }
 }
 
@@ -8319,7 +8319,7 @@ a:focus {
 
 @media (max-width: 991px) {
   .projects-s1-pg .latest-projects {
-    padding: 80px 0;
+    padding: 60px 0;
   }
 }
 
@@ -8728,8 +8728,18 @@ clear: both;
   transition-property: transform;
   display: block;
 }
+.direction{
+  display:flex;
+   padding-left:0;
+   flex-direction:column!important;
 }
-
+.specialReq{
+  width: 42%!important;
+}
+}
+.specialReq{
+  width: 20%;
+}
 .popup-container {
   position: fixed;
   top: 0;
@@ -8775,4 +8785,9 @@ clear: both;
 
 .popup-form button:hover {
   background-color: rgb(192, 171, 137);
+}
+.direction{
+  display:flex;
+   padding-left:0;
+   flex-direction:row;
 }

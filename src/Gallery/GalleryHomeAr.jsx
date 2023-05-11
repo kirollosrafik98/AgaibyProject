@@ -20,7 +20,7 @@ export default function GalleryHomeAr() {
               style={{
                 color: "#C0AB89",
                 fontFamily: "Millania",
-                fontSize: "80px",
+                fontSize: "60px",
               }}
             >
               معرض الصور
@@ -30,7 +30,7 @@ export default function GalleryHomeAr() {
       </div>
       <section
         class="blog-content-section section-padding"
-        style={{ paddingTop: "80px" }}
+        style={{ paddingTop: "60px" }}
       >
         <div class="container">
           <Element name="blog">

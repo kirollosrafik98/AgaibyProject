@@ -16,7 +16,7 @@ export default function Blog6Sp() {
               style={{
                 color: "#C0AB89",
                 fontFamily: "Millania",
-                fontSize: "80px",
+                fontSize: "60px",
               }}
             >
               Blog

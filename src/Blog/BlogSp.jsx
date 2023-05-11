@@ -28,7 +28,7 @@ export default function BlogSp() {
               style={{
                 color: "#C0AB89",
                 fontFamily: "Millania",
-                fontSize: "80px",
+                fontSize: "60px",
               }}
             >
               Blogs
@@ -41,7 +41,7 @@ export default function BlogSp() {
 
       <section
         class="blog-content-section section-padding"
-        style={{ paddingTop: "80px" }}
+        style={{ paddingTop: "60px" }}
       >
         <div class="container">
           <Element name="blog">

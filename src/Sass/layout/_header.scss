@@ -288,7 +288,7 @@
 		#navbar {
 			background: $white;
 			display: block !important;
-			width: 280px;
+			width: 260px;
 			height: 100% !important;
 			margin: 0;
 			padding: 0;
@@ -581,7 +581,7 @@
 
 		img {
 			@include media-query(991px) {
-				max-width: 180px;
+				max-width: 160px;
 			}
 		}
 	}

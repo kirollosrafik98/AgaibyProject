@@ -51,6 +51,7 @@ export default function Navbar({ ar, setAr }) {
                   display: "flex",
                   justifyContent: "space-evenly",
                   width: "70%",
+                  paddingLeft: "3%",
                 }}
               >
                 <li class="nav-item ">
@@ -179,57 +180,68 @@ export default function Navbar({ ar, setAr }) {
                   </Link>
                 </li>
               </ul>
-              <div style={{width:'15%'}}></div>
+              <div style={{ width: "15%" }}></div>
               <div
                 class="language"
-                style={{ width: "15%", display: "flex", justifyContent: "end" }}
+                style={{
+                  width: "15%",
+                  display: "flex",
+                  justifyContent: "end",
+                  paddingLeft: "3%",
+                }}
               >
                 {/* <img src={uk} style={{width:'10%', paddingRight:'4px'}} alt="" /> */}
                 {/* <div    onClick={() => {setAr('ar');localStorage.setItem('lang','ar')}}> */}
-             
-             <ul style={{display:'flex', paddingLeft:'0',flexDirection:'row'}}>
-                <li> <div
-                  onClick={() => {
-                    setAr("egp");
-                    localStorage.setItem("lang", "egp");
-                  }}
-                >
-                  <img
-                    src={egypt}
-                    style={{ width: "70%", paddingRight: "4px" }}
-                    alt=""
-                  />
-                </div></li>
-                <li><div
-                  onClick={() => {
-                    setAr("fr");
-                    localStorage.setItem("lang", "fr");
-                  }}
-                >
-                  <img
-                    src={french}
-                    style={{ width: "70%", paddingRight: "4px" }}
-                    alt=""
-                  />{" "}
-                </div></li>
-                <li> <div
-                  onClick={() => {
-                    setAr("spain");
-                    localStorage.setItem("lang", "spain");
-                  }}
-                >
-                  {" "}
-                  <img
-                    src={spain}
-                    style={{ width: "70%", paddingRight: "4px" }}
-                    alt=""
-                  />
-                </div></li>
-             </ul>
-               
+
+                <ul className="direction">
+                  <li>
+                    {" "}
+                    <div
+                      onClick={() => {
+                        setAr("egp");
+                        localStorage.setItem("lang", "egp");
+                      }}
+                    >
+                      <img
+                        src={egypt}
+                        style={{ width: "70%", paddingRight: "4px" }}
+                        alt=""
+                      />
+                    </div>
+                  </li>
+                  <li>
+                    <div
+                      onClick={() => {
+                        setAr("fr");
+                        localStorage.setItem("lang", "fr");
+                      }}
+                    >
+                      <img
+                        src={french}
+                        style={{ width: "70%", paddingRight: "4px" }}
+                        alt=""
+                      />{" "}
+                    </div>
+                  </li>
+                  <li>
+                    {" "}
+                    <div
+                      onClick={() => {
+                        setAr("spain");
+                        localStorage.setItem("lang", "spain");
+                      }}
+                    >
+                      {" "}
+                      <img
+                        src={spain}
+                        style={{ width: "70%", paddingRight: "4px" }}
+                        alt=""
+                      />
+                    </div>
+                  </li>
+                </ul>
+
                 {/* </div> */}
-                
-               
               </div>
             </div>
           </div>

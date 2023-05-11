@@ -46,7 +46,7 @@ export default function NavbarAr({ ar, setAr }) {
           >
          
          
-         <ul style={{display:'flex', paddingLeft:'0',flexDirection:'row'}}>
+         <ul className="direction">
             <li>  <div    onClick={() => {setAr('eng');localStorage.setItem('lang','eng')}}>
                                      <img src={uk} style={{width:'70%', paddingRight:'4px'}} alt="" /></div> 
             </li>
@@ -89,7 +89,7 @@ export default function NavbarAr({ ar, setAr }) {
                   justifyContent: "space-evenly",
                   width: "70%",
                 }}
-              >
+                dir="rtl" lang="ar" >
 <li>
                   <Link
                     className="nav-item"
@@ -202,8 +202,8 @@ export default function NavbarAr({ ar, setAr }) {
               
             </div>
             <Link
-              class="navbar-brand"
-              style={{ width: "20%", padding: "0" }}
+              class="navbar-brand specialReq"
+              style={{  padding: "0" }}
               to="/"
             >
               <img src={logo} />

@@ -22,13 +22,13 @@ export default function Blog() {
 <>
 <div class="page-title">
             <div class="container">
-            <Fade top duration={1000} delay={500}>  <h1 style={{color:'#C0AB89', fontFamily:'Millania', fontSize:'80px'}}>Blogs</h1></Fade>
+            <Fade top duration={1000} delay={500}>  <h1 style={{color:'#C0AB89', fontFamily:'Millania', fontSize:'60px'}}>Blogs</h1></Fade>
 
                 {/* <h1>Blog</h1> */}
             </div>
         </div>
      
-        <section class="blog-content-section section-padding" style={{paddingTop:'80px'}}>
+        <section class="blog-content-section section-padding" style={{paddingTop:'60px'}}>
             <div class="container">
         
  <Element name='blog' >

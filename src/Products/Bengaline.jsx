@@ -34,7 +34,7 @@ export default function Bengaline() {
 <>
 <div class="page-title">
             <div class="container">
-            <Fade top duration={1000} delay={500}>  <h1 style={{color:'#C0AB89', fontFamily:'Millania', fontSize:'80px'}}>
+            <Fade top duration={1000} delay={500}>  <h1 style={{color:'#C0AB89', fontFamily:'Millania', fontSize:'60px'}}>
             {
          localStorage.getItem("lang") === "eng" 
           ? "Printed Bengaline Light for T-Shirt with Lycra"

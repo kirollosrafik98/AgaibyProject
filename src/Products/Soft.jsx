@@ -75,7 +75,7 @@ export default function Soft() {
     <>
     <div class="page-title">
                 <div class="container">
-                <Fade top duration={1000} delay={500}>  <h1 style={{color:'#C0AB89', fontFamily:'Millania', fontSize:'80px'}} className="productName">
+                <Fade top duration={1000} delay={500}>  <h1 style={{color:'#C0AB89', fontFamily:'Millania', fontSize:'60px'}} className="productName">
                 {
          localStorage.getItem("lang") === "eng" 
           ? " Dyed Soft Fabric for Pants"

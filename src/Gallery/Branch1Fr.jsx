@@ -56,13 +56,13 @@ export default function Branch1Fr() {
 <>
 <div class="page-title">
             <div class="container">
-            <Fade top duration={1000} delay={500}>  <h1 style={{color:'#C0AB89', fontFamily:'Millania', fontSize:'80px'}}>Sucursale de Shubra</h1></Fade>
+            <Fade top duration={1000} delay={500}>  <h1 style={{color:'#C0AB89', fontFamily:'Millania', fontSize:'60px'}}>Sucursale de Shubra</h1></Fade>
 
                 {/* <h1>Gallery</h1> */}
             </div>
         </div>
  
-        <section class=" section-padding" style={{paddingTop:'80px'}}>
+        <section class=" section-padding" style={{paddingTop:'60px'}}>
             <div class="container">
             <div className="gallery-container">
       <Slider {...settings}>

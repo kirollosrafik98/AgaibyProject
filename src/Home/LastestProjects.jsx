@@ -51,10 +51,10 @@ export default function LastestProjects() {
     > 
      <SwiperSlide>  <div class="grid">
                             <div class="img-holder">
-                                <img src={img1} style={{width:'100%', height:'350px',objectFit:'cover'}} alt/>
+                               <Link to='/stretch'> <img src={img1} style={{width:'100%', height:'350px',objectFit:'cover'}} alt/></Link> 
                             </div>
                             <div class="details" style={{ height: '100px', overflow: 'hidden' }}>
-                                <h3><a style={{textDecoration:'none', color:'#000', fontFamily:'Maya', fontSize:'18px'}}> {
+                                <h3><Link  style={{textDecoration:'none', color:'#000', fontFamily:'Maya', fontSize:'18px'}}> {
          localStorage.getItem("lang") === "eng" 
           ? "Dyed Bengaline Stretch for Pants"
           :localStorage.getItem("lang")=== "egp" 
@@ -64,7 +64,7 @@ export default function LastestProjects() {
               :localStorage.getItem("lang")=== "spain" 
                 ? "Pantalón elástico bengalino teñido" 
                 : ""
-        } </a></h3>
+        } </Link></h3>
                                 <p> <Link style={{textDecoration:'none', color:'#C0AB89'}} to='/stretch'>{
          localStorage.getItem("lang") === "eng" 
           ? " Show More"
@@ -80,10 +80,10 @@ export default function LastestProjects() {
                         </div></SwiperSlide>
                         <SwiperSlide><div class="grid">
                             <div class="img-holder">
-                                <img src={img2} style={{width:'100%', height:'350px',objectFit:'cover'}} alt/>
+                            <Link to='/rozalin'>   <img src={img2} style={{width:'100%', height:'350px',objectFit:'cover'}} alt/></Link> 
                             </div>
                             <div class="details" style={{ height: '100px', overflow: 'hidden' }}>
-                                <h3><a style={{textDecoration:'none', color:'#000', fontFamily:'Maya', fontSize:'18px'}}> {
+                                <h3><Link to='/rozalin' style={{textDecoration:'none', color:'#000', fontFamily:'Maya', fontSize:'18px'}}> {
          localStorage.getItem("lang") === "eng" 
           ? "Dyed Rozalin Fabric"
           :localStorage.getItem("lang")=== "egp" 
@@ -93,7 +93,7 @@ export default function LastestProjects() {
               :localStorage.getItem("lang")=== "spain" 
                 ? "Tela Rozalin Teñida " 
                 : ""
-        }</a></h3>
+        }</Link></h3>
                                 <p> <Link style={{textDecoration:'none', color:'#C0AB89'}} to='/rozalin'> {
          localStorage.getItem("lang") === "eng" 
           ? " Show More"
@@ -109,10 +109,10 @@ export default function LastestProjects() {
                         </div> </SwiperSlide>
                         <SwiperSlide> <div class="grid">
                             <div class="img-holder">
-                                <img src={img3} style={{width:'100%', height:'350px',objectFit:'cover'}} alt/>
+                            <Link to='/scuba'>    <img src={img3} style={{width:'100%', height:'350px',objectFit:'cover'}} alt/></Link>
                             </div>
                             <div class="details" style={{ height: '100px', overflow: 'hidden' }}>
-                                <h3><a style={{textDecoration:'none', color:'#000', fontFamily:'Maya', fontSize:'18px'}}> {
+                                <h3><Link to='/scuba' style={{textDecoration:'none', color:'#000', fontFamily:'Maya', fontSize:'18px'}}> {
          localStorage.getItem("lang") === "eng" 
           ? " Dyed Scuba Fabric"
           :localStorage.getItem("lang")=== "egp" 
@@ -122,7 +122,7 @@ export default function LastestProjects() {
               :localStorage.getItem("lang")=== "spain" 
                 ? "Tejido de buceo teñido" 
                 : ""
-        }</a></h3>
+        }</Link></h3>
                                 <p> <Link style={{textDecoration:'none', color:'#C0AB89'}} to='/scuba'> {
          localStorage.getItem("lang") === "eng" 
           ? " Show More"
@@ -138,10 +138,10 @@ export default function LastestProjects() {
                         </div> </SwiperSlide>
                         <SwiperSlide>   <div class="grid">
                             <div class="img-holder">
-                                <img src={img4} style={{width:'100%', height:'350px',objectFit:'cover'}} alt/>
+                            <Link to='/soft'><img src={img4} style={{width:'100%', height:'350px',objectFit:'cover'}} alt/></Link>
                             </div>
                             <div class="details" style={{ height: '100px', overflow: 'hidden' }}>
-                                <h3><a style={{textDecoration:'none', color:'#000', fontFamily:'Maya', fontSize:'18px'}}>{
+                                <h3><Link to='/soft' style={{textDecoration:'none', color:'#000', fontFamily:'Maya', fontSize:'18px'}}>{
          localStorage.getItem("lang") === "eng" 
           ? "Dyed Soft Fabric for Pants"
           :localStorage.getItem("lang")=== "egp" 
@@ -151,7 +151,7 @@ export default function LastestProjects() {
               :localStorage.getItem("lang")=== "spain" 
                 ? "Tela suave teñida para pantalones" 
                 : ""
-        }</a></h3>
+        }</Link></h3>
                                 <p> <Link style={{textDecoration:'none', color:'#C0AB89'}} to='/soft'> {
          localStorage.getItem("lang") === "eng" 
           ? " Show More"
@@ -167,10 +167,10 @@ export default function LastestProjects() {
                         </div></SwiperSlide>
                         <SwiperSlide><div class="grid">
                             <div class="img-holder">
-                                <img src={img10} style={{width:'100%', height:'350px',objectFit:'cover'}} alt/>
+                            <Link to='/lycra' ><img src={img10} style={{width:'100%', height:'350px',objectFit:'cover'}} alt/></Link>
                             </div>
                             <div class="details" style={{ height: '100px', overflow: 'hidden' }}>
-                                <h3><a style={{textDecoration:'none', color:'#000', fontFamily:'Maya', fontSize:'18px'}}> {
+                                <h3><Link to='/lycra' style={{textDecoration:'none', color:'#000', fontFamily:'Maya', fontSize:'18px'}}> {
          localStorage.getItem("lang") === "eng" 
           ? "Dyed Bengaline Light for T-Shirt with Lycra"
           :localStorage.getItem("lang")=== "egp" 
@@ -180,7 +180,7 @@ export default function LastestProjects() {
               :localStorage.getItem("lang")=== "spain" 
                 ? "Luz bengalina teñida para camiseta con licra " 
                 : ""
-        }</a></h3>
+        }</Link></h3>
                                 <p><Link style={{textDecoration:'none', color:'#C0AB89'}} to='/lycra'> {
          localStorage.getItem("lang") === "eng" 
           ? " Show More"
@@ -196,10 +196,10 @@ export default function LastestProjects() {
                         </div> </SwiperSlide>
                         <SwiperSlide><div class="grid">
                             <div class="img-holder">
-                                <img src={img11} style={{width:'100%', height:'350px',objectFit:'cover'}} alt/>
+                            <Link to='/twill'>  <img src={img11} style={{width:'100%', height:'350px',objectFit:'cover'}} alt/></Link> 
                             </div>
                             <div class="details" style={{ height: '100px', overflow: 'hidden' }}>
-                                <h3><a style={{textDecoration:'none', color:'#000', fontFamily:'Maya', fontSize:'18px'}}>  {
+                                <h3><Link to='/twill' style={{textDecoration:'none', color:'#000', fontFamily:'Maya', fontSize:'18px'}}>  {
          localStorage.getItem("lang") === "eng" 
           ? "Dyed Gabardine twill Fabric for Pants and Uniform"
           :localStorage.getItem("lang")=== "egp" 
@@ -209,7 +209,7 @@ export default function LastestProjects() {
               :localStorage.getItem("lang")=== "spain" 
                 ? "Tela de sarga de gabardina teñida para pantalones y uniformes" 
                 : ""
-        }</a></h3>
+        }</Link></h3>
                                 <p><Link style={{textDecoration:'none', color:'#C0AB89'}} to='/twill'> {
          localStorage.getItem("lang") === "eng" 
           ? " Show More"
@@ -225,10 +225,10 @@ export default function LastestProjects() {
                         </div> </SwiperSlide>
                         <SwiperSlide>    <div class="grid">
                             <div class="img-holder">
-                                <img src={img5} style={{width:'100%', height:'350px',objectFit:'cover'}} alt/>
+                            <Link to='/dyedStretch'> <img src={img5} style={{width:'100%', height:'350px',objectFit:'cover'}} alt/></Link>
                             </div>
                             <div class="details" style={{ height: '100px', overflow: 'hidden' }}>
-                                <h3><a style={{textDecoration:'none', color:'#000', fontFamily:'Maya', fontSize:'18px'}}>{
+                                <h3><Link to='/dyedStretch' style={{textDecoration:'none', color:'#000', fontFamily:'Maya', fontSize:'18px'}}>{
          localStorage.getItem("lang") === "eng" 
           ? "  Printed Bengaline Stretch for Pants "
           :localStorage.getItem("lang")=== "egp" 
@@ -238,7 +238,7 @@ export default function LastestProjects() {
               :localStorage.getItem("lang")=== "spain" 
                 ? "Pantalón elástico bengalí estampado" 
                 : ""
-        }</a></h3>
+        }</Link></h3>
                                 <p> <Link style={{textDecoration:'none', color:'#C0AB89'}} to='/dyedStretch'> {
          localStorage.getItem("lang") === "eng" 
           ? " Show More"
@@ -254,10 +254,10 @@ export default function LastestProjects() {
                         </div></SwiperSlide>
                         <SwiperSlide>    <div class="grid">
                             <div class="img-holder">
-                                <img src={img6} style={{width:'100%', height:'350px',objectFit:'cover'}} alt/>
+                            <Link to='/printedRozalin'> <img src={img6} style={{width:'100%', height:'350px',objectFit:'cover'}} alt/></Link> 
                             </div>
                             <div class="details" style={{ height: '100px', overflow: 'hidden' }}>
-                                <h3><a style={{textDecoration:'none', color:'#000', fontFamily:'Maya', fontSize:'18px'}}>   {
+                                <h3><Link to='/printedRozalin' style={{textDecoration:'none', color:'#000', fontFamily:'Maya', fontSize:'18px'}}>   {
          localStorage.getItem("lang") === "eng" 
           ? "  Printed Rozalin Fabric"
           :localStorage.getItem("lang")=== "egp" 
@@ -267,7 +267,7 @@ export default function LastestProjects() {
               :localStorage.getItem("lang")=== "spain" 
                 ? "Tela Rozalín Estampada" 
                 : ""
-        }</a></h3>
+        }</Link></h3>
                                 <p> <Link style={{textDecoration:'none', color:'#C0AB89'}} to='/printedRozalin'> {
          localStorage.getItem("lang") === "eng" 
           ? " Show More"
@@ -283,10 +283,10 @@ export default function LastestProjects() {
                         </div></SwiperSlide>
                         <SwiperSlide>    <div class="grid">
                             <div class="img-holder">
-                                <img src={img7} style={{width:'100%', height:'350px',objectFit:'cover'}} alt/>
+                            <Link to='/printedScuba'>   <img src={img7} style={{width:'100%', height:'350px',objectFit:'cover'}} alt/></Link> 
                             </div>
                             <div class="details" style={{ height: '100px', overflow: 'hidden' }}>
-                                <h3><a style={{textDecoration:'none', color:'#000', fontFamily:'Maya', fontSize:'18px'}}>{
+                                <h3><Link to='/printedScuba' style={{textDecoration:'none', color:'#000', fontFamily:'Maya', fontSize:'18px'}}>{
          localStorage.getItem("lang") === "eng" 
           ? "  Printed Scuba Fabric"
           :localStorage.getItem("lang")=== "egp" 
@@ -296,7 +296,7 @@ export default function LastestProjects() {
               :localStorage.getItem("lang")=== "spain" 
                 ? "Tela estampada de buceo" 
                 : ""
-        }</a></h3>
+        }</Link></h3>
                                 <p> <Link style={{textDecoration:'none', color:'#C0AB89'}} to='/printedScuba'> {
          localStorage.getItem("lang") === "eng" 
           ? " Show More"
@@ -312,10 +312,10 @@ export default function LastestProjects() {
                         </div></SwiperSlide>
                         <SwiperSlide>    <div class="grid">
                             <div class="img-holder">
-                                <img src={img8} style={{width:'100%', height:'350px',objectFit:'cover'}} alt/>
+                            <Link to='/microfiber'>  <img src={img8} style={{width:'100%', height:'350px',objectFit:'cover'}} alt/></Link>  
                             </div>
                             <div class="details" style={{ height: '100px', overflow: 'hidden' }}>
-                                <h3><a style={{textDecoration:'none', color:'#000', fontFamily:'Maya', fontSize:'18px'}}>{
+                                <h3><Link to='/microfiber' style={{textDecoration:'none', color:'#000', fontFamily:'Maya', fontSize:'18px'}}>{
          localStorage.getItem("lang") === "eng" 
           ? "     Printed Soft Lycra Fabric Microfiber "
           :localStorage.getItem("lang")=== "egp" 
@@ -325,7 +325,7 @@ export default function LastestProjects() {
               :localStorage.getItem("lang")=== "spain" 
                 ? "Microfibra de tela de lycra suave impresa" 
                 : ""
-        }</a></h3>
+        }</Link></h3>
                                 <p> <Link style={{textDecoration:'none', color:'#C0AB89'}} to='/microfiber'> {
          localStorage.getItem("lang") === "eng" 
           ? " Show More"
@@ -341,10 +341,10 @@ export default function LastestProjects() {
                         </div></SwiperSlide>
                         <SwiperSlide>    <div class="grid">
                             <div class="img-holder">
-                                <img src={img9} style={{width:'100%', height:'350px',objectFit:'cover'}} alt/>
+                            <Link to='/bengaline'> <img src={img9} style={{width:'100%', height:'350px',objectFit:'cover'}} alt/></Link>
                             </div>
                             <div class="details" style={{ height: '100px', overflow: 'hidden' }}>
-                                <h3><a style={{textDecoration:'none', color:'#000', fontFamily:'Maya', fontSize:'18px'}}>{
+                                <h3><Link to='/bengaline' style={{textDecoration:'none', color:'#000', fontFamily:'Maya', fontSize:'18px'}}>{
          localStorage.getItem("lang") === "eng" 
           ? "Printed Bengaline Light for T-Shirt with Lycra"
           :localStorage.getItem("lang")=== "egp" 
@@ -354,7 +354,7 @@ export default function LastestProjects() {
               :localStorage.getItem("lang")=== "spain" 
                 ? "Luz Bengalina Estampada para Camiseta con Lycra " 
                 : ""
-        }</a></h3>
+        }</Link></h3>
                                 <p> <Link style={{textDecoration:'none', color:'#C0AB89'}} to='/bengaline'> {
          localStorage.getItem("lang") === "eng" 
           ? " Show More"

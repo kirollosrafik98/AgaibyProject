@@ -17,7 +17,7 @@ export default function AboutAr() {
               style={{
                 color: "#C0AB89",
                 fontFamily: "Millania",
-                fontSize: "80px",
+                fontSize: "60px",
               }}
             >
              من نحن
