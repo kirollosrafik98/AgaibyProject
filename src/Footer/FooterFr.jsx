@@ -10,7 +10,7 @@ export default function FooterFr() {
 <footer class="site-footer">
             <div class="container">
                 <div class="row">
-                    <div class="col col-lg-4 col-md-4 col-xs-6">
+                    <div class="specialFooter col-lg-4 col-md-4 col-xs-6">
                         <div class="widget about-widget">
                             <h3>
                               <img src={logo} alt=""  style={{width:'10%'}}/>
@@ -19,18 +19,18 @@ export default function FooterFr() {
                         </div>
                     </div>
 
-                    <div class="col col-lg-4 col-md-4 col-xs-6">
+                    <div class="col-lg-4 col-md-4 col-xs-6">
                         <div class="widget site-map-widget">
                             <h3 style={{fontFamily:'Maya'}}>Navigation</h3>
                             <div className="row">
-                              <div className="col-md-6"> <ul style={{paddingLeft:'0'}}>
+                              <div className="col"> <ul style={{paddingLeft:'0'}}>
                                 <li><Link to='/' style={{textDecoration:'none'}}>Accueil</Link></li>
                                 <li><Link to='/about' style={{textDecoration:'none'}}>À propos</Link></li>
                                 <li><Link to='/history' style={{textDecoration:'none'}}>Histoire</Link></li>
 
                                 <li><Link to='/galleryHome' style={{textDecoration:'none'}}>Galerie</Link></li>
                                 </ul></div>
-                              <div className="col-md-6"> <ul>
+                              <div className="col"> <ul>
                                 <li><Link to='/blog' style={{textDecoration:'none'}}>Blog</Link></li>
                                 <li><Link to='/products' style={{textDecoration:'none'}}>Produits</Link></li>
                                 <li><Link to='/contact' style={{textDecoration:'none'}}>Contact</Link></li>
@@ -41,33 +41,9 @@ export default function FooterFr() {
                         </div>
                     </div>
 
-                    {/* <div class="col col-lg-3 col-md-3 col-xs-6">
-                        <div class="widget news-widget">
-                            <h3 style={{fontFamily:'Maya'}}>Recent news</h3>
-                            <ul>
-                                <li>
-                                    <div class="entry-media">
-                                        <img src={blog} alt/>
-                                    </div>
-                                    <div class="entry-details">
-                                        <h5><a  style={{textDecoration:'none'}}>New ch017y concrete mixer is bought</a></h5>
-                                        <span class="date">19 FEB</span>
-                                    </div>
-                                </li>
-                                <li>
-                                    <div class="entry-media">
-                                        <img src={blog} alt/>
-                                    </div>
-                                    <div class="entry-details">
-                                        <h5><a  style={{textDecoration:'none'}}>New ch017y concrete mixer is bought</a></h5>
-                                        <span class="date">16 FEB</span>
-                                    </div>
-                                </li>
-                            </ul>
-                        </div>
-                    </div> */}
+                
 
-                    <div class="col col-lg-4 col-md-4 col-xs-6">
+                    <div class=" col-lg-4 col-md-4 col-xs-6">
                         <div class="widget newsletter-widget">
                             <h3 style={{fontFamily:'Maya'}}>Contactez-nous</h3>
                             <ul>

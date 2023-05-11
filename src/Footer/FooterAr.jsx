@@ -11,7 +11,7 @@ export default function FooterAr() {
         <div class="container">
           <div class="row">
           
-          <div class="col col-lg-4 col-md-4 col-xs-6">
+          <div class="col-lg-4 col-md-4 col-xs-6">
               <div class="widget newsletter-widget">
                 <h3 style={{ fontFamily: "Maya" }}  dir="rtl" lang="ar">تواصل معنا</h3>
                 <ul dir="rtl" lang="ar">
@@ -65,11 +65,11 @@ export default function FooterAr() {
                 </ul>
               </div>
             </div>
-            <div class="col col-lg-4 col-md-4 col-xs-6">
+            <div class=" col-lg-4 col-md-4 col-xs-6">
               <div class="widget site-map-widget">
                 <h3 style={{ fontFamily: "Maya" }}  dir="rtl" lang="ar">الصفحات</h3>
                 <div className="row">
-                <div className="col-md-6">
+                <div className="col">
                     {" "}
                     <ul  dir="rtl" lang="ar">
                       <li>
@@ -89,7 +89,7 @@ export default function FooterAr() {
                       </li>
                     </ul>
                   </div>
-                  <div className="col-md-6">
+                  <div className="col">
                     {" "}
                     <ul style={{ paddingLeft: "0" }}  dir="rtl" lang="ar">
                       <li>
@@ -126,7 +126,7 @@ export default function FooterAr() {
   
 
           
-            <div class="col col-lg-4 col-md-4 col-xs-6">
+            <div class="specialFooter col-lg-4 col-md-4 col-xs-6">
               <div class="widget about-widget">
                 <h3  dir="rtl" lang="ar">
                 <img src={logo} alt="" style={{ width: "10%" }} />

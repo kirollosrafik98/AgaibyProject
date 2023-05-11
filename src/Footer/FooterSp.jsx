@@ -10,7 +10,7 @@ export default function FooterSp() {
 <footer class="site-footer">
             <div class="container">
                 <div class="row">
-                    <div class="col col-lg-4 col-md-4 col-xs-6">
+                    <div class="specialFooter col-lg-4 col-md-4 col-xs-6">
                         <div class="widget about-widget">
                             <h3>
                               <img src={logo} alt=""  style={{width:'10%'}}/>
@@ -19,11 +19,11 @@ export default function FooterSp() {
                         </div>
                     </div>
 
-                    <div class="col col-lg-4 col-md-4 col-xs-6">
+                    <div class="col-lg-4 col-md-4 col-xs-6">
                         <div class="widget site-map-widget">
                             <h3 style={{fontFamily:'Maya'}}>Navegación</h3>
                             <div className="row">
-                              <div className="col-md-6"> <ul style={{paddingLeft:'0'}}>
+                              <div className="col"> <ul style={{paddingLeft:'0'}}>
                                 <li><Link to='/' style={{textDecoration:'none'}}>Inicio</Link></li>
                                 <li><Link to='/about' style={{textDecoration:'none'}}>Sobre nosotros
 
@@ -35,7 +35,7 @@ export default function FooterSp() {
 
                                 <li><Link to='/galleryHome' style={{textDecoration:'none'}}>Galería</Link></li>
                                 </ul></div>
-                              <div className="col-md-6"> <ul>
+                              <div className="col"> <ul>
                                 <li><Link to='/blog' style={{textDecoration:'none'}}>Blog</Link></li>
                                 <li><Link to='/products' style={{textDecoration:'none'}}>Productos</Link></li>
                                 <li><Link to='/contact' style={{textDecoration:'none'}}>Contacto</Link></li>
@@ -72,7 +72,7 @@ export default function FooterSp() {
                         </div>
                     </div> */}
 
-                    <div class="col col-lg-4 col-md-4 col-xs-6">
+                    <div class=" col-lg-4 col-md-4 col-xs-6">
                         <div class="widget newsletter-widget">
                             <h3 style={{fontFamily:'Maya'}}>Contacta con nosotras</h3>
                             <ul>

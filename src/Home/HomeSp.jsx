@@ -64,7 +64,7 @@ export default function HomeSp() {
                    </div>
                    <div className="col-md-7">
                     <div className="container">
-                    <h1 className="w3-container  w3-animate-top" style={{color:'#766345', fontSize:'31px', fontWeight:'bold', textTransform:'capitalize' ,lineHeight:'1.2em', fontFamily:'Maya'}}>La Mejor Solución para tus Necesidades Textiles y de Confección</h1>
+                    <h1 className="w3-container  w3-animate-top" style={{color:'#766345', fontSize:'31px', fontWeight:'bold', textTransform:'capitalize' ,lineHeight:'1.2em', fontFamily:'Maya', paddingTop:'2%'}}>La Mejor Solución para tus Necesidades Textiles y de Confección</h1>
                     <p>Nuestro objetivo es cumplir con los siguientes criterios para brindar la mejor solución textil y satisfacer las necesidades de nuestros clientes:</p>
                  <ul>
                     <li style={{marginTop:'calc(16px/2)' ,paddingBottom:'calc(16px/2)'}}>

@@ -8734,8 +8734,20 @@ clear: both;
    flex-direction:column!important;
 }
 .specialReq{
-  width: 42%!important;
+  width: 100%!important;
+  display: flex!important;
+  justify-content: end!important;
 }
+.specialFooter{
+  display: none!important;
+}
+.navbaSpecial{
+  display: flex!important;
+  flex-direction: unset!important;
+}
+}
+.specialFooter{
+  display: block;
 }
 .specialReq{
   width: 20%;
