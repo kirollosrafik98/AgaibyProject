@@ -380,7 +380,7 @@ export default function ContactAr() {
                     marginBottom: "1rem",
                   }}
                 >
-                 فرع المصنع
+                  المصنع
                 </h5>
               </div>
             </div>

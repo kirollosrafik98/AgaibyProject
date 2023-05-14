@@ -90,10 +90,10 @@ export default function NavbarAr({ ar, setAr }) {
                 
                 }}
                 dir="rtl" lang="ar" >
-<li>
+                  <li class="nav-item ">
                   <Link
                     className="nav-item"
-                    to="/contact"
+                    to="/"
                     style={{
                       textDecoration: "none",
                       color: "#C0AB89",
@@ -101,13 +101,41 @@ export default function NavbarAr({ ar, setAr }) {
                     }}
                     onClick={verena}
                   >
-                    تواصل معنا
+                     الرئيسية
+                  </Link>
+                </li>
+                <li>
+                  <Link
+                    className="nav-item"
+                    to="/about"
+                    style={{
+                      textDecoration: "none",
+                      color: "#C0AB89",
+                      fontSize: "20px",
+                    }}
+                    onClick={verena}
+                  >
+                    اقرأ عنا
+                  </Link>
+                </li>
+                <li>
+                  <Link
+                    className="nav-item"
+                    to="/history"
+                    style={{
+                      textDecoration: "none",
+                      color: "#C0AB89",
+                      fontSize: "20px",
+                    }}
+                    onClick={verena}
+                  >
+                    تاريخنا
                   </Link>
                 </li>
                 <li class="nav-item">
                   <Link
                     className="nav-item"
-                    to="/blog"
+                    to="/products"
                     style={{
                       textDecoration: "none",
                       color: "#C0AB89",
@@ -115,7 +143,7 @@ export default function NavbarAr({ ar, setAr }) {
                     }}
                     onClick={verena}
                   >
-                    مدونة
+                    المنتجات
                   </Link>
                
                 </li>
@@ -137,7 +165,7 @@ export default function NavbarAr({ ar, setAr }) {
                 <li class="nav-item">
                   <Link
                     className="nav-item"
-                    to="/products"
+                    to="/blog"
                     style={{
                       textDecoration: "none",
                       color: "#C0AB89",
@@ -145,14 +173,14 @@ export default function NavbarAr({ ar, setAr }) {
                     }}
                     onClick={verena}
                   >
-                    المنتجات
+                    مدونة
                   </Link>
                
                 </li>
-                <li>
+<li>
                   <Link
                     className="nav-item"
-                    to="/history"
+                    to="/contact"
                     style={{
                       textDecoration: "none",
                       color: "#C0AB89",
@@ -160,38 +188,16 @@ export default function NavbarAr({ ar, setAr }) {
                     }}
                     onClick={verena}
                   >
-                    تاريخنا
+                    تواصل معنا
                   </Link>
                 </li>
-                <li>
-                  <Link
-                    className="nav-item"
-                    to="/about"
-                    style={{
-                      textDecoration: "none",
-                      color: "#C0AB89",
-                      fontSize: "20px",
-                    }}
-                    onClick={verena}
-                  >
-                    اقرأ عنا
-                  </Link>
-                </li>
+             
+            
+            
+              
+             
                 {/*** */}
-                <li class="nav-item ">
-                  <Link
-                    className="nav-item"
-                    to="/"
-                    style={{
-                      textDecoration: "none",
-                      color: "#C0AB89",
-                      fontSize: "20px",
-                    }}
-                    onClick={verena}
-                  >
-                     الرئيسية
-                  </Link>
-                </li>
+                
               
                
 
