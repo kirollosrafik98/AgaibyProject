@@ -42,6 +42,7 @@ export default function Stretch() {
    
     <div class="col-md-4 p-3">
       <Fade right>
+      <Link to='/printedStretchSub1' style={{textDecoration:'none'}} >
         <div class="grid">
           <div class="entry-media">
             <img src={dyedStretch1} style={{width:'100%', height:'300px', objectFit:'cover'}} alt class="img img-responsive"/>
@@ -76,12 +77,13 @@ export default function Stretch() {
               {/* <a style={{textDecoration:'none'}} class="comments"><i class="fa fa-comments" aria-hidden="true"></i> 5</a> */}
             </div>
           </div>
-        </div>
+        </div></Link>
       </Fade>
     </div>
   
     <div class="col-md-4 p-3">
       <Fade right>
+      <Link to='/printedStretchSub2' style={{textDecoration:'none'}}>
         <div class="grid">
           <div class="entry-media">
             <img src={dyedStretch2} style={{width:'100%', height:'300px', objectFit:'cover'}} alt class="img img-responsive"/>
@@ -114,11 +116,12 @@ export default function Stretch() {
               {/* <a style={{textDecoration:'none'}} class="comments"><i class="fa fa-comments" aria-hidden="true"></i> 5</a> */}
             </div>
           </div>
-        </div>
+        </div></Link>
       </Fade>
     </div>
     <div class="col-md-4 p-3">
       <Fade right>
+      <Link to='/printedStretchSub3' style={{textDecoration:'none'}}>
         <div class="grid">
           <div class="entry-media">
             <img src={dyedStretch3} style={{width:'100%', height:'300px', objectFit:'cover'}} alt class="img img-responsive"/>
@@ -151,11 +154,12 @@ export default function Stretch() {
               {/* <a style={{textDecoration:'none'}} class="comments"><i class="fa fa-comments" aria-hidden="true"></i> 5</a> */}
             </div>
           </div>
-        </div>
+        </div></Link>
       </Fade>
     </div>
     <div class="col-md-4 p-3" >
       <Fade right>
+      <Link to='/printedStretchSub4' style={{textDecoration:'none'}}>
         <div class="grid">
           <div class="entry-media">
             <img src={dyedStretch4} style={{width:'100%', height:'300px', objectFit:'cover'}} alt class="img img-responsive"/>
@@ -188,12 +192,13 @@ export default function Stretch() {
               {/* <a style={{textDecoration:'none'}} class="comments"><i class="fa fa-comments" aria-hidden="true"></i> 5</a> */}
             </div>
           </div>
-        </div>
+        </div></Link>
       </Fade>
     </div>
   
     <div class="col-md-4 p-3">
       <Fade right>
+      <Link to='/printedStretchSub5' style={{textDecoration:'none'}}>
         <div class="grid">
           <div class="entry-media">
             <img src={dyedStretch5} style={{width:'100%', height:'300px', objectFit:'cover'}} alt class="img img-responsive"/>
@@ -226,11 +231,12 @@ export default function Stretch() {
               {/* <a style={{textDecoration:'none'}} class="comments"><i class="fa fa-comments" aria-hidden="true"></i> 5</a> */}
             </div>
           </div>
-        </div>
+        </div></Link>
       </Fade>
     </div>
     <div class="col-md-4 p-3">
       <Fade right>
+      <Link to='/printedStretchSub6' style={{textDecoration:'none'}} >
         <div class="grid">
           <div class="entry-media">
             <img src={dyedStretch6} style={{width:'100%', height:'300px', objectFit:'cover'}} alt class="img img-responsive"/>
@@ -263,7 +269,7 @@ export default function Stretch() {
               {/* <a style={{textDecoration:'none'}} class="comments"><i class="fa fa-comments" aria-hidden="true"></i> 5</a> */}
             </div>
           </div>
-        </div>
+        </div></Link>
       </Fade>
     </div>
   </div>

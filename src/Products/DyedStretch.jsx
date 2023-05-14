@@ -42,7 +42,7 @@ export default function DyedStretch() {
    
     <div class="col-md-4 p-3">
       <Fade right>
-        <div class="grid">
+      <Link to='/dyedStretchSub1' style={{textDecoration:'none'}}> <div class="grid">
           <div class="entry-media">
             <img src={dyedStretch1} style={{width:'100%', height:'300px', objectFit:'cover'}} alt class="img img-responsive"/>
           </div>
@@ -74,13 +74,13 @@ export default function DyedStretch() {
               {/* <a style={{textDecoration:'none'}} class="comments"><i class="fa fa-comments" aria-hidden="true"></i> 5</a> */}
             </div>
           </div>
-        </div>
+        </div></Link>
       </Fade>
     </div>
   
     <div class="col-md-4 p-3">
       <Fade right>
-        <div class="grid">
+      <Link to='/dyedStretchSub2' style={{textDecoration:'none'}}>  <div class="grid">
           <div class="entry-media">
             <img src={dyedStretch2} style={{width:'100%', height:'300px', objectFit:'cover'}} alt class="img img-responsive"/>
           </div>
@@ -112,12 +112,12 @@ export default function DyedStretch() {
               {/* <a style={{textDecoration:'none'}} class="comments"><i class="fa fa-comments" aria-hidden="true"></i> 5</a> */}
             </div>
           </div>
-        </div>
+        </div></Link> 
       </Fade>
     </div>
     <div class="col-md-4 p-3">
       <Fade right>
-        <div class="grid">
+      <Link to='/dyedStretchSub3' style={{textDecoration:'none'}} > <div class="grid">
           <div class="entry-media">
             <img src={dyedStretch3} style={{width:'100%', height:'300px', objectFit:'cover'}} alt class="img img-responsive"/>
           </div>
@@ -149,11 +149,12 @@ export default function DyedStretch() {
               {/* <a style={{textDecoration:'none'}} class="comments"><i class="fa fa-comments" aria-hidden="true"></i> 5</a> */}
             </div>
           </div>
-        </div>
+        </div></Link>
       </Fade>
     </div>
     <div class="col-md-4 p-3" >
       <Fade right>
+      <Link to='/dyedStretchSub4' style={{textDecoration:'none'}} >
         <div class="grid">
           <div class="entry-media">
             <img src={dyedStretch4} style={{width:'100%', height:'300px', objectFit:'cover'}} alt class="img img-responsive"/>
@@ -186,12 +187,13 @@ export default function DyedStretch() {
               {/* <a style={{textDecoration:'none'}} class="comments"><i class="fa fa-comments" aria-hidden="true"></i> 5</a> */}
             </div>
           </div>
-        </div>
+        </div></Link>
       </Fade>
     </div>
   
     <div class="col-md-4 p-3">
       <Fade right>
+      <Link to='/dyedStretchSub5' style={{textDecoration:'none'}} >
         <div class="grid">
           <div class="entry-media">
             <img src={dyedStretch5} style={{width:'100%', height:'300px', objectFit:'cover'}} alt class="img img-responsive"/>
@@ -224,11 +226,12 @@ export default function DyedStretch() {
               {/* <a style={{textDecoration:'none'}} class="comments"><i class="fa fa-comments" aria-hidden="true"></i> 5</a> */}
             </div>
           </div>
-        </div>
+        </div></Link>
       </Fade>
     </div>
     <div class="col-md-4 p-3">
       <Fade right>
+      <Link to='/dyedStretchSub6' style={{textDecoration:'none'}}>
         <div class="grid">
           <div class="entry-media">
             <img src={dyedStretch6} style={{width:'100%', height:'300px', objectFit:'cover'}} alt class="img img-responsive"/>
@@ -261,7 +264,7 @@ export default function DyedStretch() {
               {/* <a style={{textDecoration:'none'}} class="comments"><i class="fa fa-comments" aria-hidden="true"></i> 5</a> */}
             </div>
           </div>
-        </div>
+        </div></Link>
       </Fade>
     </div>
   </div>

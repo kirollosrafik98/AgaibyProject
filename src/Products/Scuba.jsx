@@ -36,6 +36,7 @@ export default function Scuba() {
    
     <div class="col-md-4 p-3">
       <Fade right>
+      <Link to='/dyedScuba' style={{textDecoration:'none'}}>
         <div class="grid">
           <div class="entry-media">
             <img src={dyedStretch1} style={{width:'100%', height:'300px', objectFit:'cover'}} alt class="img img-responsive"/>
@@ -68,7 +69,7 @@ export default function Scuba() {
               {/* <a style={{textDecoration:'none'}} class="comments"><i class="fa fa-comments" aria-hidden="true"></i> 5</a> */}
             </div>
           </div>
-        </div>
+        </div></Link>
       </Fade>
     </div>
   

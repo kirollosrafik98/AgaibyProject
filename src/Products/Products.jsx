@@ -50,6 +50,7 @@ export default function Products() {
    
     <div class="col-md-4 p-3">
       <Fade right>
+      <Link to='/stretch' style={{textDecoration:'none'}}>
         <div class="grid">
           <div class="entry-media">
             <img src={dyedStretch} style={{width:'100%', height:'300px', objectFit:'cover'}} alt class="img img-responsive"/>
@@ -82,12 +83,13 @@ export default function Products() {
               {/* <a style={{textDecoration:'none'}} class="comments"><i class="fa fa-comments" aria-hidden="true"></i> 5</a> */}
             </div>
           </div>
-        </div>
+        </div></Link>
       </Fade>
     </div>
   
     <div class="col-md-4 p-3">
       <Fade right>
+      <Link to='/rozalin' style={{textDecoration:'none'}} >
         <div class="grid">
           <div class="entry-media">
             <img src={rozalin} style={{width:'100%', height:'300px', objectFit:'cover'}} alt class="img img-responsive"/>
@@ -121,11 +123,12 @@ export default function Products() {
               {/* <a style={{textDecoration:'none'}} class="comments"><i class="fa fa-comments" aria-hidden="true"></i> 5</a> */}
             </div>
           </div>
-        </div>
+        </div></Link>
       </Fade>
     </div>
     <div class="col-md-4 p-3">
       <Fade right>
+      <Link to='/scuba' style={{textDecoration:'none'}}>
         <div class="grid">
           <div class="entry-media" >
             <img src={scuba} style={{width:'100%', height:'300px', objectFit:'cover'}} alt class="img img-responsive"/>
@@ -158,11 +161,12 @@ export default function Products() {
               {/* <a style={{textDecoration:'none'}} class="comments"><i class="fa fa-comments" aria-hidden="true"></i> 5</a> */}
             </div>
           </div>
-        </div>
+        </div></Link>
       </Fade>
     </div>
     <div class="col-md-4 p-3" >
       <Fade right>
+      <Link to='/soft' style={{textDecoration:'none'}}>
         <div class="grid">
           <div class="entry-media">
             <img src={soft} style={{width:'100%', height:'300px', objectFit:'cover'}} alt class="img img-responsive"/>
@@ -197,11 +201,12 @@ export default function Products() {
               {/* <a style={{textDecoration:'none'}} class="comments"><i class="fa fa-comments" aria-hidden="true"></i> 5</a> */}
             </div>
           </div>
-        </div>
+        </div></Link>
       </Fade>
     </div>
     <div class="col-md-4 p-3">
       <Fade right>
+      <Link to='/lycra' style={{textDecoration:'none'}} >
         <div class="grid">
           <div class="entry-media">
             <img src={lycra} style={{width:'100%', height:'300px', objectFit:'cover'}} alt class="img img-responsive"/>
@@ -234,11 +239,12 @@ export default function Products() {
               {/* <a style={{textDecoration:'none'}} class="comments"><i class="fa fa-comments" aria-hidden="true"></i> 5</a> */}
             </div>
           </div>
-        </div>
+        </div></Link>
       </Fade>
     </div>
     <div class="col-md-4 p-3">
       <Fade right>
+      <Link to='/twill' style={{textDecoration:'none'}}>
         <div class="grid">
           <div class="entry-media">
             <img src={twill} style={{width:'100%', height:'300px', objectFit:'cover'}} alt class="img img-responsive"/>
@@ -271,11 +277,12 @@ export default function Products() {
               {/* <a style={{textDecoration:'none'}} class="comments"><i class="fa fa-comments" aria-hidden="true"></i> 5</a> */}
             </div>
           </div>
-        </div>
+        </div></Link>
       </Fade>
     </div>
     <div class="col-md-4 p-3">
       <Fade right>
+      <Link to='/dyedStretch' style={{textDecoration:'none'}} >
         <div class="grid">
           <div class="entry-media">
             <img src={stretch} style={{width:'100%', height:'300px', objectFit:'cover'}} alt class="img img-responsive"/>
@@ -308,11 +315,12 @@ export default function Products() {
               {/* <a style={{textDecoration:'none'}} class="comments"><i class="fa fa-comments" aria-hidden="true"></i> 5</a> */}
             </div>
           </div>
-        </div>
+        </div></Link>
       </Fade>
     </div>
     <div class="col-md-4 p-3">
       <Fade right>
+      <Link to='/printedRozalin' style={{textDecoration:'none'}} >
         <div class="grid">
           <div class="entry-media">
             <img src={printedRozalin} style={{width:'100%', height:'300px', objectFit:'cover'}} alt class="img img-responsive"/>
@@ -345,11 +353,12 @@ export default function Products() {
               {/* <a style={{textDecoration:'none'}} class="comments"><i class="fa fa-comments" aria-hidden="true"></i> 5</a> */}
             </div>
           </div>
-        </div>
+        </div></Link>
       </Fade>
     </div>
     <div class="col-md-4 p-3">
       <Fade right>
+      <Link to='/printedScuba' style={{textDecoration:'none'}}>
         <div class="grid">
           <div class="entry-media">
             <img src={printedScuba} style={{width:'100%', height:'300px', objectFit:'cover'}} alt class="img img-responsive"/>
@@ -382,12 +391,12 @@ export default function Products() {
               {/* <a style={{textDecoration:'none'}} class="comments"><i class="fa fa-comments" aria-hidden="true"></i> 5</a> */}
             </div>
           </div>
-        </div>
+        </div></Link>
       </Fade>
     </div>
     <div class="col-md-4 p-3">
       <Fade right>
-        <div class="grid">
+      <Link to='/microfiber' style={{textDecoration:'none'}} ><div class="grid">
           <div class="entry-media">
             <img src={microfiber} style={{width:'100%', height:'300px', objectFit:'cover'}} alt class="img img-responsive"/>
           </div>
@@ -419,11 +428,12 @@ export default function Products() {
               {/* <a style={{textDecoration:'none'}} class="comments"><i class="fa fa-comments" aria-hidden="true"></i> 5</a> */}
             </div>
           </div>
-        </div>
+        </div></Link> 
       </Fade>
     </div>
     <div class="col-md-4 p-3">
       <Fade right>
+        <Link to='/bengaline' style={{textDecoration:'none'}}>
         <div class="grid">
           <div class="entry-media">
             <img src={bengaline} style={{width:'100%', height:'300px', objectFit:'cover'}} alt class="img img-responsive"/>
@@ -456,7 +466,7 @@ export default function Products() {
               {/* <a style={{textDecoration:'none'}} class="comments"><i class="fa fa-comments" aria-hidden="true"></i> 5</a> */}
             </div>
           </div>
-        </div>
+        </div></Link>
       </Fade>
     </div>
     
