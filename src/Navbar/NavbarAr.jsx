@@ -42,7 +42,7 @@ export default function NavbarAr({ ar, setAr }) {
               
               <div
             class="language"
-            style={{ width: "15%", display: "flex", justifyContent: "end", float:'right' }}
+            style={{ width: "15%", display: "flex", justifyContent: "end", float:'right' , paddingRight:'3%'}}
           >
          
          

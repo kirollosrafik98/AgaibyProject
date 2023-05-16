@@ -529,7 +529,7 @@ export default function HomeAr() {
                   >
                     <h3 dir="rtl" lang="ar">
                       <a style={{ textDecoration: "none", fontFamily: "Maya" }}>
-                      هل سيحل المهندسون الصناعيون محل مديري الإنتاج التقليديين؟
+                      هل سيحل المهندسون الصناعيون محل مديري ... 
                       </a>
                     </h3>
                     <span class="entry-date" dir="rtl" lang="ar">6 فبراير 2023</span>
@@ -567,7 +567,7 @@ export default function HomeAr() {
                   >
                     <h3 dir="rtl" lang="ar">
                       <a style={{ textDecoration: "none", fontFamily: "Maya" }}>
-                      10 أقمشة يمكن ارتداؤها في الصيف للتغلب على الحرارة
+                      10 أقمشة يمكن ارتداؤها في الصيف للتغلب على ...
                       </a>
                     </h3>
                     <span class="entry-date" dir="rtl" lang="ar" >10 مارس 2023</span>

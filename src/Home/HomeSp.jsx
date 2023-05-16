@@ -257,8 +257,8 @@ Algunos Datos en <span style={{color:'#C0AB89'}}>Números</span></h2></Fade>
           <div class="entry-media">
             <img src={blog1} style={{width:'100%', height:'200px',objectFit:'cover'}} alt class="img img-responsive"/>
           </div>
-          <div class="entry-details"  style={{ height: '220px', overflow: 'hidden' }}>
-            <h3><a style={{textDecoration:'none', fontFamily:'Maya'}}>Aumentando la Innovación en la Industria Textil y de la Confección</a></h3>
+          <div class="entry-details"  style={{ height: '200px', overflow: 'hidden' }}>
+            <h3><a style={{textDecoration:'none', fontFamily:'Maya'}}>Aumentando la Innovación en la Industria Textil y de la...</a></h3>
             <span class="entry-date"> Marzo 16, 2023</span>
             <div class="entry-footer">
               <Link to='/blog1' style={{textDecoration:'none'}} class="read-more">Leer Más
@@ -275,8 +275,8 @@ Algunos Datos en <span style={{color:'#C0AB89'}}>Números</span></h2></Fade>
           <div class="entry-media">
             <img src={blog2} style={{width:'100%', height:'200px',objectFit:'cover'}}  alt class="img img-responsive"/>
           </div>
-          <div class="entry-details"  style={{ height: '220px', overflow: 'hidden' }}>
-            <h3><a style={{textDecoration:'none', fontFamily:'Maya'}}>Reemplazarán los Ingenieros Industriales a los Gerentes de Producción Tradicionales?</a></h3>
+          <div class="entry-details"  style={{ height: '200px', overflow: 'hidden' }}>
+            <h3><a style={{textDecoration:'none', fontFamily:'Maya'}}>Reemplazarán los Ingenieros Industriales a los Gerentes...</a></h3>
             <span class="entry-date">Febrero 6, 2023</span>
             <div class="entry-footer">
               <Link to='/blog2' style={{textDecoration:'none'}} class="read-more">Leer Más
@@ -293,7 +293,7 @@ Algunos Datos en <span style={{color:'#C0AB89'}}>Números</span></h2></Fade>
           <div class="entry-media">
             <img src={blog3} style={{width:'100%', height:'200px',objectFit:'cover'}}  alt class="img img-responsive"/>
           </div>
-          <div class="entry-details"  style={{ height: '220px', overflow: 'hidden' }}>
+          <div class="entry-details"  style={{ height: '200px', overflow: 'hidden' }}>
             <h3><a style={{textDecoration:'none', fontFamily:'Maya'}}>10 Fabrics to Wear in Summer to Beat the Heat</a></h3>
             <span class="entry-date">Marzo 10, 2023</span>
             <div class="entry-footer">

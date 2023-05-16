@@ -102,13 +102,13 @@ export default function ContactAr() {
                   اتصال
                   </h3>
                   <p  dir="rtl" lang="ar" style={{ textAlign: "center", padding: "0", margin: "0" }}>
-                    المصنع: +20 244 564 541 - +20 244 564 540
+                    المصنع:  <a dir="rtl" lang="ar"  style={{textDecoration:'none',color:'#686e76'}} href="tel:+20244564541">541 564 244 20+</a> - <a   style={{textDecoration:'none',color:'#686e76'}} href="tel:+20244564540">540 564 244 20+</a>
                   </p>
                   <p style={{ textAlign: "center", margin: "0" }}>
-                    فرع شبرا : +20 120 770 3244
+                  +      فرع شبرا: <a   style={{textDecoration:'none',color:'#686e76'}} href="tel:+201207703244">3244 770 120 20</a>
                   </p>
                   <p style={{ textAlign: "center", margin: "0" }}>
-                    فرع جسر السويس : +20 127 427 1266 - +20 127 535 5444
+                 +   فرع جسر السويس:<a   style={{textDecoration:'none',color:'#686e76'}} href="tel:+201274271266 ">1266 427 127 20+ </a> - <a   style={{textDecoration:'none',color:'#686e76'}} href="tel:+201275355444">5444 535 127 20</a> 
                   </p>
 
                   {/* <p style={{textAlign:'center'}}>example@gmail.com</p> */}
@@ -186,10 +186,10 @@ export default function ContactAr() {
                     ساعات العمل
                   </h3>
                   <p style={{ textAlign: "center", margin: "0" }}>
-                  مفتوح السبت - الجمعة
+                  مفتوح السبت - الخميس
                   </p>
                   <p style={{ textAlign: "center", margin: "0" }}>
-                    09.00 – 22.00
+                   ص 09.00 – 10.00 م
                   </p>
                 </div>
               </Fade>
@@ -206,13 +206,19 @@ export default function ContactAr() {
               <div class="contact-form" style={{ height: "100%" }}>
                 <h3 style={{ fontFamily: "Maya" }}  dir="rtl" lang="ar">للتواصل</h3>
                 <ul  dir="rtl" lang="ar">
-                  <li >
-                   
+                  <li dir="rtl" lang="ar" style={{paddingRight:'35px'}}>
+                
                     المركز الرئيسي: منطقة الشروق الصناعية - أبو زعبل - الخانكة - القليوبية
-                    <i class="fa fa-home"></i>
+                    <i class="fa fa-home"  style={{    color: '#1f252e',
+    position: 'absolute',
+    right:'0' ,
+    top: '5px'}}></i>
                   </li>
-                  <li>
-                   +20 244 564 541 - +20 244 564 540 <i class="fa fa-phone"></i>
+                  <li  style={{paddingRight:'35px'}}>
+                  <a  dir="rtl" lang="ar" style={{textDecoration:'none',color:'#fff'}} href="tel:+20244564541">541 564 244 20+</a> - <a dir="rtl" lang="ar"  style={{textDecoration:'none',color:'#fff'}} href="tel:+20244564540">540 564 244 20+</a> <i class="fa fa-phone" style={{    color: '#1f252e',
+    position: 'absolute',
+    right:'0' ,
+    top: '5px'}}></i>
                   </li> 
                 </ul>
                 <h4 style={{ fontFamily: "Maya" }}  dir="rtl" lang="ar">ارسل بريد الكتروني</h4>

@@ -63,13 +63,15 @@ export default function BlogAr() {
                     </div>
                     <div  dir="rtl" lang="ar"
                       class="entry-details"
-                      style={{ height: "220px", overflow: "hidden" }}
+                      style={{ height: "200px", overflow: "hidden" }}
                     >
                       <h3  dir="rtl" lang="ar">
                         <a
                           style={{ textDecoration: "none", fontFamily: "Maya" }}
                         >
-                         زيادة الابتكار في صناعة النسيج والملابس
+                         زيادة الابتكار في صناعة النسيج 
+                         <br />
+                         والملابس
                         </a>
                       </h3>
                       <span class="entry-date"  dir="rtl" lang="ar">مارس 16, 2023</span>
@@ -104,7 +106,7 @@ export default function BlogAr() {
                     </div>
                     <div
                       class="entry-details"  dir="rtl" lang="ar"
-                      style={{ height: "220px", overflow: "hidden" }}
+                      style={{ height: "200px", overflow: "hidden" }}
                     >
                       <h3  dir="rtl" lang="ar">
                         <a
@@ -146,13 +148,15 @@ export default function BlogAr() {
                     </div>
                     <div
                       class="entry-details"  dir="rtl" lang="ar"
-                      style={{ height: "220px", overflow: "hidden" }}
+                      style={{ height: "200px", overflow: "hidden" }}
                     >
                       <h3  dir="rtl" lang="ar">
                         <a
                           style={{ textDecoration: "none", fontFamily: "Maya" }}
                         >
-                         10 أقمشة لارتدائها في الصيف للتغلب على الحرارة
+                         10 أقمشة لارتدائها في الصيف للتغلب على 
+                         <br />
+                         الحرارة
                         </a>
                       </h3>
                       <span class="entry-date">مارس 10, 2023</span>
@@ -187,13 +191,15 @@ export default function BlogAr() {
                     </div>
                     <div
                       class="entry-details"  dir="rtl" lang="ar"
-                      style={{ height: "220px", overflow: "hidden" }}
+                      style={{ height: "200px", overflow: "hidden" }}
                     >
                       <h3  dir="rtl" lang="ar">
                         <a
                           style={{ textDecoration: "none", fontFamily: "Maya" }}
                         >
-                        التطورات في تقنيات نسج النسيج
+                        التطورات في تقنيات نسج 
+                        <br />
+                        النسيج
                         </a>
                       </h3>
                       <span class="entry-date">مارس 13, 2018</span>
@@ -228,13 +234,15 @@ export default function BlogAr() {
                     </div>
                     <div  dir="rtl" lang="ar"
                       class="entry-details"
-                      style={{ height: "220px", overflow: "hidden" }}
+                      style={{ height: "200px", overflow: "hidden" }}
                     >
                       <h3>
                         <a
                           style={{ textDecoration: "none", fontFamily: "Maya" }}
                         >
-                          استراتيجيات لمصادر المنسوجات والملابس
+                          استراتيجيات لمصادر المنسوجات 
+                          <br />
+                          والملابس
                         </a>
                       </h3>
                       <span class="entry-date"> فبراير 1, 2023</span>
@@ -269,7 +277,7 @@ export default function BlogAr() {
                     </div>
                     <div
                       class="entry-details"  dir="rtl" lang="ar"
-                      style={{ height: "220px", overflow: "hidden" }}
+                      style={{ height: "200px", overflow: "hidden" }}
                     >
                       <h3>
                         <a
@@ -310,13 +318,15 @@ export default function BlogAr() {
                     </div>
                     <div
                       class="entry-details"  dir="rtl" lang="ar"
-                      style={{ height: "220px", overflow: "hidden" }}
+                      style={{ height: "200px", overflow: "hidden" }}
                     >
                       <h3>
                         <a
                           style={{ textDecoration: "none", fontFamily: "Maya" }}
                         >
-                         الألياف من المنتجات الثانوية للحليب - بعد جديد
+                         الألياف من المنتجات الثانوية للحليب - بعد 
+                         <br />
+                         جديد
                         </a>
                       </h3>
                       <span class="entry-date">مارس 18, 2023</span>
@@ -351,13 +361,15 @@ export default function BlogAr() {
                     </div>
                     <div
                       class="entry-details"  dir="rtl" lang="ar"
-                      style={{ height: "220px", overflow: "hidden" }}
+                      style={{ height: "200px", overflow: "hidden" }}
                     >
                       <h3>
                         <a
                           style={{ textDecoration: "none", fontFamily: "Maya" }}
                         >
-                        مستقبل المنسوجات بتقنية النانو
+                        مستقبل المنسوجات بتقنية 
+                        <br />
+                        النانو
                         </a>
                       </h3>
                       <span class="entry-date">مارس 16, 2023</span>
@@ -392,7 +404,7 @@ export default function BlogAr() {
                     </div>
                     <div
                       class="entry-details"  dir="rtl" lang="ar"
-                      style={{ height: "220px", overflow: "hidden" }}
+                      style={{ height: "200px", overflow: "hidden" }}
                     >
                       <h3>
                         <a
@@ -436,13 +448,13 @@ export default function BlogAr() {
                     </div>
                     <div
                       class="entry-details"  dir="rtl" lang="ar"
-                      style={{ height: "220px", overflow: "hidden" }}
+                      style={{ height: "200px", overflow: "hidden" }}
                     >
                       <h3>
                         <a
                           style={{ textDecoration: "none", fontFamily: "Maya" }}
                         >
-                         دراسة حول تطبيق أكسيد الجرافين المختزل على نسيج القطن للحصول على لمسة نهائية مقاومة للماء قابلة للتنفس
+                         دراسة حول تطبيق أكسيد الجرافين المختزل على نسيج القطن للحصول على لمسة    
                         </a>
                       </h3>
                       <span class="entry-date"  dir="rtl" lang="ar"> فبراير 23, 2022</span>

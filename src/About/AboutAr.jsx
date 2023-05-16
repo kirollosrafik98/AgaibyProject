@@ -131,18 +131,19 @@ export default function AboutAr() {
            ميزاتنا
           </h6>
           <Fade cascade duration={1000} delay={500}>
-            <h2
+           <div>
+            <h5
               style={{
                 color: "#C0AB89",
                 fontSize: "34px",
                 lineHeight: "1.2em",
-                fontFamily: "Maya",
+                textTransform: "capitalize",
                 paddingBottom:'2%'
               }}
               dir="rtl" lang="ar"
             >
-              ما هي ميزاتنا
-            </h2>
+          ما هي ميزاتنا
+            </h5></div>
           </Fade>
           {/* <p style={{ color: "#fff", padding: "1% 0 4%" }}>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit

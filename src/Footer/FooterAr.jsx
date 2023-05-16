@@ -10,62 +10,7 @@ export default function FooterAr() {
       <footer class="site-footer">
         <div class="container">
           <div class="row">
-          
-          <div class="col-lg-4 col-md-4 col-xs-6">
-              <div class="widget newsletter-widget">
-                <h3 style={{ fontFamily: "Maya" }}  dir="rtl" lang="ar">تواصل معنا</h3>
-                <ul dir="rtl" lang="ar">
-                  <li>
-                    <i
-                      style={{ color: "#C0AB89" }}
-                      class="fa-regular fa-envelope"
-                      aria-hidden="true"
-                    ></i>{" "}
-                  Info@agaipy.com
-                  </li>
-                  <li>
-                    <i
-                      style={{ color: "#C0AB89" }}
-                      class="fa fa-volume-control-phone"
-                      aria-hidden="true"
-                    ></i>{" "}
-                 +20 244 564 541 - +20 244 564 540
-                  </li>
-                </ul>
-               
-              </div>
-
-              <div class="widget social-media-widget">
-                <ul class="social-links">
-                  <li>
-                    <a style={{ textDecoration: "none" }}>
-                      <i class="fa-brands fa-facebook-f"></i>
-                    </a>
-                  </li>
-                  <li>
-                    <a style={{ textDecoration: "none" }}>
-                      <i class="fa-brands fa-twitter"></i>
-                    </a>
-                  </li>
-                  <li>
-                    <a style={{ textDecoration: "none" }}>
-                      <i class="fa-brands fa-linkedin-in"></i>
-                    </a>
-                  </li>
-                  <li>
-                    <a style={{ textDecoration: "none" }}>
-                      <i class="fa-brands fa-google-plus-g"></i>
-                    </a>
-                  </li>
-                  <li>
-                    <a style={{ textDecoration: "none" }}>
-                      <i class="fa-brands fa-instagram"></i>
-                    </a>
-                  </li>
-                </ul>
-              </div>
-            </div>
-            <div class=" col-lg-4 col-md-4 col-xs-6">
+          <div class=" col-lg-4 col-md-4 col-xs-6">
               <div class="widget site-map-widget">
                 <h3 style={{ fontFamily: "Maya" }}  dir="rtl" lang="ar">الصفحات</h3>
                 <div className="row">
@@ -122,6 +67,47 @@ export default function FooterAr() {
                 </div>
               </div>
             </div>
+          <div class="col-lg-4 col-md-4 col-xs-6">
+              <div class="widget newsletter-widget">
+                <h3 style={{ fontFamily: "Maya" }}  dir="rtl" lang="ar">تواصل معنا</h3>
+                <ul  dir="rtl" lang="ar">
+                                <li><i style={{color:'#C0AB89'}} class="fa-regular fa-envelope" aria-hidden="true"></i><a className='info' style={{textDecoration:'none'}} href="mailto:Info@agaipy.com"> Info@agaipy.com</a> </li>
+                                <li  dir="rtl" lang="ar"><i style={{color:'#C0AB89'}} class="fa fa-volume-control-phone" aria-hidden="true"></i> <a  dir="rtl" lang="ar" className='info' style={{textDecoration:'none'}} href="tel:+20244564541">541 564 244 20+</a>  - <a  dir="rtl" lang="ar" className='info' style={{textDecoration:'none'}} href="tel:+20244564540">540 564 244 20+</a></li>
+                            </ul>
+               
+              </div>
+
+              <div class="widget social-media-widget">
+                <ul class="social-links">
+                  <li>
+                    <a style={{ textDecoration: "none" }}>
+                      <i class="fa-brands fa-facebook-f"></i>
+                    </a>
+                  </li>
+                  <li>
+                    <a style={{ textDecoration: "none" }}>
+                      <i class="fa-brands fa-twitter"></i>
+                    </a>
+                  </li>
+                  <li>
+                    <a style={{ textDecoration: "none" }}>
+                      <i class="fa-brands fa-linkedin-in"></i>
+                    </a>
+                  </li>
+                  <li>
+                    <a style={{ textDecoration: "none" }}>
+                      <i class="fa-brands fa-google-plus-g"></i>
+                    </a>
+                  </li>
+                  <li>
+                    <a style={{ textDecoration: "none" }}>
+                      <i class="fa-brands fa-instagram"></i>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+           
 
   
 
@@ -134,7 +120,7 @@ export default function FooterAr() {
                     class="logo"
                     style={{ textDecoration: "none", fontFamily: "Maya" }}
                     dir="rtl" lang="ar" >
-                    الشركة الصمرية السويسرية
+                    الشركة المصرية السويسرية
                   </a>  
                 </h3>
                 <p  dir="rtl" lang="ar">

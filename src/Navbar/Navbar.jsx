@@ -183,13 +183,13 @@ export default function Navbar({ ar, setAr }) {
               <div style={{ width: "15%" }}></div>
               <div
                 class="language"
-                style={{
-                  width: "15%",
-                  display: "flex",
-                  // justifyContent: "end",
-                  paddingLeft: "3%",
-                  float:'right'
-                }}
+                // style={{
+                //   width: "15%",
+                //   display: "flex",
+                //   // justifyContent: "end",
+                //   paddingLeft: "3%",
+                //   float:'right'
+                // }}
               >
                 {/* <img src={uk} style={{width:'10%', paddingRight:'4px'}} alt="" /> */}
                 {/* <div    onClick={() => {setAr('ar');localStorage.setItem('lang','ar')}}> */}

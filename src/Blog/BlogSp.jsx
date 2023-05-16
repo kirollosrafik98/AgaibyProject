@@ -63,14 +63,13 @@ export default function BlogSp() {
                     </div>
                     <div
                       class="entry-details"
-                      style={{ height: "220px", overflow: "hidden" }}
+                      style={{ height: "200px", overflow: "hidden" }}
                     >
                       <h3>
                         <a
                           style={{ textDecoration: "none", fontFamily: "Maya" }}
                         >
-                          Aumentar la capacidad de innovación de los textiles y la confección
-                           industria
+                          Aumentar la capacidad de innovación de los textiles y...
                         </a>
                       </h3>
                       <span class="entry-date">Marzo 16, 2023</span>
@@ -105,14 +104,13 @@ export default function BlogSp() {
                     </div>
                     <div
                       class="entry-details"
-                      style={{ height: "220px", overflow: "hidden" }}
+                      style={{ height: "200px", overflow: "hidden" }}
                     >
                       <h3>
                         <a
                           style={{ textDecoration: "none", fontFamily: "Maya" }}
                         >
-                       Los ingenieros industriales reemplazarán a los tradicionales?
-                           Gerentes de producción?
+                       Los ingenieros industriales reemplazarán a los...
                         </a>
                       </h3>
                       <span class="entry-date">Febrero 6, 2023</span>
@@ -147,7 +145,7 @@ export default function BlogSp() {
                     </div>
                     <div
                       class="entry-details"
-                      style={{ height: "220px", overflow: "hidden" }}
+                      style={{ height: "200px", overflow: "hidden" }}
                     >
                       <h3>
                         <a
@@ -188,7 +186,7 @@ export default function BlogSp() {
                     </div>
                     <div
                       class="entry-details"
-                      style={{ height: "220px", overflow: "hidden" }}
+                      style={{ height: "200px", overflow: "hidden" }}
                     >
                       <h3>
                         <a
@@ -229,13 +227,13 @@ export default function BlogSp() {
                     </div>
                     <div
                       class="entry-details"
-                      style={{ height: "220px", overflow: "hidden" }}
+                      style={{ height: "200px", overflow: "hidden" }}
                     >
                       <h3>
                         <a
                           style={{ textDecoration: "none", fontFamily: "Maya" }}
                         >
-                         Estrategias para el abastecimiento de textiles y prendas de vestir
+                         Estrategias para el abastecimiento de textiles y...
                         </a>
                       </h3>
                       <span class="entry-date"> Febrero 1, 2023</span>
@@ -270,14 +268,13 @@ export default function BlogSp() {
                     </div>
                     <div
                       class="entry-details"
-                      style={{ height: "220px", overflow: "hidden" }}
+                      style={{ height: "200px", overflow: "hidden" }}
                     >
                       <h3>
                         <a
                           style={{ textDecoration: "none", fontFamily: "Maya" }}
                         >
-                         La coalición STTI da la bienvenida a la compra de mejoras
-                           prácticas de BRM
+                         La coalición STTI da la bienvenida a la compra de...
                         </a>
                       </h3>
                       <span class="entry-date">Marzo 14, 2023</span>
@@ -312,7 +309,7 @@ export default function BlogSp() {
                     </div>
                     <div
                       class="entry-details"
-                      style={{ height: "220px", overflow: "hidden" }}
+                      style={{ height: "200px", overflow: "hidden" }}
                     >
                       <h3>
                         <a
@@ -353,7 +350,7 @@ export default function BlogSp() {
                     </div>
                     <div
                       class="entry-details"
-                      style={{ height: "220px", overflow: "hidden" }}
+                      style={{ height: "200px", overflow: "hidden" }}
                     >
                       <h3>
                         <a
@@ -394,13 +391,13 @@ export default function BlogSp() {
                     </div>
                     <div
                       class="entry-details"
-                      style={{ height: "220px", overflow: "hidden" }}
+                      style={{ height: "200px", overflow: "hidden" }}
                     >
                       <h3>
                         <a
                           style={{ textDecoration: "none", fontFamily: "Maya" }}
                         >
-Sostenibilidad en el procesamiento <br /> textil                        </a>
+Sostenibilidad en el procesamiento textil                        </a>
                       </h3>
                       <span class="entry-date">Septiembre 18, 2022</span>
                       <div class="entry-footer">
@@ -434,14 +431,13 @@ Sostenibilidad en el procesamiento <br /> textil                        </a>
                     </div>
                     <div
                       class="entry-details"
-                      style={{ height: "220px", overflow: "hidden" }}
+                      style={{ height: "200px", overflow: "hidden" }}
                     >
                       <h3>
                         <a
                           style={{ textDecoration: "none", fontFamily: "Maya" }}
                         >
-                       Estudio de aplicación de Óxido de Grafeno reducido sobre
-                           tela de algodón...
+                       Estudio de aplicación de Óxido de Grafeno reducido...
                         </a>
                       </h3>
                       <span class="entry-date"> Febrero 23, 2022</span>

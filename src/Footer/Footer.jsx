@@ -71,8 +71,8 @@ export default function Footer() {
                         <div class="widget newsletter-widget">
                             <h3 style={{fontFamily:'Maya'}}>Contact Us</h3>
                             <ul>
-                                <li><i style={{color:'#C0AB89'}} class="fa-regular fa-envelope" aria-hidden="true"></i> Info@agaipy.com</li>
-                                <li><i style={{color:'#C0AB89'}} class="fa fa-volume-control-phone" aria-hidden="true"></i>  +20 244 564 541 - +20 244 564 540</li>
+                                <li><i style={{color:'#C0AB89'}} class="fa-regular fa-envelope" aria-hidden="true"></i><a className='info' style={{textDecoration:'none'}} href="mailto:Info@agaipy.com">Info@agaipy.com</a> </li>
+                                <li><i style={{color:'#C0AB89'}} class="fa fa-volume-control-phone" aria-hidden="true"></i> <a  className='info' style={{textDecoration:'none'}} href="tel:+20244564541">  +20 244 564 541</a>  - <a  className='info' style={{textDecoration:'none'}} href="tel:+20244564540">+20 244 564 540</a></li>
                             </ul>
                             
                         </div>

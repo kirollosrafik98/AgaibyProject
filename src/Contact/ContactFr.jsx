@@ -62,7 +62,7 @@ export default function ContactFr() {
                             <h3 style={{fontFamily:'Maya'}}>Formulaire de contact</h3>
                             <ul>
                                 <li><i class="fa fa-home"></i>Siège social : Zone industrielle El-Shourok - Abo Zaabal - Al-Khanka - Al-Qalubia</li>
-                                <li><i class="fa fa-phone"></i>+20 244 564 541 - +20 244 564 540</li>
+                                <li><i class="fa fa-phone"></i><a  className='info' style={{textDecoration:'none',color:'#fff'}} href="tel:+20244564541">+20 244 564 541</a> - <a  className='info' style={{textDecoration:'none',color:'#fff'}} href="tel:+20244564540">+20 244 564 540</a></li>
                             </ul>
                             <h4 style={{fontFamily:'Maya'}}>Envoyer un e-mail</h4>
                             <form class="form contact-validation-active" id="contact-form"  method="post" onSubmit={handleSubmit}>
@@ -96,9 +96,9 @@ export default function ContactFr() {
 </div>
 </div>
 <h3 style={{textAlign:'center', fontFamily:'Maya'}}>Contact</h3>
-<p  style={{textAlign:'center', padding:'0', margin:'0'}}>Usine: +20 244 564 541 - +20 244 564 540</p>
-<p  style={{textAlign:'center', margin:'0'}}>Agence de Shubra: +20 120 770 3244</p>
-<p  style={{textAlign:'center', margin:'0'}}>Agence de Gesr El Suez: +20 127 427 1266 - +20 127 535 5444</p>
+<p  style={{textAlign:'center', padding:'0', margin:'0'}}>Usine: <a  className='info' style={{textDecoration:'none',color:'#686e76'}} href="tel:+20244564541">+20 244 564 541</a> - <a  className='info' style={{textDecoration:'none',color:'#686e76'}} href="tel:+20244564540">+20 244 564 540</a></p>
+<p  style={{textAlign:'center', margin:'0'}}>Agence de Shubra: <a  className='info' style={{textDecoration:'none',color:'#686e76'}} href="tel:+201207703244">+20 120 770 3244</a></p>
+<p  style={{textAlign:'center', margin:'0'}}>Agence de Gesr El Suez: <a  className='info' style={{textDecoration:'none',color:'#686e76'}} href="tel:+201274271266 ">+20 127 427 1266 </a> - <a  className='info' style={{textDecoration:'none',color:'#686e76'}} href="tel:+201275355444">+20 127 535 5444</a></p>
 
 {/* <p style={{textAlign:'center'}}>example@gmail.com</p> */}
 </div></Fade>
@@ -125,8 +125,8 @@ export default function ContactFr() {
 </div>
 </div>
 <h3 style={{textAlign:'center', fontFamily:'Maya'}}>Horaires de travail</h3>
-<p style={{textAlign:'center', margin:'0'}}>Ouvert du samedi au vendredi</p>
-<p style={{textAlign:'center', margin:'0'}}>09.00 – 22.00
+<p style={{textAlign:'center', margin:'0'}}>Ouvert du samedi au Jeudi</p>
+<p style={{textAlign:'center', margin:'0'}}>09.00 AM – 10.00 PM
 </p></div></Fade>
                     </div>
                 </div> 

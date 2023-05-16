@@ -58,13 +58,13 @@ export default function Products() {
           <div class="entry-details" style={{ height: '150px', overflow: 'hidden' }}>
             <h3><a style={{textDecoration:'none', fontFamily:'Maya'}}>   {
          localStorage.getItem("lang") === "eng" 
-          ? "Dyed Bengaline Stretch for Pants"
+          ? "Dyed Bengaline Stretch for..."
           :localStorage.getItem("lang")=== "egp" 
             ? " ‎بنجالين ليكرا شروال"
             :localStorage.getItem("lang")=== "fr" 
-              ? "Stretch bengalin teint pour pantalon" 
+              ? "Stretch bengalin teint pour..." 
               :localStorage.getItem("lang")=== "spain" 
-                ? "Pantalón elástico bengalino teñido" 
+                ? "Pantalón elástico bengalino..." 
                 : ""
         } </a></h3>
             {/* <span class="entry-date">30 November, 2018</span> */}
@@ -181,7 +181,7 @@ export default function Products() {
             :localStorage.getItem("lang")=== "fr" 
               ? "Tissu doux teint pour pantalon" 
               :localStorage.getItem("lang")=== "spain" 
-                ? "Tela suave teñida para pantalones" 
+                ? "Tela suave teñida para..." 
                 : ""
         }
               </a></h3>
@@ -214,13 +214,13 @@ export default function Products() {
           <div class="entry-details" style={{ height: '150px', overflow: 'hidden' }}>
             <h3><a style={{textDecoration:'none', fontFamily:'Maya'}}>      {
          localStorage.getItem("lang") === "eng" 
-          ? "Dyed Bengaline Light for T-Shirt with Lycra"
+          ? "Dyed Bengaline Light for T..."
           :localStorage.getItem("lang")=== "egp" 
             ? "‎بنجالين لايت مصبوغ قميص وتيشرت" 
             :localStorage.getItem("lang")=== "fr" 
-              ? "Teint Bengaline Light pour T-Shirt avec Lycra" 
+              ? "Teint Bengaline Light pour T..." 
               :localStorage.getItem("lang")=== "spain" 
-                ? "Luz bengalina teñida para camiseta con licra " 
+                ? "Luz bengalina teñida para..." 
                 : ""
         } </a></h3>
             {/* <span class="entry-date">30 November, 2018</span> */}
@@ -252,13 +252,13 @@ export default function Products() {
           <div class="entry-details" style={{ height: '150px', overflow: 'hidden' }}>
             <h3><a style={{textDecoration:'none', fontFamily:'Maya'}}>    {
          localStorage.getItem("lang") === "eng" 
-          ? "Dyed Gabardine twill Fabric for Pants and Uniform"
+          ? "Dyed Gabardine twill Fabric..."
           :localStorage.getItem("lang")=== "egp" 
-            ? "نسيج جبردين مصبوغ من التويل للسراويل والزي الموحد"
+            ? "نسيج جبردين مصبوغ من التويل للسراويل ... "
             :localStorage.getItem("lang")=== "fr" 
-              ? "Tissu sergé gabardine teint pour pantalon et uniforme" 
+              ? "Tissu sergé gabardine teint..." 
               :localStorage.getItem("lang")=== "spain" 
-                ? "Tela de sarga de gabardina teñida para pantalones y uniformes" 
+                ? "Tela de sarga de gabardina..." 
                 : ""
         }</a></h3>
             {/* <span class="entry-date">30 November, 2018</span> */}
@@ -290,13 +290,13 @@ export default function Products() {
           <div class="entry-details" style={{ height: '150px', overflow: 'hidden' }}>
             <h3><a style={{textDecoration:'none', fontFamily:'Maya'}}> {
          localStorage.getItem("lang") === "eng" 
-          ? "  Printed Bengaline Stretch for Pants "
+          ? "  Printed Bengaline Stretch for... "
           :localStorage.getItem("lang")=== "egp" 
             ? " ‎بنجالين ليكرا مطبوع شروال"
             :localStorage.getItem("lang")=== "fr" 
-              ? "Bengaline stretch imprimé pour pantalon" 
+              ? "Bengaline stretch imprimé..." 
               :localStorage.getItem("lang")=== "spain" 
-                ? "Pantalón elástico bengalí estampado" 
+                ? "Pantalón elástico bengalí..." 
                 : ""
         } </a></h3>
             {/* <span class="entry-date">30 November, 2018</span> */}
@@ -403,13 +403,13 @@ export default function Products() {
           <div class="entry-details" style={{ height: '150px', overflow: 'hidden' }}>
             <h3><a style={{textDecoration:'none', fontFamily:'Maya'}}> {
          localStorage.getItem("lang") === "eng" 
-          ? "     Printed Soft Lycra Fabric Microfiber "
+          ? "     Printed Soft Lycra Fabric... "
           :localStorage.getItem("lang")=== "egp" 
             ? "قماش سوفت خفيف ليكرا مطبوع"
             :localStorage.getItem("lang")=== "fr" 
-              ? "Microfibre de tissu Lycra doux imprimé" 
+              ? "Microfibre de tissu Lycra doux..." 
               :localStorage.getItem("lang")=== "spain" 
-                ? "Microfibra de tela de lycra suave impresa" 
+                ? "Microfibra de tela de lycra..." 
                 : ""
         }</a></h3>
             {/* <span class="entry-date">30 November, 2018</span> */}
@@ -441,13 +441,13 @@ export default function Products() {
           <div class="entry-details" style={{ height: '150px', overflow: 'hidden' }}>
             <h3><a style={{textDecoration:'none', fontFamily:'Maya'}}> {
          localStorage.getItem("lang") === "eng" 
-          ? "Printed Bengaline Light for T-Shirt with Lycra"
+          ? "Printed Bengaline Light for T..."
           :localStorage.getItem("lang")=== "egp" 
             ? "‎بنجالين لايت مطبوع قميص وتيشرت" 
             :localStorage.getItem("lang")=== "fr" 
-              ? "Bengaline Légère Imprimée pour T-Shirt avec Lycra" 
+              ? "Bengaline Légère Imprimée..." 
               :localStorage.getItem("lang")=== "spain" 
-                ? "Luz Bengalina Estampada para Camiseta con Lycra " 
+                ? "Luz Bengalina Estampada para... " 
                 : ""
         } </a></h3>
             {/* <span class="entry-date">30 November, 2018</span> */}

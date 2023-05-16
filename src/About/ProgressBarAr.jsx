@@ -64,15 +64,15 @@ const ProgressSection = () => {
           <p style={{ fontFamily: "Maya", fontSize: "20px" }}  dir="rtl" lang="ar">
           خدمات المنسوجات
           </p>
-          <ProgressBarAr percentage={4} />
+          <ProgressBarAr percentage={96}/>
           <p style={{ fontFamily: "Maya", fontSize: "20px" }}  dir="rtl" lang="ar">
           مواد النسيج
           </p>
-          <ProgressBarAr percentage={11} />
+          <ProgressBarAr percentage={89} />
           <p style={{ fontFamily: "Maya", fontSize: "20px" }}  dir="rtl" lang="ar">
           أقمشة متخصصة
           </p>
-          <ProgressBarAr percentage={7} />
+          <ProgressBarAr percentage={93} />
           {/* <p style={{fontFamily:'Maya', fontSize:'20px'}}>Leather Textile</p>
         <ProgressBar percentage={85} /> */}
         </div>

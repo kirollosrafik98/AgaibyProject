@@ -255,8 +255,8 @@ export default function HomeFr() {
           <div class="entry-media">
             <img src={blog1} style={{width:'100%', height:'200px',objectFit:'cover'}} alt class="img img-responsive"/>
           </div>
-          <div class="entry-details"  style={{ height: '220px', overflow: 'hidden' }}>
-            <h3><a style={{textDecoration:'none', fontFamily:'Maya'}}>Accroître la capacité d’innovation de l’industrie du textile et de l’habillement</a></h3>
+          <div class="entry-details"  style={{ height: '200px', overflow: 'hidden' }}>
+            <h3><a style={{textDecoration:'none', fontFamily:'Maya'}}>Accroître la capacité d’innovation de l’industrie du...</a></h3>
             <span class="entry-date"> 16 mars 2023</span>
             <div class="entry-footer">
               <Link to='/blog1' style={{textDecoration:'none'}} class="read-more">Lire la suite</Link>
@@ -272,8 +272,8 @@ export default function HomeFr() {
           <div class="entry-media">
             <img src={blog2} style={{width:'100%', height:'200px',objectFit:'cover'}}  alt class="img img-responsive"/>
           </div>
-          <div class="entry-details"  style={{ height: '220px', overflow: 'hidden' }}>
-            <h3><a style={{textDecoration:'none', fontFamily:'Maya'}}>Les ingénieurs industriels remplaceront-ils les directeurs de production traditionnels ?</a></h3>
+          <div class="entry-details"  style={{ height: '200px', overflow: 'hidden' }}>
+            <h3><a style={{textDecoration:'none', fontFamily:'Maya'}}>Les ingénieurs industriels remplaceront-ils les...</a></h3>
             <span class="entry-date">6 février 2023</span>
             <div class="entry-footer">
               <Link to='/blog2' style={{textDecoration:'none'}} class="read-more">Lire la suite</Link>
@@ -289,7 +289,7 @@ export default function HomeFr() {
           <div class="entry-media">
             <img src={blog3} style={{width:'100%', height:'200px',objectFit:'cover'}}  alt class="img img-responsive"/>
           </div>
-          <div class="entry-details"  style={{ height: '220px', overflow: 'hidden' }}>
+          <div class="entry-details"  style={{ height: '200px', overflow: 'hidden' }}>
             <h3><a style={{textDecoration:'none', fontFamily:'Maya'}}>10 tissus à porter en été pour combattre la chaleur</a></h3>
             <span class="entry-date">10 mars 2023</span>
             <div class="entry-footer">

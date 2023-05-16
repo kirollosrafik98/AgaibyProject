@@ -39,9 +39,9 @@ export default function BlogFr() {
           <div class="entry-media">
             <img src={blog1} style={{width:'100%', height:'200px',objectFit:'cover'}} alt class="img img-responsive"/>
           </div>
-          <div class="entry-details"  style={{ height: '220px', overflow: 'hidden' }}>
+          <div class="entry-details"  style={{ height: '200px', overflow: 'hidden' }}>
             <h3><a style={{textDecoration:'none', fontFamily:'Maya'}}>
-            Accroître l'innovation de l'industrie du textile et de l'habillement</a></h3>
+            Accroître l'innovation de l'industrie du textile et de...</a></h3>
             <span class="entry-date">Mars 16, 2023</span>
             <div class="entry-footer">
               <Link to='/blog1' style={{textDecoration:'none'}} class="read-more">En savoir plus</Link>
@@ -57,8 +57,8 @@ export default function BlogFr() {
           <div class="entry-media">
             <img src={blog2} style={{width:'100%', height:'200px',objectFit:'cover'}}  alt class="img img-responsive"/>
           </div>
-          <div class="entry-details"  style={{ height: '220px', overflow: 'hidden' }}>
-            <h3><a style={{textDecoration:'none', fontFamily:'Maya'}}>Les ingénieurs industriels remplaceront-ils les responsables de production traditionnels ?</a></h3>
+          <div class="entry-details"  style={{ height: '200px', overflow: 'hidden' }}>
+            <h3><a style={{textDecoration:'none', fontFamily:'Maya'}}>Les ingénieurs industriels remplaceront-ils les...</a></h3>
             <span class="entry-date">Février 6, 2023</span>
             <div class="entry-footer">
               <Link to='/blog2' style={{textDecoration:'none'}} class="read-more">En savoir plus</Link>
@@ -74,7 +74,7 @@ export default function BlogFr() {
           <div class="entry-media">
             <img src={blog3} style={{width:'100%', height:'200px',objectFit:'cover'}}  alt class="img img-responsive"/>
           </div>
-          <div class="entry-details"  style={{ height: '220px', overflow: 'hidden' }}>
+          <div class="entry-details"  style={{ height: '200px', overflow: 'hidden' }}>
             <h3><a style={{textDecoration:'none', fontFamily:'Maya'}}>10 tissus à porter en été pour combattre la chaleur</a></h3>
             <span class="entry-date">Mars 10, 2023
 </span>
@@ -92,8 +92,8 @@ export default function BlogFr() {
           <div class="entry-media">
             <img src={blog4} style={{width:'100%', height:'200px',objectFit:'cover'}}  alt class="img img-responsive"/>
           </div>
-          <div class="entry-details"  style={{ height: '220px', overflow: 'hidden' }}>
-            <h3><a style={{textDecoration:'none', fontFamily:'Maya'}}>Progrès dans les technologies de tissage de tissus</a></h3>
+          <div class="entry-details"  style={{ height: '200px', overflow: 'hidden' }}>
+            <h3><a style={{textDecoration:'none', fontFamily:'Maya'}}>Progrès dans les technologies de tissage de...</a></h3>
             <span class="entry-date">Mars 13, 2018</span>
             <div class="entry-footer">
               <Link to='/blog4' style={{textDecoration:'none'}} class="read-more">En savoir plus</Link>
@@ -109,7 +109,7 @@ export default function BlogFr() {
           <div class="entry-media">
             <img src={blog5} style={{width:'100%', height:'200px',objectFit:'cover'}}  alt class="img img-responsive"/>
           </div>
-          <div class="entry-details"  style={{ height: '220px', overflow: 'hidden' }}>
+          <div class="entry-details"  style={{ height: '200px', overflow: 'hidden' }}>
             <h3><a style={{textDecoration:'none', fontFamily:'Maya'}}>Stratégies d'approvisionnement en textiles et vêtements</a></h3>
             <span class="entry-date"> Février 1, 2023</span>
             <div class="entry-footer">
@@ -126,8 +126,8 @@ export default function BlogFr() {
           <div class="entry-media">
             <img src={blog6} style={{width:'100%', height:'200px',objectFit:'cover'}}  alt class="img img-responsive"/>
           </div>
-          <div class="entry-details"  style={{ height: '220px', overflow: 'hidden' }}>
-            <h3><a style={{textDecoration:'none', fontFamily:'Maya'}}>La coalition STTI salue l'amélioration des pratiques d'achat par le BRM</a></h3>
+          <div class="entry-details"  style={{ height: '200px', overflow: 'hidden' }}>
+            <h3><a style={{textDecoration:'none', fontFamily:'Maya'}}>La coalition STTI salue l'amélioration des pratiques...</a></h3>
             <span class="entry-date">
 Mars 14, 2023</span>
             <div class="entry-footer">
@@ -144,7 +144,7 @@ Mars 14, 2023</span>
           <div class="entry-media">
             <img src={blog7} style={{width:'100%', height:'200px',objectFit:'cover'}}  alt class="img img-responsive"/>
           </div>
-          <div class="entry-details"  style={{ height: '220px', overflow: 'hidden' }}>
+          <div class="entry-details"  style={{ height: '200px', overflow: 'hidden' }}>
             <h3><a style={{textDecoration:'none', fontFamily:'Maya'}}>Fibres de sous-produits du lait – une nouvelle dimension</a></h3>
             <span class="entry-date">Mars 18, 2023
 </span>
@@ -162,7 +162,7 @@ Mars 14, 2023</span>
           <div class="entry-media">
             <img src={blog8} style={{width:'100%', height:'200px',objectFit:'cover'}}  alt class="img img-responsive"/>
           </div>
-          <div class="entry-details"  style={{ height: '220px', overflow: 'hidden' }}>
+          <div class="entry-details"  style={{ height: '200px', overflow: 'hidden' }}>
             <h3><a style={{textDecoration:'none', fontFamily:'Maya'}}>L'avenir des textiles avec la nanotechnologie</a></h3>
             <span class="entry-date">Mars 16, 2023
 </span>
@@ -180,7 +180,7 @@ Mars 14, 2023</span>
           <div class="entry-media">
             <img src={blog9} style={{width:'100%', height:'200px',objectFit:'cover'}}  alt class="img img-responsive"/>
           </div>
-          <div class="entry-details"  style={{ height: '220px', overflow: 'hidden' }}>
+          <div class="entry-details"  style={{ height: '200px', overflow: 'hidden' }}>
             <h3><a style={{textDecoration:'none', fontFamily:'Maya'}}>Durabilité dans le traitement <br /> des textiles
 </a></h3>
             <span class="entry-date">Septembre 18, 2022</span>
@@ -198,8 +198,8 @@ Mars 14, 2023</span>
           <div class="entry-media">
             <img src={blog10} style={{width:'100%', height:'200px',objectFit:'cover'}}  alt class="img img-responsive"/>
           </div>
-          <div class="entry-details"  style={{ height: '220px', overflow: 'hidden' }}>
-            <h3><a style={{textDecoration:'none', fontFamily:'Maya'}}>Etude d'application d'Oxyde de Graphène réduit sur tissu coton...
+          <div class="entry-details"  style={{ height: '200px', overflow: 'hidden' }}>
+            <h3><a style={{textDecoration:'none', fontFamily:'Maya'}}>Etude d'application d'Oxyde de Graphène réduit sur tissu...
 </a></h3>
             <span class="entry-date"> Février 23, 2022</span>
             <div class="entry-footer">

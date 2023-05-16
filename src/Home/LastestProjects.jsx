@@ -56,13 +56,13 @@ export default function LastestProjects() {
                             <div class="details" style={{ height: '100px', overflow: 'hidden' }}>
                                 <h3><Link  style={{textDecoration:'none', color:'#000', fontFamily:'Maya', fontSize:'18px'}}> {
          localStorage.getItem("lang") === "eng" 
-          ? "Dyed Bengaline Stretch for Pants"
+          ? "Dyed Bengaline Stretch for..."
           :localStorage.getItem("lang")=== "egp" 
             ? " ‎بنجالين ليكرا شروال"
             :localStorage.getItem("lang")=== "fr" 
-              ? "Stretch bengalin teint pour pantalon" 
+              ? "Stretch bengalin teint..." 
               :localStorage.getItem("lang")=== "spain" 
-                ? "Pantalón elástico bengalino teñido" 
+                ? "Pantalón elástico beng..." 
                 : ""
         } </Link></h3>
                                 <p> <Link style={{textDecoration:'none', color:'#C0AB89'}} to='/stretch'>{
@@ -145,11 +145,11 @@ export default function LastestProjects() {
          localStorage.getItem("lang") === "eng" 
           ? "Dyed Soft Fabric for Pants"
           :localStorage.getItem("lang")=== "egp" 
-            ?"‎ قماش سوفت ليكرا تقيل الشروال البنطلون"
+            ?"‎ قماش سوفت ليكرا تقيل الشروال "
             :localStorage.getItem("lang")=== "fr" 
-              ? "Tissu doux teint pour pantalon" 
+              ? "Tissu doux teint pour..." 
               :localStorage.getItem("lang")=== "spain" 
-                ? "Tela suave teñida para pantalones" 
+                ? "Tela suave teñida para..." 
                 : ""
         }</Link></h3>
                                 <p> <Link style={{textDecoration:'none', color:'#C0AB89'}} to='/soft'> {
@@ -172,13 +172,13 @@ export default function LastestProjects() {
                             <div class="details" style={{ height: '100px', overflow: 'hidden' }}>
                                 <h3><Link to='/lycra' style={{textDecoration:'none', color:'#000', fontFamily:'Maya', fontSize:'18px'}}> {
          localStorage.getItem("lang") === "eng" 
-          ? "Dyed Bengaline Light for T-Shirt with Lycra"
+          ? "Dyed Bengaline Light for T-..."
           :localStorage.getItem("lang")=== "egp" 
             ? "‎بنجالين لايت مصبوغ قميص وتيشرت" 
             :localStorage.getItem("lang")=== "fr" 
-              ? "Teint Bengaline Light pour T-Shirt avec Lycra" 
+              ? "Teint Bengaline Light pour..." 
               :localStorage.getItem("lang")=== "spain" 
-                ? "Luz bengalina teñida para camiseta con licra " 
+                ? "Luz bengalina teñida para..." 
                 : ""
         }</Link></h3>
                                 <p><Link style={{textDecoration:'none', color:'#C0AB89'}} to='/lycra'> {
@@ -201,13 +201,13 @@ export default function LastestProjects() {
                             <div class="details" style={{ height: '100px', overflow: 'hidden' }}>
                                 <h3><Link to='/twill' style={{textDecoration:'none', color:'#000', fontFamily:'Maya', fontSize:'18px'}}>  {
          localStorage.getItem("lang") === "eng" 
-          ? "Dyed Gabardine twill Fabric for Pants and Uniform"
+          ? "Dyed Gabardine twill Fabric..."
           :localStorage.getItem("lang")=== "egp" 
-            ? "نسيج جبردين مصبوغ من التويل للسراويل والزي الموحد"
+            ? "نسيج جبردين مصبوغ من التويل ...  "
             :localStorage.getItem("lang")=== "fr" 
-              ? "Tissu sergé gabardine teint pour pantalon et uniforme" 
+              ? "Tissu sergé gabardine teint..."
               :localStorage.getItem("lang")=== "spain" 
-                ? "Tela de sarga de gabardina teñida para pantalones y uniformes" 
+                ? "Tela de sarga de gab..." 
                 : ""
         }</Link></h3>
                                 <p><Link style={{textDecoration:'none', color:'#C0AB89'}} to='/twill'> {
@@ -230,13 +230,13 @@ export default function LastestProjects() {
                             <div class="details" style={{ height: '100px', overflow: 'hidden' }}>
                                 <h3><Link to='/dyedStretch' style={{textDecoration:'none', color:'#000', fontFamily:'Maya', fontSize:'18px'}}>{
          localStorage.getItem("lang") === "eng" 
-          ? "  Printed Bengaline Stretch for Pants "
+          ? "  Printed Bengaline Stretch... "
           :localStorage.getItem("lang")=== "egp" 
             ? " ‎بنجالين ليكرا مطبوع شروال"
             :localStorage.getItem("lang")=== "fr" 
-              ? "Bengaline stretch imprimé pour pantalon" 
+              ? "Bengaline stretch imprimé..." 
               :localStorage.getItem("lang")=== "spain" 
-                ? "Pantalón elástico bengalí estampado" 
+                ? "Pantalón elástico bengalí..." 
                 : ""
         }</Link></h3>
                                 <p> <Link style={{textDecoration:'none', color:'#C0AB89'}} to='/dyedStretch'> {
@@ -317,13 +317,13 @@ export default function LastestProjects() {
                             <div class="details" style={{ height: '100px', overflow: 'hidden' }}>
                                 <h3><Link to='/microfiber' style={{textDecoration:'none', color:'#000', fontFamily:'Maya', fontSize:'18px'}}>{
          localStorage.getItem("lang") === "eng" 
-          ? "     Printed Soft Lycra Fabric Microfiber "
+          ? "     Printed Soft Lycra Fabric..."
           :localStorage.getItem("lang")=== "egp" 
             ? "قماش سوفت خفيف ليكرا مطبوع"
             :localStorage.getItem("lang")=== "fr" 
-              ? "Microfibre de tissu Lycra doux imprimé" 
+              ? "Microfibre de tissu Lycra..." 
               :localStorage.getItem("lang")=== "spain" 
-                ? "Microfibra de tela de lycra suave impresa" 
+                ? "Microfibra de tela de..." 
                 : ""
         }</Link></h3>
                                 <p> <Link style={{textDecoration:'none', color:'#C0AB89'}} to='/microfiber'> {
@@ -346,13 +346,13 @@ export default function LastestProjects() {
                             <div class="details" style={{ height: '100px', overflow: 'hidden' }}>
                                 <h3><Link to='/bengaline' style={{textDecoration:'none', color:'#000', fontFamily:'Maya', fontSize:'18px'}}>{
          localStorage.getItem("lang") === "eng" 
-          ? "Printed Bengaline Light for T-Shirt with Lycra"
+          ? "Printed Bengaline Light for..."
           :localStorage.getItem("lang")=== "egp" 
             ? "‎بنجالين لايت مطبوع قميص وتيشرت" 
             :localStorage.getItem("lang")=== "fr" 
-              ? "Bengaline Légère Imprimée pour T-Shirt avec Lycra" 
+              ? "Bengaline Légère Imprimée..." 
               :localStorage.getItem("lang")=== "spain" 
-                ? "Luz Bengalina Estampada para Camiseta con Lycra " 
+                ? "Luz Bengalina Estampada... " 
                 : ""
         }</Link></h3>
                                 <p> <Link style={{textDecoration:'none', color:'#C0AB89'}} to='/bengaline'> {
