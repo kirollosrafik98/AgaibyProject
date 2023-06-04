@@ -75,7 +75,7 @@ export default function NavbarAr({ ar, setAr }) {
                         alt=""
                       />:<img
                         src={egypt}
-                        style={{ width: "25%", paddingRight: "4px" ,height:"55%"}}
+                        style={{ width: "40%", paddingRight: "4px" ,height:"90%"}}
                         alt=""
                       />}
      <div class=" navbar-collapse" id="navbarNavDarkDropdown">
