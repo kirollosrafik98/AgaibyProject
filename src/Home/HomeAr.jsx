@@ -28,6 +28,8 @@ import { Element } from "react-scroll";
 import Fade from "react-reveal/Fade";
 // import { Fade } from 'react-reveal';
 import finishing from "../images/Buckram.png";
+import blog4 from '../images/about.jpg';
+
 export default function HomeAr() {
   useEffect(() => {
     window.scrollTo(0, 0);
@@ -240,7 +242,7 @@ export default function HomeAr() {
                         fontFamily: "Maya",
                       }}
                     >
-                      تقفيل
+                      تجهيز
                     </h4>
                   </div>
                 </Fade>
@@ -468,46 +470,49 @@ export default function HomeAr() {
           </div>
 
           <div class="row blog-s2-grids">
-            <div class="col-md-4 p-3">
-              <Fade right>
-                <div class="grid">
-                  <div class="entry-media">
-                    <img
-                      src={blog1}
-                      style={{
-                        width: "100%",
-                        height: "200px",
-                        objectFit: "cover",
-                      }}
-                      alt
-                      class="img img-responsive"
-                    />
-                  </div>
-                  <div dir="rtl" lang="ar"
-                    class="entry-details"
-                    style={{ height: "220px", overflow: "hidden" }}
-                  >
-                    <h3 dir="rtl" lang="ar">
-                      <a style={{ textDecoration: "none", fontFamily: "Maya" }}>
-                      زيادة الابتكار في المنسوجات وصناعة الملابس
-                         
-                      </a>
-                    </h3>
-                    <span class="entry-date" dir="rtl" lang="ar"> 16 مارس 2023</span>
-                    <div class="entry-footer">
-                      <Link
-                        to="/blog1"
-                        style={{ textDecoration: "none", float:'right' }}
-                        class="read-more"
-                      >
-                       اقرأ أكثر
-                      </Link>
-                      {/* <a style={{textDecoration:'none'}} class="comments"><i class="fa fa-comments" aria-hidden="true"></i> 5</a> */}
+          <div class="col-md-4 p-3">
+                <Fade right>
+                  <div class="grid">
+                    <div class="entry-media">
+                      <img
+                        src={blog4}
+                        style={{
+                          width: "100%",
+                          height: "200px",
+                          objectFit: "cover",
+                        }}
+                        alt
+                        class="img img-responsive"
+                      />
+                    </div>
+                    <div
+                      class="entry-details"  dir="rtl" lang="ar"
+                      style={{ height: "200px", overflow: "hidden" }}
+                    >
+                      <h3  dir="rtl" lang="ar">
+                        <a
+                          style={{ textDecoration: "none", fontFamily: "Maya" }}
+                        >
+                        التطورات في تقنيات نسج 
+                        <br />
+                        النسيج
+                        </a>
+                      </h3>
+                      <span class="entry-date">مارس 13, 2018</span>
+                      <div class="entry-footer">
+                        <Link
+                          to="/blog4"
+                          style={{ textDecoration: "none" , float:'right'}}
+                          class="read-more"
+                        >
+                         اقرأ المزيد
+                        </Link>
+                        {/* <a style={{textDecoration:'none'}} class="comments"><i class="fa fa-comments" aria-hidden="true"></i> 5</a> */}
+                      </div>
                     </div>
                   </div>
-                </div>
-              </Fade>
-            </div>
+                </Fade>
+              </div>
             <div class="col-md-4 p-3">
               <Fade right>
                 <div class="grid">

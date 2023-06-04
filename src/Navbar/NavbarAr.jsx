@@ -64,58 +64,49 @@ export default function NavbarAr({ ar, setAr }) {
                   style={{
                     width: "15%",
                     display: "flex",
-                    justifyContent: "end",
-                    float: "right",
+                    justifyContent: "start",
+                    float: "left",
                     paddingRight: "3%",
                   }}
                 >
-                  <ul className="direction">
-                    <li>
-                      {" "}
-                      <div
-                        onClick={() => {
-                          setAr("eng");
-                          localStorage.setItem("lang", "eng");
-                        }}
-                      >
-                        <img
-                          src={uk}
-                          style={{ width: "70%", paddingRight: "4px" }}
-                          alt=""
-                        />
-                      </div>
-                    </li>
-                    <li>
-                      <div
-                        onClick={() => {
-                          setAr("fr");
-                          localStorage.setItem("lang", "fr");
-                        }}
-                      >
-                        <img
-                          src={french}
-                          style={{ width: "70%", paddingRight: "4px" }}
-                          alt=""
-                        />{" "}
-                      </div>
-                    </li>
-                    <li>
-                      {" "}
-                      <div
-                        onClick={() => {
-                          setAr("spain");
-                          localStorage.setItem("lang", "spain");
-                        }}
-                      >
-                        {" "}
-                        <img
-                          src={spain}
-                          style={{ width: "70%", paddingRight: "4px" }}
-                          alt=""
-                        />
-                      </div>
-                    </li>
-                  </ul>
+   {isMobile?<img
+                        src={egypt}
+                        style={{ width: "35%", paddingRight: "4px" ,height:"30%"}}
+                        alt=""
+                      />:<img
+                        src={egypt}
+                        style={{ width: "25%", paddingRight: "4px" ,height:"55%"}}
+                        alt=""
+                      />}
+     <div class=" navbar-collapse" id="navbarNavDarkDropdown">
+      <ul class="navbar-nav">
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle"  id="navbarDarkDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            عربي
+          </a>
+          <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="navbarDarkDropdownMenuLink"  style={{backgroundColor:'rgb(118, 99, 69)',color:'#fff'}}>
+            <li><a class="dropdown-item"   onClick={() => {
+                    setAr("eng");
+                    localStorage.setItem("lang", "eng");
+                  }}>Eng</a></li>
+            <li><a class="dropdown-item"  onClick={() => {
+                    setAr("fr");
+                    localStorage.setItem("lang", "fr");
+                  }}>French</a></li>
+            <li>  <a class="dropdown-item"
+                       onClick={() => {
+                        setAr("spain");
+                        localStorage.setItem("lang", "spain");
+                      }}
+                    >Spain</a></li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+ 
+ 
+
+                  
 
                   {/* </div> */}
                 </div>

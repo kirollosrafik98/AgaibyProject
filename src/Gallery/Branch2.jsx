@@ -6,7 +6,7 @@ import 'slick-carousel/slick/slick-theme.css';
 import gallery1 from '../images/Gesr El Suez Branch/Agaypy12.jpg';
 import gallery2 from '../images/Gesr El Suez Branch/Agaypy15.jpg';
 import gallery3 from '../images/Gesr El Suez Branch/Agaypy29.jpg';
-import gallery4 from '../images/Gesr El Suez Branch/Agaypy31.jpg';
+// import gallery4 from '../images/Gesr El Suez Branch/Agaypy31.jpg';
 import gallery5 from '../images/Gesr El Suez Branch/Agaypy34.jpg';
 import gallery6 from '../images/Gesr El Suez Branch/Agaypy35.jpg';
 import gallery7 from '../images/Gesr El Suez Branch/Agaypy36.jpg';
@@ -26,7 +26,7 @@ const photos = [
     { id: 1, src: gallery1, alt: 'Photo 1' },
     { id: 2, src: gallery2, alt: 'Photo 2' },
     { id: 3, src: gallery3, alt: 'Photo 3' },
-    { id: 4, src: gallery4, alt: 'Photo 4' },
+    // { id: 4, src: gallery4, alt: 'Photo 4' },
     { id: 5, src: gallery5, alt: 'Photo 5' },
     { id: 6, src: gallery6, alt: 'Photo 6' },
     { id: 7, src: gallery7, alt: 'Photo 7' },

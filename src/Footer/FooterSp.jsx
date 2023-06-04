@@ -77,7 +77,7 @@ export default function FooterSp() {
                             <h3 style={{fontFamily:'Maya'}}>Contacta con nosotras</h3>
                             <ul>
                                 <li><i style={{color:'#C0AB89'}} class="fa-regular fa-envelope" aria-hidden="true"></i><a className='info' style={{textDecoration:'none'}} href="mailto:Info@agaipy.com">Info@agaipy.com</a> </li>
-                                <li><i style={{color:'#C0AB89'}} class="fa fa-volume-control-phone" aria-hidden="true"></i> <a  className='info' style={{textDecoration:'none'}} href="tel:+20244564541">+20 244 564 541</a>  - <a  className='info' style={{textDecoration:'none'}} href="tel:+20244564540">+20 244 564 540</a></li>
+                                <li><i style={{color:'#C0AB89'}} class="fa fa-volume-control-phone" aria-hidden="true"></i><a  className='info' style={{textDecoration:'none',color:'#fff'}} href="tel:+201207703244">+20 120 770 3244</a>  - <a  className='info' style={{textDecoration:'none',color:'#fff'}} href="tel:+201275355444">+20 127 535 5444</a></li>
                             </ul>
                            
                         </div>

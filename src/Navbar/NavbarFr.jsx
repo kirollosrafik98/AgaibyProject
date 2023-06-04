@@ -191,49 +191,38 @@ export default function NavbarFr({ ar, setAr }) {
                 //   float:'right'
                 // }}
               >
-               <ul className="direction">
-               
-               <li> <div
-                  onClick={() => {
+  <img
+                        src={french}
+                        style={{ width: "25%", paddingRight: "4px" ,height:"20%"}}
+                        alt=""
+                      />
+     <div class=" navbar-collapse" id="navbarNavDarkDropdown">
+      <ul class="navbar-nav">
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle"  id="navbarDarkDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            French
+          </a>
+          <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="navbarDarkDropdownMenuLink"  style={{backgroundColor:'rgb(118, 99, 69)',color:'#fff'}}>
+            <li><a class="dropdown-item"   onClick={() => {
                     setAr("eng");
                     localStorage.setItem("lang", "eng");
-                  }}
-                >
-                  <img
-                    src={uk}
-                    style={{ width: "70%", paddingRight: "4px" }}
-                    alt=""
-                  />
-                </div></li> 
-              <li> <div
-                  onClick={() => {
-                    setAr("egp");
-                    localStorage.setItem("lang", "egp");
-                  }}
-                >
-                  <img
-                    src={egypt}
-                    style={{ width: "70%", paddingRight: "4px" }}
-                    alt=""
-                  />
-                </div></li>
+                  }}>Eng</a></li>
+            <li><a class="dropdown-item"  onClick={() => {
+                        setAr("spain");
+                        localStorage.setItem("lang", "spain");
+                      }}>Spain</a></li>
+            <li>  <a class="dropdown-item"
+                      onClick={() => {
+                        setAr("egp");
+                        localStorage.setItem("lang", "egp");
+                      }}
+                    >عربي</a></li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+
                
-                {/* <div    onClick={() => {setAr('fr');localStorage.setItem('lang','fr')}}>
- <img src={french} style={{width:'10%', paddingRight:'4px'}} alt="" /> </div>  */}
-                <li> <div
-                  onClick={() => {
-                    setAr("spain");
-                    localStorage.setItem("lang", "spain");
-                  }}
-                >
-                  {" "}
-                  <img
-                    src={spain}
-                    style={{ width: "70%", paddingRight: "4px" }}
-                    alt=""
-                  />
-                </div></li>
-                </ul>
               </div>
             </div>
           </div>

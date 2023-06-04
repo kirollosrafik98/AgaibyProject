@@ -26,6 +26,8 @@ import stain from '../images/Wool-Ball.png';
 import Fabric from '../images/Lines.png';
 import { Element } from 'react-scroll';
 import Fade from 'react-reveal/Fade';
+import blog4 from '../images/about.jpg';
+
 // import { Fade } from 'react-reveal';
 import finishing from '../images/Buckram.png';
 export default function HomeFr() {
@@ -251,15 +253,15 @@ export default function HomeFr() {
                 <div class="row blog-s2-grids">
                 <div class="col-md-4 p-3">
       <Fade right>
-        <div class="grid" >
+        <div class="grid">
           <div class="entry-media">
-            <img src={blog1} style={{width:'100%', height:'200px',objectFit:'cover'}} alt class="img img-responsive"/>
+            <img src={blog4} style={{width:'100%', height:'200px',objectFit:'cover'}}  alt class="img img-responsive"/>
           </div>
           <div class="entry-details"  style={{ height: '200px', overflow: 'hidden' }}>
-            <h3><a style={{textDecoration:'none', fontFamily:'Maya'}}>Accroître la capacité d’innovation de l’industrie du...</a></h3>
-            <span class="entry-date"> 16 mars 2023</span>
+            <h3><a style={{textDecoration:'none', fontFamily:'Maya'}}>Progrès dans les technologies de tissage de...</a></h3>
+            <span class="entry-date">Mars 13, 2018</span>
             <div class="entry-footer">
-              <Link to='/blog1' style={{textDecoration:'none'}} class="read-more">Lire la suite</Link>
+              <Link to='/blog4' style={{textDecoration:'none'}} class="read-more">En savoir plus</Link>
               {/* <a style={{textDecoration:'none'}} class="comments"><i class="fa fa-comments" aria-hidden="true"></i> 5</a> */}
             </div>
           </div>

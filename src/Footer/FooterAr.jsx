@@ -72,7 +72,7 @@ export default function FooterAr() {
                 <h3 style={{ fontFamily: "Maya" }}  dir="rtl" lang="ar">تواصل معنا</h3>
                 <ul  dir="rtl" lang="ar">
                                 <li><i style={{color:'#C0AB89'}} class="fa-regular fa-envelope" aria-hidden="true"></i><a className='info' style={{textDecoration:'none'}} href="mailto:Info@agaipy.com"> Info@agaipy.com</a> </li>
-                                <li  dir="rtl" lang="ar"><i style={{color:'#C0AB89'}} class="fa fa-volume-control-phone" aria-hidden="true"></i> <a  dir="rtl" lang="ar" className='info' style={{textDecoration:'none'}} href="tel:+20244564541">541 564 244 20+</a>  - <a  dir="rtl" lang="ar" className='info' style={{textDecoration:'none'}} href="tel:+20244564540">540 564 244 20+</a></li>
+                                <li  dir="rtl" lang="ar"><i style={{color:'#C0AB89'}} class="fa fa-volume-control-phone" aria-hidden="true"></i>  <a   style={{textDecoration:'none',color:'#fff'}} href="tel:+201275355444">5444 535 127 20+</a>  -  <a   style={{textDecoration:'none',color:'#fff'}} href="tel:+201207703244">3244 770 120 20+</a></li>
                             </ul>
                
               </div>

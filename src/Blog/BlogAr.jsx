@@ -46,49 +46,7 @@ export default function BlogAr() {
         <div class="container">
           <Element name="blog">
             <div class="row blog-s2-grids ">
-              <div class="col-md-4 p-3">
-                <Fade right>
-                  <div class="grid">
-                    <div class="entry-media">
-                      <img
-                        src={blog1}
-                        style={{
-                          width: "100%",
-                          height: "200px",
-                          objectFit: "cover",
-                        }}
-                        alt
-                        class="img img-responsive"
-                      />
-                    </div>
-                    <div  dir="rtl" lang="ar"
-                      class="entry-details"
-                      style={{ height: "200px", overflow: "hidden" }}
-                    >
-                      <h3  dir="rtl" lang="ar">
-                        <a
-                          style={{ textDecoration: "none", fontFamily: "Maya" }}
-                        >
-                         زيادة الابتكار في صناعة النسيج 
-                         <br />
-                         والملابس
-                        </a>
-                      </h3>
-                      <span class="entry-date"  dir="rtl" lang="ar">مارس 16, 2023</span>
-                      <div class="entry-footer">
-                        <Link
-                          to="/blog1"
-                          style={{ textDecoration: "none",float:'right' }}
-                          class="read-more"
-                        >
-                         اقرأ المزيد
-                        </Link>
-                        {/* <a style={{textDecoration:'none'}} class="comments"><i class="fa fa-comments" aria-hidden="true"></i> 5</a> */}
-                      </div>
-                    </div>
-                  </div>
-                </Fade>
-              </div>
+              
               <div class="col-md-4 p-3">
                 <Fade right>
                   <div class="grid">
@@ -428,8 +386,7 @@ export default function BlogAr() {
                   </div>
                 </Fade>
               </div>
-              <div className="col-md-4"></div>
-              <div className="col-md-4"></div>
+        
 
               <div class="col-md-4 p-3">
                 <Fade right>
