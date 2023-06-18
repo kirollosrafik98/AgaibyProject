@@ -4,22 +4,22 @@ import { Element } from 'react-scroll';
 import {Link} from 'react-router-dom';
 // import dyedStretch1 from '../images/Products/Printed Bengaline Stretch for Pants - ‎بنجالين ليكرا مطبوع شروال/New Folder With Items 54/DSC_9317.jpg';
 // import dyedStretch2 from '../images/Products/Printed Bengaline Stretch for Pants - ‎بنجالين ليكرا مطبوع شروال/New Folder With Items 54/DSC_9318.jpg';
-import dyedStretch1 from '../images/Products/Dyed Scuba Fabric - قماش سكوبا/New Folder With Items 2/DSC_9148.jpg';
-import dyedStretch2 from '../images/Products/Dyed Scuba Fabric - قماش سكوبا/New Folder With Items 2/DSC_9149.jpg';
-import dyedStretch3 from '../images/Products/Dyed Scuba Fabric - قماش سكوبا/New Folder With Items 2/DSC_9150.jpg';
-import dyedStretch4 from '../images/Products/Dyed Scuba Fabric - قماش سكوبا/New Folder With Items 2/DSC_9157.jpg';
-import dyedStretch5 from '../images/Products/Dyed Scuba Fabric - قماش سكوبا/New Folder With Items 2/DSC_9158.jpg';
-import dyedStretch6 from '../images/Products/Dyed Scuba Fabric - قماش سكوبا/New Folder With Items 2/DSC_9160.jpg';
-import dyedStretch7 from '../images/Products/Dyed Scuba Fabric - قماش سكوبا/New Folder With Items 2/DSC_9162.jpg';
-import dyedStretch8 from '../images/Products/Dyed Scuba Fabric - قماش سكوبا/New Folder With Items 2/DSC_9163.jpg';
-import dyedStretch9 from '../images/Products/Dyed Scuba Fabric - قماش سكوبا/New Folder With Items 2/DSC_9170.jpg';
-import dyedStretch10 from '../images/Products/Dyed Scuba Fabric - قماش سكوبا/New Folder With Items 2/DSC_9171.jpg';
-import dyedStretch11 from '../images/Products/Dyed Scuba Fabric - قماش سكوبا/New Folder With Items 2/DSC_9175.jpg';
-import dyedStretch12 from '../images/Products/Dyed Scuba Fabric - قماش سكوبا/New Folder With Items 2/DSC_9182.jpg';
-import dyedStretch13 from '../images/Products/Dyed Scuba Fabric - قماش سكوبا/New Folder With Items 2/DSC_9184.jpg';
-import dyedStretch14 from '../images/Products/Dyed Scuba Fabric - قماش سكوبا/New Folder With Items 2/DSC_9187.jpg';
-import dyedStretch15 from '../images/Products/Dyed Scuba Fabric - قماش سكوبا/New Folder With Items 2/DSC_9188.jpg';
-import dyedStretch16 from '../images/Products/Dyed Scuba Fabric - قماش سكوبا/New Folder With Items 2/DSC_9190.jpg';
+import dyedStretch1 from '../images/Products/Dyed Scuba Fabric - قماش سكوبا/New Folder With Items 2/Agyby-11.jpg';
+import dyedStretch2 from '../images/Products/Dyed Scuba Fabric - قماش سكوبا/New Folder With Items 2/Agyby-12.jpg';
+import dyedStretch3 from '../images/Products/Dyed Scuba Fabric - قماش سكوبا/New Folder With Items 2/Agyby-13.jpg';
+import dyedStretch4 from '../images/Products/Dyed Scuba Fabric - قماش سكوبا/New Folder With Items 2/Agyby-14.jpg';
+import dyedStretch5 from '../images/Products/Dyed Scuba Fabric - قماش سكوبا/New Folder With Items 2/Agyby-15.jpg';
+import dyedStretch6 from '../images/Products/Dyed Scuba Fabric - قماش سكوبا/New Folder With Items 2/Agyby-16.jpg';
+import dyedStretch7 from '../images/Products/Dyed Scuba Fabric - قماش سكوبا/New Folder With Items 2/Agyby-17.jpg';
+import dyedStretch8 from '../images/Products/Dyed Scuba Fabric - قماش سكوبا/New Folder With Items 2/Agyby-18.jpg';
+import dyedStretch9 from '../images/Products/Dyed Scuba Fabric - قماش سكوبا/New Folder With Items 2/Agyby-19.jpg';
+import dyedStretch10 from '../images/Products/Dyed Scuba Fabric - قماش سكوبا/New Folder With Items 2/Agyby-20.jpg';
+import dyedStretch11 from '../images/Products/Dyed Scuba Fabric - قماش سكوبا/New Folder With Items 2/Agyby-21.jpg';
+import dyedStretch12 from '../images/Products/Dyed Scuba Fabric - قماش سكوبا/New Folder With Items 2/Agyby-22.jpg';
+import dyedStretch13 from '../images/Products/Dyed Scuba Fabric - قماش سكوبا/New Folder With Items 2/Agyby-23.jpg';
+import dyedStretch14 from '../images/Products/Dyed Scuba Fabric - قماش سكوبا/New Folder With Items 2/Agyby-24.jpg';
+// import dyedStretch15 from '../images/Products/Dyed Scuba Fabric - قماش سكوبا/New Folder With Items 2/Agyby-11.jpg';
+// import dyedStretch16 from '../images/Products/Dyed Scuba Fabric - قماش سكوبا/New Folder With Items 2/Agyby-11.jpg';
 import axios from 'axios';
 import swal from 'sweetalert';
 
@@ -1038,7 +1038,7 @@ export default function DyedScuba() {
             </div>
           </Fade>
         </div>
-        <div class="col-md-4 p-3">
+        {/* <div class="col-md-4 p-3">
           <Fade right>
             <div class="grid">
               <div class="entry-media" style={{display:'flex', justifyContent:'center'}}>
@@ -1103,8 +1103,8 @@ export default function DyedScuba() {
            
             </div>
           </Fade>
-        </div>
-        <div class="col-md-4 p-3">
+        </div> */}
+        {/* <div class="col-md-4 p-3">
           <Fade right>
             <div class="grid">
               <div class="entry-media" style={{display:'flex', justifyContent:'center'}}>
@@ -1169,7 +1169,7 @@ export default function DyedScuba() {
            
             </div>
           </Fade>
-        </div>
+        </div> */}
       </div>
     </Element>
     

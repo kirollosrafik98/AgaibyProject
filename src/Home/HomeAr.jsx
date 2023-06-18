@@ -20,7 +20,7 @@ import test from "../images/test.jpg";
 // import ScrollCounter from './ScrollCounter';
 import ScrollTrigger from "react-scroll-trigger";
 import CountUp from "react-countup";
-import agaiby from "../images/Products/Dyed Scuba Fabric - قماش سكوبا/New Folder With Items 2/DSC_9158.jpg";
+import agaiby from "../images/Products/Dyed Scuba Fabric - قماش سكوبا/New Folder With Items 2/Agyby-16.jpg";
 import dyeing from "../images/Sewing-Machine.png";
 import stain from "../images/Wool-Ball.png";
 import Fabric from "../images/Lines.png";

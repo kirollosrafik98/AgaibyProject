@@ -5,7 +5,7 @@ import { Element } from 'react-scroll';
 import {Link} from 'react-router-dom';
 import dyedStretch1 from '../images/Products/Printed Bengaline Light for T-Shirt with Lycra - ‎بنجالين لايت مطبوع قميص وتيشرت/New Folder With Items 3/DSC_9222.jpg';
 import dyedStretch2 from '../images/Products/Printed Bengaline Light for T-Shirt with Lycra - ‎بنجالين لايت مطبوع قميص وتيشرت/New Folder With Items 3/DSC_9223.jpg';
-import dyedStretch3 from '../images/Products/Printed Bengaline Light for T-Shirt with Lycra - ‎بنجالين لايت مطبوع قميص وتيشرت/New Folder With Items 3/DSC_9225.jpg';
+import dyedStretch3 from '../images/Products/Printed Bengaline Light for T-Shirt with Lycra - ‎بنجالين لايت مطبوع قميص وتيشرت/New Folder With Items 3/DSC_9226.jpg';
 import dyedStretch4 from '../images/Products/Printed Bengaline Light for T-Shirt with Lycra - ‎بنجالين لايت مطبوع قميص وتيشرت/New Folder With Items 3/DSC_9227.jpg';
 import dyedStretch5 from '../images/Products/Printed Bengaline Light for T-Shirt with Lycra - ‎بنجالين لايت مطبوع قميص وتيشرت/New Folder With Items 3/DSC_9229.jpg';
 import axios from 'axios';

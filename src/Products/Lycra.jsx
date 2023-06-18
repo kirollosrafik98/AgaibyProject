@@ -2,7 +2,7 @@ import React,{useEffect} from 'react'
 import Fade from 'react-reveal/Fade';
 import { Element } from 'react-scroll';
 import {Link} from 'react-router-dom';
-import dyedStretch1 from '../images/Products/Dyed Bengaline Light for T-Shirt with Lycra - ‎بنجالين لايت قميص وتيشرت/New Folder With Items 9/DSC_9699.jpg';
+import dyedStretch1 from '../images/Products/Dyed Bengaline Light for T-Shirt with Lycra - ‎بنجالين لايت قميص وتيشرت/New Folder With Items 9/Agyby-403.jpg';
 export default function Lycra() {
   useEffect(() => {
     window.scrollTo(0, 0);
