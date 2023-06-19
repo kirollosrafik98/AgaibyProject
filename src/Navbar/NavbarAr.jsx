@@ -115,7 +115,7 @@ export default function NavbarAr({ ar, setAr }) {
                   class=" navbar-nav  mb-2 mb-lg-0 ulSize"
                   style={{
                     display: "flex",
-                    justifyContent: "space-evenly",
+                    justifyContent: "space-evenly",alignItems:'center'
                   }}
                   dir="rtl"
                   lang="ar"
