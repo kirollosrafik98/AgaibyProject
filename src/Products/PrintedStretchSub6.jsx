@@ -3,17 +3,17 @@ import React,{useEffect,useState} from 'react';
 import Fade from 'react-reveal/Fade';
 import { Element } from 'react-scroll';
 import {Link} from 'react-router-dom';
-import dyedStretch1 from '../images/Products/Dyed Bengaline Stretch for Pants - ‎بنجالين ليكرا شروال/Pantalon/1.jpg';
-import dyedStretch2 from '../images/Products/Dyed Bengaline Stretch for Pants - ‎بنجالين ليكرا شروال/Pantalon/2.jpg';
-import dyedStretch3 from '../images/Products/Dyed Bengaline Stretch for Pants - ‎بنجالين ليكرا شروال/Pantalon/3.jpg';
-import dyedStretch4 from '../images/Products/Dyed Bengaline Stretch for Pants - ‎بنجالين ليكرا شروال/Pantalon/4.jpg';
-import dyedStretch6 from '../images/Products/Dyed Bengaline Stretch for Pants - ‎بنجالين ليكرا شروال/Pantalon/5.jpg';
-import dyedStretch7 from '../images/Products/Dyed Bengaline Stretch for Pants - ‎بنجالين ليكرا شروال/Pantalon/7.jpg';
-import dyedStretch8 from '../images/Products/Dyed Bengaline Stretch for Pants - ‎بنجالين ليكرا شروال/Pantalon/8.jpg';
-import dyedStretch9 from '../images/Products/Dyed Bengaline Stretch for Pants - ‎بنجالين ليكرا شروال/Pantalon/9.jpg';
-import dyedStretch10 from '../images/Products/Dyed Bengaline Stretch for Pants - ‎بنجالين ليكرا شروال/Pantalon/11.jpg';
+import dyedStretch1 from '../images/Products/Dyed Bengaline Stretch for Pants - ‎بنجالين ليكرا شروال/Pantalon/V1.png';
+import dyedStretch2 from '../images/Products/Dyed Bengaline Stretch for Pants - ‎بنجالين ليكرا شروال/Pantalon/V2.png';
+import dyedStretch3 from '../images/Products/Dyed Bengaline Stretch for Pants - ‎بنجالين ليكرا شروال/Pantalon/V3.png';
+import dyedStretch4 from '../images/Products/Dyed Bengaline Stretch for Pants - ‎بنجالين ليكرا شروال/Pantalon/V4.png';
+import dyedStretch6 from '../images/Products/Dyed Bengaline Stretch for Pants - ‎بنجالين ليكرا شروال/Pantalon/V5.png';
+import dyedStretch7 from '../images/Products/Dyed Bengaline Stretch for Pants - ‎بنجالين ليكرا شروال/Pantalon/V6.png';
+import dyedStretch8 from '../images/Products/Dyed Bengaline Stretch for Pants - ‎بنجالين ليكرا شروال/Pantalon/V7.png';
+import dyedStretch9 from '../images/Products/Dyed Bengaline Stretch for Pants - ‎بنجالين ليكرا شروال/Pantalon/V8.png';
+import dyedStretch10 from '../images/Products/Dyed Bengaline Stretch for Pants - ‎بنجالين ليكرا شروال/Pantalon/V9.png';
 
-import dyedStretch11 from '../images/Products/Dyed Bengaline Stretch for Pants - ‎بنجالين ليكرا شروال/Pantalon/10.jpg';
+// import dyedStretch11 from '../images/Products/Dyed Bengaline Stretch for Pants - ‎بنجالين ليكرا شروال/Pantalon/10.jpg';
 import axios from 'axios';
 import swal from 'sweetalert';
 
@@ -696,7 +696,7 @@ export default function PrintedStretchSub6() {
             </div>
           </Fade>
         </div>
-        <div class="col-md-4 p-3">
+        {/* <div class="col-md-4 p-3">
           <Fade right>
             <div class="grid">
               <div class="entry-media" style={{display:'flex', justifyContent:'center'}}>
@@ -761,7 +761,7 @@ export default function PrintedStretchSub6() {
            
             </div>
           </Fade>
-        </div>
+        </div> */}
        
       </div>
     </Element>
