@@ -128,7 +128,7 @@ export default function Footer() {
                     color: "#fff",
                   }}
                 >
-                  Copyright &copy; {today.getFullYear()} by{" "}
+                  Copyright &copy; 2023 by{" "}
                   <span>
                     {" "}
                     <a
